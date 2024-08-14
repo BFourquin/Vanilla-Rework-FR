@@ -1423,7 +1423,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = new_tech_slot
+		id = GER_extra_tech_slot
 		icon = GFX_focus_research
 		text = extra_tech_slot
 		prerequisite = { focus = GER_army_innovation_2 }
