@@ -258,7 +258,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = GFX_focus_generic_industry_3
+			picture = generic_central_management
 			
 			modifier = {
 				production_speed_arms_factory_factor = 0.30
@@ -278,7 +278,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = GFX_focus_generic_industry_3
+			picture = generic_local_self_management
 			
 			modifier = {
 				production_speed_arms_factory_factor = 0.10
