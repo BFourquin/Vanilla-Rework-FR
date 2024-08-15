@@ -1148,7 +1148,7 @@
 				}
 				set_state_flag = JAP_nationalize_war_industry_IC
 			}
-			add_timed_idea = { idea = JAP_industrialisation days = 1850 }	
+			add_timed_idea = { idea = JAP_industrialisation days = 1200 }	
 		}
 	}
 
