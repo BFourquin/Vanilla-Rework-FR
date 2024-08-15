@@ -1,4 +1,4 @@
-0;0;0;0;land;false;unknown;0
+0;0;0;0;land;false;desert;5
 1;230;81;119;lake;false;lakes;7
 2;0;0;55;land;false;forest;1
 3;0;0;205;land;false;forest;1
@@ -13361,9 +13361,9 @@
 13360;210;76;169;land;false;jungle;3
 13361;64;193;149;land;false;jungle;3
 13362;17;198;201;land;false;jungle;3
-13363;55;217;109;land;false;unknown;0
-13364;233;10;201;land;false;unknown;0
-13365;207;224;201;land;false;unknown;0
-13366;241;43;69;land;false;unknown;0
-13367;202;23;121;land;false;unknown;0
-13368;178;80;189;land;false;unknown;0
+13363;55;217;109;land;false;desert;5
+13364;233;10;201;land;false;desert;5
+13365;207;224;201;land;false;desert;5
+13366;241;43;69;land;false;desert;5
+13367;202;23;121;land;false;desert;5
+13368;178;80;189;land;false;desert;5
