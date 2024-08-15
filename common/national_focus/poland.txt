@@ -23,6 +23,7 @@ focus_tree = {
 	focus = {
 		id = POL_the_four_year_plan
 		icon = GFX_focus_POL_the_four_year_plan
+		prerequisite = { focus = POL_agrarian_reform }
 		x = 2
 		y = 0
 		cost = 5
@@ -772,16 +773,15 @@ focus_tree = {
 	focus = {
 		id = POL_agrarian_reform
 		icon = GFX_focus_prc_agrarian_socialism
-		prerequisite = { focus = POL_fill_the_railways_gaps }
-		x = -1
-		y = 2
-		relative_position_id = POL_fill_the_railways_gaps
+		x = 0
+		y = -1
+		relative_position_id = POL_the_four_year_plan
 		cost = 10
 
 		cancelable = no
 
 		ai_will_do = {
-			factor = 10
+			factor = 20
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
 		
@@ -834,7 +834,7 @@ focus_tree = {
 	focus = {
 		id = POL_invest_in_eastern_poland
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = POL_agrarian_reform focus = POL_develop_upper_silesia }
+		prerequisite = {  focus = POL_develop_upper_silesia }
 		x = 0
 		y = 2
 		relative_position_id = POL_national_defence_fund
@@ -4945,7 +4945,7 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 2.5
+			factor = 10
 		}
 
 		available_if_capitulated = yes

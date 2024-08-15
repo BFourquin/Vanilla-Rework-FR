@@ -4606,6 +4606,10 @@ focus_tree = {
 		
 		cost = 5
 
+		ai_will_do = {
+			factor = 20
+		}
+
 		available = {
 			has_government = neutrality
 			is_subject = no
