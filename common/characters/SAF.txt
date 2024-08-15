@@ -497,6 +497,26 @@ characters={
 		}		
 	}
 
+	SAF_jim_kasley={
+		name=AST_jim_kasley
+		portraits={
+			army={
+				small="GFX_idea_AST_jack_beasley" #small="GFX_idea_generic_political_advisor_europe_3"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = AST_jack_beasley
+			allowed = {
+				original_tag = AST
+				has_dlc = "Together for Victory"
+			}
+			traits = {
+				war_industrialist 
+			}
+		}		
+	}
+
 	SAF_abram_fischer={
 		name=SAF_abram_fischer
 		portraits={

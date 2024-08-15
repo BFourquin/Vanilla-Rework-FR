@@ -1423,7 +1423,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = GER_extra_tech_slot
+		id = GER_extra_tech_slot1
 		icon = GFX_focus_research
 		text = extra_tech_slot
 		prerequisite = { focus = GER_army_innovation_2 }
@@ -3154,6 +3154,7 @@ focus_tree = {
 				MON = {
 					add_timed_idea = { idea = unprepared_barb days = 120 }
 				}
+				add_timed_idea = { idea = GER_stalin_line_push days = 175 }
 			}	
 
 		ai_will_do = {

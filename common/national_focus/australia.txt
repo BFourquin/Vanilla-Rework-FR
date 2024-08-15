@@ -1869,7 +1869,8 @@
 		y = 1
 		relative_position_id = AST_cruisers
 
-		
+		cost = 5
+
 			available = {
 			OR = {
 				ENG = { has_war_with = GER }
@@ -2874,31 +2875,20 @@
 	}
 
 	focus = {
-		id = AST_research_collaboration
-		icon = GFX_goal_generic_scientific_exchange
+		id = AST_manpower_need
+		icon = GFX_focus_prc_infiltration
 		prerequisite = { focus = AST_fight_work_or_perish }
 		prerequisite = { focus = AST_australian_arms_production }
 		x = -5
 		y = 5
 		relative_position_id = AST_establish_advisory_war_council
 
-		cost = 10
+		cost = 7.2
 
 		ai_will_do = {
 			factor = 25
 		}
 
-		available = {
-			has_war = yes
-			is_in_faction = yes
-			OR = {
-				num_of_factories > 50
-				any_other_country = {
-					is_in_faction_with = ROOT
-					num_of_factories > 50
-				}
-			}
-		}
 
 		bypass = {
 
@@ -2910,7 +2900,8 @@
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
 		completion_reward = {
-			add_research_slot = 1
+			weekly_manpower = 1500
+			local_manpower = 0.05
 		}
 	}
 

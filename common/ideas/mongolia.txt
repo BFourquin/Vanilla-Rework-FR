@@ -15,7 +15,7 @@ ideas = {
             picture = generic_communist_army
 
             modifier = {
-                party_popularity_stability_factor = 1
+                party_popularity_stability_factor = 0.25
                 license_purchase_cost = -0.3
                 license_production_speed = 0.05
                 autonomy_gain_global_factor = -0.5
@@ -123,10 +123,10 @@ ideas = {
 			picture = ETH_national_studs
 
 			modifier = {
-                cavalry_attack_factor = 0.25
-                cavalry_defence_factor = 0.25
+                cavalry_attack_factor = 0.2
+                cavalry_defence_factor = 0.2
                 coordination_bonus = 0.05
-                land_night_attack = 0.25
+                land_night_attack = 0.2
 				equipment_capture = 0.05
                 acclimatization_cold_climate_gain_factor = 0.1
 				weekly_manpower = 500

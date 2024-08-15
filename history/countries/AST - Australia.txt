@@ -14,6 +14,8 @@ set_technology = {
 	tech_trucks = 1
 	gw_artillery = 1
 	interwar_antiair = 1
+
+
 	
 	basic_train = 1
 	trench_warfare = 1
@@ -75,12 +77,9 @@ if = {
 	else = {
 		set_air_oob = "AST_1936_air_legacy"
 		set_technology = {
-			early_fighter = 1
-			cv_early_fighter = 1
-			cv_naval_bomber1 = 1
-			naval_bomber1 = 1
-			early_bomber = 1
-			CAS1 = 1
+			iw_small_airframe = 1
+			engines_1 = 1
+			aa_lmg = 1
 		}
 	}
 }
