@@ -34,6 +34,11 @@ country_event = { #test event
 	
 	option = {
 		name = superevents.0.a
+		every_country = {
+			limit = {
+			is_ai = no
+			}
+		}
 	}
 }
 
@@ -82,8 +87,16 @@ country_event = {
 	
 	option = {
 		name = superevents.0.a
+		every_country = {
+			limit = {
+			is_ai = no
+			}
+		}
 	}
-} # German Invasion of Poland
+}
+
+
+ # German Invasion of Poland
 country_event = {
 	id = superevents.104
 	title = superevents.0.t
@@ -133,6 +146,11 @@ country_event = {
 	
 	option = {
 		name = superevents.0.a
+		every_country = {
+			limit = {
+			is_ai = no
+			}
+		}
 	}
 }
 
@@ -173,6 +191,11 @@ country_event = {
 	
 	option = {
 		name = superevents.0.a
+		every_country = {
+			limit = {
+			is_ai = no
+			}
+		}
 	}
 }
 # Pearl Harbor
@@ -210,5 +233,10 @@ country_event = {
 	
 	option = {
 		name = superevents.0.a
+		every_country = {
+			limit = {
+			is_ai = no
+			}
+		}
 	}
 }
