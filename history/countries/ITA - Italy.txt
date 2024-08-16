@@ -464,6 +464,7 @@ if = {
 	give_guarantee = ALB
 }
 
+
 1939.1.1 = {
 
 	add_political_power = 1198
@@ -491,6 +492,10 @@ if = {
 	}
 
 	### FOCUS TREE ###
+	if = {
+		limit = {
+			has_dlc = "Death or Dishonor"
+		}
 	unlock_national_focus = ITA_solid_progress
 	#1936
 	complete_national_focus = ITA_ethiopian_war_logistics_bba #35
@@ -530,6 +535,10 @@ if = {
 	complete_national_focus = ITA_pact_of_steel #35 #May 39
 	complete_national_focus = ITA_expand_naval_facilities #35
 	complete_national_focus = ITA_stockpile_fuel #35
+	}
+}
+
+	
 
 	# Effects from Topple Amhara Rulers -> No point, it just triggers errors cause resistance stuff is not set yet
 	#835 = { #HARARGHE
@@ -706,7 +715,7 @@ if = {
 	
 	set_stability = 0.8
 	GER = { add_to_faction = ITA }
-}
+
 
 
 set_convoys = 200
@@ -1511,7 +1520,7 @@ if = {
 		}
 	}
 }
-
+}
 
 1939.1.1 = {
 	if = {
