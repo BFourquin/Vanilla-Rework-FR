@@ -13,25 +13,25 @@ defined_text = {
 
 	text = {
 		trigger = {
-			has_global_flag = SE_world_war_ii
+			has_country_flag = SE_world_war_ii
 		}
 		localization_key = SE_world_war_ii_remark
 	}
 	text = {
 		trigger = {
-			has_global_flag = SE_gerpol_war
+			has_country_flag = SE_gerpol_war
 		}
 		localization_key = SE_gerpol_war_remark
 	}
 	text = {
 		trigger = {
-			has_global_flag = SE_gersov_war
+			has_country_flag = SE_gersov_war
 		}
 		localization_key = SE_gersov_war_remark
 	}
 	text = {
 		trigger = {
-			has_global_flag = SE_pacific_war
+			has_country_flag = SE_pacific_war
 		}
 		localization_key = SE_pacific_war_remark
 	}
