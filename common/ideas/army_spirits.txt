@@ -692,26 +692,5 @@ ideas = {
 				}
 			}
 		}
-		volunteer_brigades = {
-
-			picture = generic_volunteer_expedition_bonus
-
-			removal_cost = -1
-			
-			allowed = {
-				original_tag = ROM
-			}
-
-			allowed_civil_war = {
-
-			}
-
-			rule = { can_send_volunteers = yes }
-			
-			modifier = {
-				send_volunteer_divisions_required = -1
-				send_volunteer_size = 1
-			}
-		}
 	}
 }
