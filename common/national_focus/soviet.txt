@@ -18483,6 +18483,84 @@ ai_will_do = {
 			}
 		}
 	}
+
+	focus = {
+		id = SOV_Mobilisation_Wave
+		icon = GFX_focus_SOV_restore_cossack_units
+		x = 44
+		y = 1
+		cost = 5
+		
+		available = {
+			casualties > 100
+			surrender_progress > 0.35
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = SOV_last_chance_tt
+			hidden_effect = {
+					division_template = {
+						name = "Strelkovaya Diviziya"
+						priority = 2
+						division_names_group = SOV_INF_01
+						regiments = {
+							infantry = { x = 0 y = 0 }
+							infantry = { x = 0 y = 1 }
+							infantry = { x = 0 y = 2 }
+							infantry = { x = 1 y = 0 }
+							infantry = { x = 1 y = 1 }
+							infantry = { x = 1 y = 2 }
+							infantry = { x = 2 y = 0 }
+							infantry = { x = 2 y = 1 }
+							infantry = { x = 2 y = 2 }
+							}
+							support = {
+							#recon = { x = 0 y = 0 }
+							engineer = { x = 0 y = 1 }
+							artillery = { x = 0 y = 0 } 	
+							}
+					}
+				random_owned_controlled_state = {
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					prioritize = { 249 }
+					create_unit = {
+						division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 1.0" 
+						owner = SOV
+						count = 50
+					}
+				}
+			}			
+		}
+	}
+	focus = {
+		id = SOV_Offensive_Bagration
+		icon = GFX_goal_generic_war_with_comintern
+		
+
+		available_if_capitulated = no
+		will_lead_to_war_with = SOV
+
+		cancel = {
+			is_subject = yes
+			NOT = { country_exists = SOV }
+		}
+		
+		available = {
+			date > 1943.6.1
+			is_subject = no
+		}
+		x = 44
+		y = 0
+		cost = 3
+		completion_reward = {
+			SOV = {
+					add_timed_idea = { idea = Bagration_Ope days = 90 }
+			}
+			SOV = {
+					add_timed_idea = { idea = Attack_On_German_Airport days = 60 }
+			}
+		}
+	}
 }
 ###  ###  ##  ###  ##  #  #  ##  #    	   ## ### #  # ### ###         
 #  # #   #     #  #  # ## # #  # #    	  #    #  #  # #   #   {~._.~} 
