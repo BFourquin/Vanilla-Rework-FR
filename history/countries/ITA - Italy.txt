@@ -764,12 +764,12 @@ recruit_character = ITA_hamid_idris_awate
 recruit_character = ITA_ibrahim_farag_mohammed
 recruit_character = ITA_mario_ricci
 recruit_character = ITA_norma_barbolini
-
-
+recruit_character = ITA_luigi_longo
+recruit_character = ITA_ada_gobetti
 recruit_character = ITA_randolfo_pacciardi
 recruit_character = ITA_giuseppe_pieche
 recruit_character = ITA_giovanni_duca
-
+recruit_character = ITA_giuseppe_de_stefanis
 recruit_character = ITA_prince_aimone
 
 recruit_character = ITA_inigo_campioni
@@ -799,7 +799,7 @@ recruit_character = ITA_giovanni_marinelli
 recruit_character = ITA_serafino_mazzolini
 recruit_character = ITA_roberto_farinacci
 recruit_character = ITA_ivanoe_bonomi
-
+recruit_character = ITA_luigi_einaudi
 recruit_character = ITA_amadeo_bordiga
 recruit_character = ITA_paolo_thaon_di_revel
 recruit_character = ITA_dino_grandi
@@ -817,20 +817,21 @@ recruit_character = ITA_guido_jung
 recruit_character = ITA_adelchi_serena
 recruit_character = ITA_curzio_malaparte
 recruit_character = ITA_giuseppe_bottai
-
+recruit_character = ITA_antonio_pesenti
 recruit_character = ITA_fausto_gullo
-
+recruit_character = ITA_giulio_paggio
 recruit_character = ITA_ignazio_silone
-
-
+recruit_character = ITA_vittorio_emanuele_orlando
+recruit_character = ITA_mario_scelba
 recruit_character = ITA_guido_de_ruggiero
-
-
+recruit_character = ITA_enrico_fermi
+recruit_character = ITA_alberto_tarchiani
 recruit_character = ITA_giuseppe_borea
 recruit_character = ITA_raffaele_de_courten
 
-
-
+recruit_character = ITA_sandro_pertini
+recruit_character = ITA_pietro_d_acquarone
+recruit_character = ITA_alberto_de_stefani
 recruit_character = ITA_ugo_luca
 recruit_character = ITA_pompeo_colajanni
 recruit_character = ITA_alcide_de_gasperi
