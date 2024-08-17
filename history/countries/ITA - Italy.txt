@@ -752,7 +752,6 @@ recruit_character = ITA_giuseppe_tellera
 recruit_character = ITA_francesco_zingales
 recruit_character = ITA_ezio_rosi
 recruit_character = ITA_mario_vercellino
-recruit_character = ITA_prince_filiberto
 recruit_character = ITA_prince_adalberto
 recruit_character = ITA_prince_umberto
 recruit_character = ITA_alessandro_pirzio_biroli
