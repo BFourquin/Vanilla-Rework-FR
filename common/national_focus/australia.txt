@@ -3376,7 +3376,7 @@
 	focus = {
 		id = AST_adopt_westminster
 		icon = GFX_goal_generic_improve_relations
-		prerequisite = { focus = AST_strengthen_ties_with_uk focus = AST_the_singapore_strategy }
+		prerequisite = { focus = AST_strengthen_ties_with_uk focus = AST_the_pacific_strategy }
 		x = 0
 		y = 2
 		relative_position_id = AST_support_the_policy_of_appeasement
@@ -3731,6 +3731,7 @@
 
 		available = {
 			NOT = { has_country_flag = britain_enforced_our_loyalty }
+			 has_game_rule = { rule = RULE_ALLOW_AHISTORICAL option = AHISTORICAL_ENABLED }
 		}
 		
 		bypass = {
