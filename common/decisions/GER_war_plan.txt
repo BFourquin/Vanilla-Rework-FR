@@ -14,6 +14,14 @@ Kriegsplan = {
 			original_tag = GER
 		}
 
+		available = {
+			has_completed_focus = GER_fall_weiss
+			}
+
+			visible = {
+		has_completed_focus = GER_war_plans_division
+		}
+
 		cost = 15
 
 		ai_will_do = {
@@ -48,7 +56,14 @@ Kriegsplan = {
 			original_tag = GER
 		}
 
-	
+		available = {
+			has_completed_focus = GER_fall_gelb
+			}
+
+			visible = {
+		has_completed_focus = GER_war_plans_division
+		}
+
 		cost = 15
 
 		ai_will_do = {
@@ -83,7 +98,14 @@ Kriegsplan = {
 			original_tag = GER
 		}
 
-	
+		available = {
+			has_completed_focus = GER_fall_rot
+			}
+
+			visible = {
+		has_completed_focus = GER_war_plans_division
+		}
+
 		cost = 15
 
 		ai_will_do = {
@@ -118,7 +140,14 @@ Kriegsplan = {
 			original_tag = GER
 		}
 
-	
+		available = {
+			has_completed_focus = GER_Nordliche_fall
+			}
+
+			visible = {
+		has_completed_focus = GER_war_plans_division
+		}
+
 		cost = 15
 
 		ai_will_do = {
@@ -153,7 +182,14 @@ Kriegsplan = {
 			original_tag = GER
 		}
 
-	
+		available = {
+			has_completed_focus = GER_strafgericht
+			}
+
+			visible = {
+		has_completed_focus = GER_war_plans_division
+		}
+
 		cost = 15
 
 		ai_will_do = {
@@ -188,7 +224,13 @@ Kriegsplan = {
 			original_tag = GER
 		}
 
-		
+		available = {
+			has_completed_focus = GER_unternehmen_Marita
+			}
+
+			visible = {
+		has_completed_focus = GER_war_plans_division
+		}
 
 		cost = 15
 
@@ -224,7 +266,14 @@ Kriegsplan = {
 			original_tag = GER
 		}
 
-		
+		available = {
+			has_completed_focus = GER_fall_blau
+			}
+
+			visible = {
+		has_completed_focus = GER_war_plans_division
+		}
+
 		cost = 15
 
 		ai_will_do = {
@@ -265,7 +314,14 @@ Kriegsplan = {
 			original_tag = GER
 		}
 
-		
+		available = {
+			has_completed_focus = GER_unternehmen_achse
+			}
+
+			visible = {
+		has_completed_focus = GER_war_plans_division
+		}
+
 		cost = 15
 
 		ai_will_do = {
