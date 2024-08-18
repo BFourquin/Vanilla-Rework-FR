@@ -9654,9 +9654,7 @@ focus_tree = {
 		}
 			
 		bypass = {
-			POL {
-				exists = no
-			}
+			NOT = { country_exists = POL}
 		}
 
 		cancel_if_invalid = yes
@@ -9688,9 +9686,7 @@ focus_tree = {
 		#}
 
 		bypass = {
-			BEL {
-				exists = no
-			}
+			NOT = { country_exists = BEL}
 		}
 
 
@@ -9719,9 +9715,7 @@ focus_tree = {
 		#}
 
 		bypass = {
-			FRA {
-				exists = no
-			}
+			NOT = { country_exists = FRA}
 		}
 
 
@@ -9750,9 +9744,7 @@ focus_tree = {
 		#}
 
 		bypass = {
-			NOR {
-				exists = no
-			}
+			NOT = { country_exists = NOR}
 		}
 
 
@@ -9782,9 +9774,7 @@ focus_tree = {
 		#}
 
 		bypass = {
-			YUG {
-				exists = no
-			}
+			NOT = { country_exists = YUG}
 		}
 
 
@@ -9814,9 +9804,7 @@ focus_tree = {
 		#}
 
 		bypass = {
-			GRE {
-				exists = no
-			}
+			NOT = { country_exists = GER}
 		}
 
 
@@ -9847,9 +9835,7 @@ focus_tree = {
 		#}
 
 		bypass = {
-			SOV {
-				exists = no
-			}
+			NOT = { country_exists = SOV}
 		}
 
 
