@@ -35,3 +35,6 @@
  GER_unternehmen_achse_desc:0 "We have to take control of Italy before allies" 
  GER_decisions_unternehmen_achse:0 "Unlock Unternehmen Achse"
 
+ GER_barbarossa:0 "Unternehmen Barbarossa"
+ GER_barbarossa_desc:0 "Get through the Stalin Line"
+ GER_decision_barbarossa:0 "To get this decision, §Bunlock the War Plans§"

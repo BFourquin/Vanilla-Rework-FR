@@ -2588,22 +2588,6 @@ ITA_set_up_character_cw_flags_effect = { #Using Unit leader flags when necessary
 	ITA_enrico_fermi = { #Goes with player
 		set_character_flag = ITA_cw_character_fascist_side_flag
 	}
-	ITA_vittorio_emanuele_orlando = { #Goes with player
-		set_character_flag = ITA_cw_character_fascist_side_flag
-	}
-
-	ITA_luigi_einaudi = { #Goes with player
-		set_character_flag = ITA_cw_character_monarchist_side_flag
-	}
-	ITA_pietro_d_acquarone = {
-		set_character_flag = ITA_cw_character_monarchist_side_flag
-	}
-	ITA_alberto_de_stefani = {
-		set_character_flag = ITA_cw_character_monarchist_side_flag
-	}
-	ITA_mario_scelba = {
-		set_character_flag = ITA_cw_character_monarchist_side_flag
-	}
 	ITA_guido_de_ruggiero = {
 		set_character_flag = ITA_cw_character_monarchist_side_flag
 	}

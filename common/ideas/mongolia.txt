@@ -44,9 +44,10 @@ ideas = {
 		}
 
         MON_industry_idea = {
+
 			picture = generic_economic_increase
+			
 			allowed = {
-				original_tag = FRA
 				always = no
 			}
 
