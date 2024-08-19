@@ -41,3 +41,5 @@
 
  SOV_last_chance_tt:0 "§YSoviet Last chance§ : §RSpawn 50 units of Infantry in Kazan§. "
  MON_truck_tt:0 "§GUnlock early_truck§ "
+
+ AST_carrier_nav:0 "Create a new carrier based on 1936 carrier hull and add two in production lines at 80% and 50%."

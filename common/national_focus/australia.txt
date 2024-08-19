@@ -1929,6 +1929,10 @@
 		}
 
 		completion_reward = {
+			set_technology = {
+				early_carrier = 1
+    			basic_carrier = 1
+				}
 			create_equipment_variant = {
 					name = "Perth Class"
 					type = ship_hull_carrier_1
@@ -1944,27 +1948,30 @@
 						fixed_ship_armor_slot = ship_armor_cruiser_2
 					}
 			}
-			add_equipment_production = {
-					equipment = {
-						type = ship_hull_carrier_1
-						creator = "AST"
-						version_name = "Perth Class"
-					}
-					name = "Perth"
-					requested_factories = 2
-					progress = 0.80
-					amount = 1
-			}	
-			add_equipment_production = {
-					equipment = {
-						type = ship_hull_carrier_1
-						creator = "AST"
-						version_name = "Perth Class"
-					}
-					name = "Perth"
-					requested_factories = 2
-					progress = 0.5
-					amount = 1
+			custom_effect_tooltip = AST_carrier_nav
+			hidden_effect = {
+				add_equipment_production = {
+						equipment = {
+							type = ship_hull_carrier_1
+							creator = "AST"
+							version_name = "Perth Class"
+						}
+						name = "Perth"
+						requested_factories = 2
+						progress = 0.80
+						amount = 1
+				}	
+				add_equipment_production = {
+						equipment = {
+							type = ship_hull_carrier_1
+							creator = "AST"
+							version_name = "Perth Class"
+						}
+						name = "Perth"
+						requested_factories = 2
+						progress = 0.5
+						amount = 1
+				}
 			}
 		}
 	}

@@ -1336,7 +1336,7 @@
 		y = 2
 		relative_position_id = JAP_liaison_conference
 
-		cost = 10
+		cost = 7.2
 
 		ai_will_do = {
 			factor = 2
@@ -1957,7 +1957,7 @@
 		}
 
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 3
@@ -2246,7 +2246,7 @@
 			}
 		}
 
-		cost = 10
+		cost = 7.2
 
 		ai_will_do = {
 			factor = 2
@@ -2310,7 +2310,7 @@
 		y = 1
 		relative_position_id = JAP_national_mobilization_law
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 4
@@ -2512,7 +2512,7 @@
 		y = 1
 		relative_position_id = JAP_national_defense_state
 
-		cost = 10
+		cost = 7.2
 
 		ai_will_do = {
 			factor = 4
@@ -2545,7 +2545,7 @@
 		y = 1
 		relative_position_id = JAP_national_defense_state
 
-		cost = 10
+		cost = 7.2
 
 		ai_will_do = {
 			factor = 1
@@ -2596,7 +2596,7 @@
 		y = 1
 		relative_position_id = JAP_spiritual_mobilization
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 3
