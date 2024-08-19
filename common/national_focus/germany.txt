@@ -2540,7 +2540,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = GER_artillery
+		id = GER_arti
 		icon = GFX_goal_generic_army_artillery
 		prerequisite = { focus = GER_army_innovation }
 		x = 0
@@ -2550,24 +2550,31 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH}
 	
 		completion_reward = {
-			if = {
-				limit = {
-					has_government = fascism
-				}
-				add_tech_bonus = {
+			add_tech_bonus = {
 					name = GER_army_innovation_3
 					bonus = 0.75
-					uses = 2
-					category = artillery
-				}
-			}
-			else  ={
-				add_tech_bonus = {
-					name = GER_army_innovation_3
-					bonus = 0.5
 					uses = 1
 					category = artillery
-				}
+			}
+		}
+	}
+
+	focus = {
+		id = GER_Afrikakorps
+		icon = GFX_focus_generic_africa_liberation
+		prerequisite = { focus = GER_army_innovation }
+		x = 2
+		y = 1
+		relative_position_id = GER_army_innovation
+		cost = 7.2
+		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH}
+	
+		completion_reward = {
+			add_tech_bonus = {
+				name = desertinf_bonus
+				bonus = 1.0
+				uses = 1
+				category = category_desertinfantry_tech
 			}
 		}
 	}
@@ -2575,10 +2582,10 @@ focus_tree = {
 	focus = {
 		id = GER_mechanized
 		icon = GFX_goal_generic_army_motorized
-		prerequisite = { focus = GER_artillery }
+		prerequisite = { focus = GER_arti }
 		x = 2
 		y = 2
-		relative_position_id = GER_artillery
+		relative_position_id = GER_arti
 		cost = 7.2
 		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH}
 	
@@ -2595,7 +2602,7 @@ focus_tree = {
 	focus = {
 		id = GER_soviet_treaty
 		icon = GFX_goal_generic_scientific_exchange
-		prerequisite = { focus = GER_artillery }
+		prerequisite = { focus = GER_arti }
 		available = {
 			NOT = { has_completed_focus = GER_anti_soviet_pact }
 			OR = {
@@ -3010,7 +3017,7 @@ focus_tree = {
 		id = GER_rhineland
 		icon = GFX_goal_generic_military_sphere
 		mutually_exclusive = { focus = GER_oppose_hitler }
-		x = 25
+		x = 27
 		y = 0
 		cost = 10
 
@@ -4346,7 +4353,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = GER_anschluss
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}	
@@ -4518,7 +4525,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = GER_demand_sudetenland
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}	
@@ -4564,7 +4571,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = GER_first_vienna_award
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -4641,7 +4648,7 @@ focus_tree = {
 		x = 0
 		y = 3
 		relative_position_id = GER_czech_friend
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 10
 		}
@@ -5123,7 +5130,7 @@ focus_tree = {
 	focus = {
 		id = GER_naval_rearmament
 		icon = GFX_goal_generic_build_navy
-		x = 35
+		x = 37
 		y = 1
 
 		offset = {
@@ -6498,7 +6505,7 @@ focus_tree = {
 			is_subject = no
 			has_government = fascism
 		}
-		x = 47
+		x = 49
 		y = 0
 
 		offset = {
@@ -9837,8 +9844,8 @@ focus_tree = {
 	focus = {
 		id = GER_war_plans_division
 		icon = GFX_goal_generic_position_armies
-		x = 19
-		y = 9
+		x = 15
+		y = 6
 		
 		cost = 5
 
