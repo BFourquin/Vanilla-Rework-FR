@@ -919,7 +919,7 @@ focus_tree = {
 			add_tech_bonus = {
     			bonus = 0.5
     			uses = 1
-    			category = synth_resources
+    			category = excavation_tech
 			}
 		}
 	}
@@ -942,16 +942,20 @@ focus_tree = {
 		available = { has_completed_focus = MON_follow_the_soviets }
 
 		completion_reward = {
-			add_equipment_to_stockpile = {
-    			type = infantry_equipment
-    			amount = 3000
+			custom_effect_tooltip = MON_truck_tt
+			set_technology = {
+    			tech_trucks = 1
 			}
 			add_equipment_to_stockpile = {
-    			type = motorized_equipment
+    			type = infantry_equipment_0
+    			amount = 6000
+			}
+			add_equipment_to_stockpile = {
+    			type = motorized_equipment_0
     			amount = 1000
 			}
 			add_equipment_to_stockpile = {
-    			type = artillery_equipment
+    			type = artillery_equipment_1
     			amount = 500
 			}
 			add_equipment_to_stockpile = {
