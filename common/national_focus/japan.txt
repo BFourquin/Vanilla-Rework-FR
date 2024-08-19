@@ -1062,7 +1062,7 @@
 		y = 1
 		relative_position_id = JAP_purge_the_kodoha_faction
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 2
@@ -1421,7 +1421,7 @@
 
 		will_lead_to_war_with = PHI
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -1474,7 +1474,7 @@
 				id = "PHI"
 				value = 200
 			}
-			add_timed_idea = { idea = JAP_tora_tora_tora_idea days = 120 }
+			add_timed_idea = { idea = JAP_tora_tora_tora_idea days = 130 }
 		}
 	}
 
@@ -1489,7 +1489,7 @@
 		will_lead_to_war_with = MAL
 		will_lead_to_war_with = INS
 
-		cost = 10
+		cost = 1
 
 		ai_will_do = {
 			factor = 10
@@ -1855,7 +1855,7 @@
 		y = 1
 		relative_position_id = JAP_liaison_conference
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 3
@@ -1957,7 +1957,7 @@
 		}
 
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 3
@@ -2164,7 +2164,7 @@
 			}
 		}
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 2
@@ -2212,6 +2212,7 @@
 				uses = 1
 				category = synth_resources	
 			}
+			add_timed_idea = { idea = JAP_industrialisation_two days = 200 }
 		}
 	}
 
@@ -2309,7 +2310,7 @@
 		y = 1
 		relative_position_id = JAP_national_mobilization_law
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 4
@@ -2448,7 +2449,7 @@
 		y = 1
 		relative_position_id = JAP_imperial_arsenals
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
