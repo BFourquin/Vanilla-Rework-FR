@@ -38,3 +38,5 @@
  GER_barbarossa:0 "Unternehmen Barbarossa"
  GER_barbarossa_desc:0 "Get through the Stalin Line"
  GER_decision_barbarossa:0 "To get this decision, §Bunlock the War Plans§"
+
+ SOV_last_chance_tt:0 "§YSoviet Last chance§ : §RSpawn 50 units of Infantry in Kazan§. "
