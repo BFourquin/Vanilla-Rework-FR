@@ -415,6 +415,7 @@ Kriegsplan = {
 				air_cas_efficiency = 0.1
 				air_superiority_efficiency = 0.1
 				air_superiority_bonus_in_combat = 0.1
+				river_crossing_factor = -0.5
 			}
 		}
 

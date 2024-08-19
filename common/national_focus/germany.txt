@@ -3441,7 +3441,6 @@ focus_tree = {
 				MON = {
 					add_timed_idea = { idea = unprepared_barb days = 130 }
 				}
-				add_timed_idea = { idea = GER_stalin_line_push days = 175 }
 
 				unlock_decision_tooltip = GER_barbarossa
 				custom_effect_tooltip = GER_decision_barbarossa
