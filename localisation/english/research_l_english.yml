@@ -975,6 +975,8 @@
  sonar_desc:1 "A basic set of hydrophones allows tracking of underwater targets through detecting the sound they make.\n\nMounting this module in an §YElectronics Slot§! on §YLight Ships§! or §YCruisers§! will help them detect enemy §YSubmarines§!."
  improved_sonar:0 "Active Sonar"
  improved_sonar_desc:1 "Using modulated sound waves, this system can accurately measure bearing and distance to a submerged target.\n\nMounting this module in an §YElectronics Slot§! on §YLight Ships§! or §YCruisers§! will help them detect enemy §YSubmarines§!."
+ advanced_sonar:0 "Advanced Sonar"
+ improved_sonar_desc:1 "Acoustic Wave enhancement at the best frequency and best power!."
  smoke_generator:0 "Smoke Generators"
  smoke_generator_desc:0 "Some minor modifications to the engines and smokestacks of light and medium ships allow them to make a lot of smoke to avoid or break contact with the enemy."
  depth_charges_advice_tt:0 "\nMounting a §YDepth Charge§! module on §YLight Ships§! and §YCruisers§! will allow them to attack enemy §YSubmarines§!."
