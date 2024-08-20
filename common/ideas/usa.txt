@@ -1790,5 +1790,22 @@ ideas = {
 
 			traits = { railway_company }
 		}
+
+		USA_CIV_Focus = {
+
+			picture = ARG_invest_in_railways
+
+			allowed = {
+				original_tag = USA
+			}
+
+			available = {
+			}
+
+			research_bonus = {
+				production_speed_industrial_complex_factor = 0.65
+			}
+
+		}
 	}
 }
