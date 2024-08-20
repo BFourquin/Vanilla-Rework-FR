@@ -2610,7 +2610,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = GER_artillery
+		id = GER_arti
 		icon = GFX_goal_generic_army_artillery
 		prerequisite = { focus = GER_army_innovation }
 		x = -2
@@ -2638,6 +2638,30 @@ focus_tree = {
 					uses = 1
 					category = artillery
 				}
+			}
+		}
+	}
+
+	focus = {
+		id = GER_Afrikakorps
+		prerequisite = { focus = GER_arti }
+		icon = GFX_focus_generic_africa_liberation
+		x = 0
+		y = 1
+		relative_position_id = GER_arti
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		available_if_capitulated = yes
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = desertinf_bonus
+				bonus = 1.5
+				uses = 1
+				category = category_desertinfantry_tech
 			}
 		}
 	}
@@ -3000,8 +3024,8 @@ focus_tree = {
 	focus = {
 		id = GER_soviet_ally
 		icon = GFX_goal_generic_dangerous_deal
-		prerequisite = { focus = GER_mol_rib_pact }
-		mutually_exclusive = { focus = GER_ussr_war_goal }
+		prerequisite = { focus = GER_bypass_maginot_in_the_south }
+		
 
 		available = {
             has_game_rule = { rule = RULE_ALLOW_AHISTORICAL option = AHISTORICAL_ENABLED } 
@@ -3014,7 +3038,7 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		relative_position_id = GER_mol_rib_pact
+		relative_position_id = GER_bypass_maginot_in_the_south
 		cost = 10
 		ai_will_do = {
 			factor = 0.01
