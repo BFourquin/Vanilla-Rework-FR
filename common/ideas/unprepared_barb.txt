@@ -14,7 +14,6 @@ ideas = {
 
 			modifier = {
 				army_attack_factor = -0.15
-				army_morale = -0.05
 				breakthrough_factor = -0.15
 				pocket_penalty = 0.2
 				recon_factor = -0.15
