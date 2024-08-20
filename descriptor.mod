@@ -1,6 +1,6 @@
-version="1.14.7"
+version="1.0"
 tags={
-	"Utilities"
+	"Balance"
 }
-name="Vanilla Clean"
+name="Vanilla Rework FR"
 supported_version="1.14.7"
