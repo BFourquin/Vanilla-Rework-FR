@@ -10255,20 +10255,4 @@ ideas = {
 				industrial_capacity_dockyard = 0.05
 			}
 		}
-		SOV_SPR_participation_spanish_cw = {
-
-			picture = SPR_seize_the_gold_reserves
-
-			allowed = {
-				original_TAG = SOV
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-
-			modifier = {
-				consumer_goods_factor = -0.15
-			}
-		}
 	}
