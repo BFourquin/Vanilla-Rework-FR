@@ -6,8 +6,8 @@ state={
 	state_category = large_city
 	
 	resources={
-		steel=100 # was: 35
-		tungsten=70 # was: 10
+		steel=150 # was: 150
+		tungsten=70 # was: 65
 	}
 
 	history={
@@ -15,10 +15,10 @@ state={
 		add_core_of = JAP
 		buildings = {
 		
-			arms_factory = 4
-			industrial_complex = 5
+			arms_factory = 6
+			industrial_complex = 6
 			infrastructure = 3
-			dockyard = 1
+			dockyard = 3
 			fuel_silo = 1
 
 		}

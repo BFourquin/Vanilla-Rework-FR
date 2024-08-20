@@ -4,36 +4,36 @@ scripted_gui = {
     context_type = player_context
 
     visible = {
-		has_global_flag = SE_superevents_activate
+		has_country_flag = SE_superevents_activate
     }
 
     effects = {
 		superevents_button_click = {
-			clr_global_flag = SE_superevents_activate
+			clr_country_flag = SE_superevents_activate
 			#superevents
-			clr_global_flag = SE_world_war_ii
-			clr_global_flag = SE_gerpol_war
-			clr_global_flag = SE_gersov_war
-			clr_global_flag = SE_pacific_war
+			clr_country_flag = SE_world_war_ii
+			clr_country_flag = SE_gerpol_war
+			clr_country_flag = SE_gersov_war
+			clr_country_flag = SE_pacific_war
 		}
     }
 
     triggers = {
 		supereventsbg_test_visible = {
-			has_global_flag = SE_test
+			has_country_flag = SE_test
 		}
 		#superevents
 		superevents_world_war_ii_visible = {
 			OR = {
-				has_global_flag = SE_world_war_ii
-				has_global_flag = SE_gerpol_war
+				has_country_flag = SE_world_war_ii
+				has_country_flag = SE_gerpol_war
 			}
 		}
 		superevents_gersov_war_visible = {
-			has_global_flag = SE_gersov_war
+			has_country_flag = SE_gersov_war
 		}
 		superevents_pacific_war_visible = {
-			has_global_flag = SE_pacific_war
+			has_country_flag = SE_pacific_war
     	}
 
    	 dynamic_lists = {

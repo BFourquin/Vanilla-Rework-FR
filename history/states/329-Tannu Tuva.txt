@@ -2,7 +2,7 @@
 state={
 	id=329
 	name="STATE_329"
-	manpower = 400000
+	manpower = 85000
 	resources={
 		chromium=2 # was: 2
 	}
@@ -11,6 +11,7 @@ state={
 
 	history={
 		owner = MON
+		add_core_of = MON
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
@@ -19,7 +20,7 @@ state={
 		victory_points = {
 			10627 3
 		}
-		add_core_of = MON
+		add_core_of = TAN
 		add_core_of = SOV
 	}
 

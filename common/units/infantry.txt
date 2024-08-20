@@ -80,14 +80,14 @@ sub_units = {
 		default_morale = 0.3
 		manpower = 800
 		
-		soft_attack = -0.15 #Some of the anti-infantry stuff were taken to the front
-		hard_attack = -0.3 #Some of the anti-tank stuff were taken to the front
+		soft_attack = -0.2 #Some of the anti-infantry stuff were taken to the front
+		hard_attack = -0.4 #Some of the anti-tank stuff were taken to the front
 
 		#Misc Abilities
 		training_time = 65
 		suppression = 1.5
 		weight = 0.5
-		defense = 0.1
+		defense = -0.15
 		
 		supply_consumption = 0.04 #I bring my own supplies
 	
@@ -126,7 +126,7 @@ sub_units = {
 		}
 		
 		need = {
-			infantry_equipment = 70
+			infantry_equipment = 75
 		}
 	}
 
@@ -565,9 +565,9 @@ sub_units = {
 			infantry_equipment = 200
 		}
 		forest = {
-			attack = 0.25
-			defence = 0.25
-			movement = 0.25
+			attack = 0.2
+			defence = 0.2
+			movement = 0.2
 		}
 		desert = {
 			attack = -0.15
@@ -589,9 +589,9 @@ sub_units = {
 			movement = -0.05
 		}
 		jungle = {
-			attack = 0.25
-			movement = 0.25
-			defence = 0.25
+			attack = 0.2
+			movement = 0.2
+			defence = 0.2
 		}
 	}
 

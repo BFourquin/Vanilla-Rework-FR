@@ -28,7 +28,7 @@ characters={
 			defense_skill=4
 			planning_skill=2
 			logistics_skill=2
-			legacy_id=10
+			legacy_id=10003
 		}
 	}
 
@@ -47,7 +47,7 @@ characters={
 			defense_skill=2
 			planning_skill=4
 			logistics_skill=3
-			legacy_id=16
+			legacy_id=10001
 		}
 	}
 
@@ -66,7 +66,7 @@ characters={
 			defense_skill=2
 			planning_skill=1
 			logistics_skill=4
-			legacy_id=16
+			legacy_id=10002
 		}
 	}
 

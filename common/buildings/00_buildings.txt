@@ -57,7 +57,7 @@ buildings = {
 
 	supply_node = {
 		show_on_map = 1
-		base_cost = 15000
+		base_cost = 10000
 		provincial = yes
 		disabled_in_dmz = yes
 		icon_frame = 15
@@ -105,7 +105,7 @@ buildings = {
 		disabled_in_dmz = yes
 		icon_frame = 7
 		land_fort = 1
-		max_level = 7
+		max_level = 10
 		value = 1
 		infrastructure_construction_effect = yes
 	}
@@ -120,7 +120,7 @@ buildings = {
 		only_costal = yes
 		icon_frame = 8
 		naval_fort = 1
-		max_level = 7
+		max_level = 10
 		value = 1
 		infrastructure_construction_effect = yes
 	}
@@ -158,7 +158,7 @@ buildings = {
 		base_cost = 10000
 		icon_frame = 10
 		#local_resources_oil = 1 # May use local_resources_ + any resource name
-		local_resources_rubber = 1 # May use local_resources_ + any resource name
+		local_resources_rubber = 2 # May use local_resources_ + any resource name
 		refinery = yes
 		max_level = 3 # This is the max unlock level
 		shares_slots = yes

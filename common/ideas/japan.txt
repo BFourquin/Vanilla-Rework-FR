@@ -261,8 +261,8 @@ ideas = {
 			picture = generic_central_management
 			
 			modifier = {
-				production_speed_arms_factory_factor = 0.30
-				production_speed_dockyard_factor = 0.30
+				production_speed_arms_factory_factor = 0.25
+				production_speed_dockyard_factor = 0.25
 
 			}
 		}
@@ -281,8 +281,8 @@ ideas = {
 			picture = generic_local_self_management
 			
 			modifier = {
-				production_speed_arms_factory_factor = 0.10
-				production_speed_dockyard_factor = 0.20
+				production_speed_arms_factory_factor = 0.15
+				production_speed_dockyard_factor = 0.25
 
 			}
 		}
@@ -1190,16 +1190,14 @@ ideas = {
 				port_strike = 0.5
 				naval_strike_attack_factor = 0.15
 				naval_strike_targetting_factor = 0.15
+				sortie_efficiency = 0.5
 				navy_anti_air_attack_factor = 0.1
-				convoy_escort_efficiency = 0.2
-				convoy_retreat_speed = 0.3
 				army_attack_factor = 0.2
 				fortification_damage = 0.2
-
+				naval_invasion_prep_speed = 0.25
+				naval_damage_factor = 0.15
+				naval_morale = 0.25
 			}
-			removal = {
-        days = 90 
-    }
 		}
 
 		JAP_german_rocketry = {

@@ -14,7 +14,7 @@
 
 #text = {
 #	trigger = {
-#		has_global_flag = SE_
+#		has_country_flag = SE_
 #	}
 #	localization_key = SE__title
 #}
@@ -23,25 +23,25 @@ defined_text = {
 	name = GetSupereventsTitle
 	text = {
 		trigger = {
-			has_global_flag = SE_world_war_ii
+			has_country_flag = SE_world_war_ii
 		}
 		localization_key = SE_world_war_ii_title
 	}
 	text = {
 		trigger = {
-			has_global_flag = SE_gerpol_war
+			has_country_flag = SE_gerpol_war
 		}
 		localization_key = SE_gerpol_war_title
 	}
 	text = {
 		trigger = {
-			has_global_flag = SE_gersov_war
+			has_country_flag = SE_gersov_war
 		}
 		localization_key = SE_gersov_war_title
 	}
 	text = {
 		trigger = {
-			has_global_flag = SE_pacific_war
+			has_country_flag = SE_pacific_war
 		}
 		localization_key = SE_pacific_war_title
 	}

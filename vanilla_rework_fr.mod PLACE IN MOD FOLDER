@@ -9,10 +9,10 @@ tags={
 	"Technologies"
 	"Utilities"
 }
-name="Vanilla Rework Fr"
+name="SUB_TEST"
 replace_path="common/ai_strategy_plans"
 replace_path="common/ai_focuses"
 picture="thumbnail.png"
 supported_version="1.14.*"
-path="C:/Users/user/Documents/Paradox Interactive/Hearts of Iron IV/mod/Vanilla-Rework-FR"
+path="C:/Users/user/Documents/Paradox Interactive/Hearts of Iron IV/mod/SUB_TEST"
 remote_file_id="3293287715"

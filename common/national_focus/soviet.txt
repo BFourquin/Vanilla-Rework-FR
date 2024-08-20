@@ -196,10 +196,10 @@ focus_tree = {
 				limit = { 
 					has_state_flag = SOV_finish_five_year_plan_2IC 
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -228,10 +228,10 @@ focus_tree = {
 							include_locked = yes
 						}
 					}
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = industrial_complex
-						level = 1
+						level = 2
 						instant_build = yes
 					}
 					set_state_flag = SOV_finish_five_year_plan_2IC
@@ -247,10 +247,10 @@ focus_tree = {
 							include_locked = yes
 						}
 					}
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = industrial_complex
-						level = 1
+						level = 2
 						instant_build = yes
 					}
 					set_state_flag = SOV_finish_five_year_plan_2IC
@@ -280,10 +280,10 @@ focus_tree = {
 						}
 						NOT = { has_state_flag = SOV_finish_five_year_plan_2IC }
 					}
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = industrial_complex
-						level = 1
+						level = 2
 						instant_build = yes
 					}
 					set_state_flag = SOV_finish_five_year_plan_2IC
@@ -303,10 +303,10 @@ focus_tree = {
 						}
 						NOT = { has_state_flag = SOV_finish_five_year_plan_2IC }
 					}
-					add_extra_state_shared_building_slots = 1
+					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = industrial_complex
-						level = 1
+						level = 2
 						instant_build = yes
 					}
 					set_state_flag = SOV_finish_five_year_plan_2IC
@@ -1882,12 +1882,17 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 
 		completion_reward = {
-			add_resource = {
-					type = rubber
-					amount = 50
-					state = 229
-				}
 			add_ideas = SOV_transformation_of_nature
+			add_resource = {
+				type = rubber
+				amount = 50
+				state = 229
+			}
+			add_resource = {
+				type = oil
+				amount = 15
+				state = 582
+			}
 		}
 	}
 
@@ -1935,7 +1940,7 @@ focus_tree = {
 		x = 10
 		y = 0
 		relative_position_id = SOV_infrastructure_effort_nsb
-		cost = 5
+		cost = 7.2
 
 		ai_will_do = {
 			factor = 1
@@ -1960,7 +1965,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SOV_transpolar_flights
-		cost = 10
+		cost = 7.2
 
 		available = {
 			any_owned_state = {
@@ -2029,7 +2034,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SOV_expand_the_aircraft_industry
-		cost = 10
+		cost = 7.2
 
 		available = {
 
@@ -2053,7 +2058,7 @@ focus_tree = {
 		x = -1
 		y = 2
 		relative_position_id = SOV_modernize_aircraft_facilities
-		cost = 5
+		cost = 7.2
 
 		available = {
 			NOT = { has_country_flag = SOV_paranoia_system_active_flag }
@@ -2090,7 +2095,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = SOV_merge_aircraft_plants
-		cost = 10
+		cost = 7.2
 
 		available = {
 
@@ -2116,7 +2121,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = SOV_expand_the_aircraft_industry
-		cost = 10
+		cost = 7.2
 
 		mutually_exclusive = { focus = SOV_intensify_pilot_training_program }
 
@@ -2168,7 +2173,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_transpolar_flights
-		cost = 10
+		cost = 7.2
 
 		available = {
 
@@ -2195,7 +2200,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_foster_flying_clubs
-		cost = 10
+		cost = 7.2
 
 		available = {
 			OR = {
@@ -2228,7 +2233,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_women_in_aviation
-		cost = 10
+		cost = 7.2
 
 		available = {
 			any_enemy_country = {
@@ -2315,7 +2320,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = SOV_foster_flying_clubs
-		cost = 10
+		cost = 7.2
 
 		mutually_exclusive = { focus = SOV_increase_aircraft_production }
 
@@ -2346,7 +2351,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_expand_the_aircraft_industry
-		cost = 10
+		cost = 7.2
 
 		available = {
 
@@ -2371,7 +2376,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SOV_increase_aircraft_production
-		cost = 10
+		cost = 7.2
 
 		mutually_exclusive = { focus = SOV_long_range_aircraft }
 
@@ -2403,7 +2408,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SOV_intensify_pilot_training_program
-		cost = 10
+		cost = 7.2
 
 		mutually_exclusive = { focus = SOV_ground_support }
 
@@ -4019,11 +4024,11 @@ focus_tree = {
 		id = SOV_naval_infantry
 
 		icon = GFX_SOV_naval_infantry_ccp_2d_sov_compatibility
-		prerequisite = { focus = SOV_advanced_maneuvers }
-		x = 0
+		prerequisite = { focus = SOV_expand_the_red_fleet }
+		x = 5
 		y = 1
-		relative_position_id = SOV_advanced_maneuvers
-		cost = 10
+		relative_position_id = SOV_expand_the_red_fleet
+		cost = 5
 
 		available = {
 
@@ -5410,7 +5415,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_military_engineering_university
-		cost = 10
+		cost = 7.2
 
 		mutually_exclusive = { focus = SOV_the_molotov_line }
 
@@ -6945,7 +6950,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_the_centre
-		cost = 10
+		cost = 7.2
 
 		available = {
 
@@ -7073,7 +7078,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SOV_the_zinovyevite_terrorist_center
-		cost = 10
+		cost = 7.2
 
 		available = {
 
@@ -7101,7 +7106,7 @@ focus_tree = {
 		x = 0
 		y = 3
 		relative_position_id = SOV_socialism_in_one_country
-		cost = 10
+		cost = 7.2
 
 		available = {
 
@@ -8277,6 +8282,7 @@ focus_tree = {
 		cost = 5
 
 		available = {
+			has_game_rule = { rule = RULE_ALLOW_AHISTORICAL option = AHISTORICAL_ENABLED } 
 			SOV_soviet_civil_war_not_started = yes 
 			custom_trigger_tooltip = {
 				tooltip = SOV_no_major_purge_tt		
@@ -9542,6 +9548,7 @@ focus_tree = {
 		relative_position_id = SOV_the_left_opposition
 		cost = 5
 		available = {
+			has_game_rule = { rule = RULE_ALLOW_AHISTORICAL option = AHISTORICAL_ENABLED } 
 			SOV_soviet_civil_war_not_started = yes 
 			custom_trigger_tooltip = {
 				tooltip = SOV_no_major_purge_tt		
@@ -12368,7 +12375,7 @@ ai_will_do = {
 		x = 0
 		y = 2
 		relative_position_id = SOV_seek_a_defense_pact_with_the_allies
-		cost = 10
+		cost = 1000
 
 		ai_will_do = {
 			factor = 1
@@ -15321,6 +15328,9 @@ ai_will_do = {
 		x = 61
 		y = 0
 		relative_position_id = SOV_the_path_of_marxism_leninism
+		available = {
+            has_game_rule = { rule = RULE_ALLOW_AHISTORICAL option = AHISTORICAL_ENABLED } 
+        }
 		offset = {
 			x = -44
 			y = 0
@@ -18538,7 +18548,6 @@ ai_will_do = {
 		
 
 		available_if_capitulated = no
-		will_lead_to_war_with = SOV
 
 		cancel = {
 			is_subject = yes
@@ -18546,9 +18555,9 @@ ai_will_do = {
 		}
 		
 		available = {
-			date > 1943.6.1
-			is_subject = no
+			
 		}
+
 		x = 44
 		y = 0
 		cost = 3
@@ -18559,6 +18568,31 @@ ai_will_do = {
 			SOV = {
 					add_timed_idea = { idea = Attack_On_German_Airport days = 60 }
 			}
+		}
+	}
+
+	focus = {
+		id = SPR_SOV_GOLD
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		
+
+		available_if_capitulated = no
+
+		cancel = {
+			is_subject = yes
+			NOT = { country_exists = SOV }
+		}
+		
+		available = {
+			has_global_flag = scw_over
+			NOT = {has_idea = SPR_seized_spanish_gold_reserves }
+		}
+
+		x = 5
+		y = 0
+		cost = 0
+		completion_reward = {
+			add_timed_idea = { idea = gold_scw days = 365 }
 		}
 	}
 }

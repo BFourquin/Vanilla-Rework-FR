@@ -4,6 +4,7 @@ oob = "MON_1936"
 
 set_research_slots = 4
 set_war_support = 0.25
+set_stability = 0.35
 
 # Starting tech
 set_technology = {

@@ -7,7 +7,7 @@ state = {
 	state_category = megalopolis
 	
 	resources = {
-		aluminium = 80 # was: 2
+		aluminium = 80 # was: 100
 	}
 
 	history = {
@@ -18,7 +18,7 @@ state = {
 		buildings = {
 			infrastructure = 4 #was: 8
 			air_base = 6
-			industrial_complex = 8
+			industrial_complex = 6
 			arms_factory = 6
 			dockyard = 6
 			9998 = {

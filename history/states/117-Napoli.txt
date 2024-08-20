@@ -4,10 +4,10 @@ state = {
 	name = "STATE_117" # Campania
 	manpower = 4240000 # (Campania 3697k + Basilicato 543k )  # was 5333611 before Puglia state was added
 	
-	state_category = city
+	state_category = metropolis
 	resources = { #TODO_Manu: Check resource split (Puglia is now a different state)
 		aluminium = 10 # was: 16 (TODO_Manu: This WAS before my time. Check)
-		steel = 100 # was: 24 (TODO_Manu: This WAS before my time. Check)
+		steel = 15 # was: 24 (TODO_Manu: This WAS before my time. Check)
 	}
 
 	history = {
@@ -18,8 +18,8 @@ state = {
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
-			industrial_complex = 2
-			dockyard = 1
+			industrial_complex = 6
+			dockyard = 2
 			air_base = 3
 			819 = {
 				naval_base = 6

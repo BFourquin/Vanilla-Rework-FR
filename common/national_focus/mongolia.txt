@@ -576,7 +576,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_political_power = 150
+			add_political_power = 100
 			add_popularity = {
     			ideology = neutrality
     			popularity = 0.4
@@ -919,7 +919,7 @@ focus_tree = {
 			add_tech_bonus = {
     			bonus = 0.5
     			uses = 1
-    			category = synth_resources
+    			category = excavation_tech
 			}
 		}
 	}
@@ -942,16 +942,20 @@ focus_tree = {
 		available = { has_completed_focus = MON_follow_the_soviets }
 
 		completion_reward = {
-			add_equipment_to_stockpile = {
-    			type = infantry_equipment
-    			amount = 3000
+			custom_effect_tooltip = MON_truck_tt
+			set_technology = {
+    			tech_trucks = 1
 			}
 			add_equipment_to_stockpile = {
-    			type = motorized_equipment
+    			type = infantry_equipment_0
+    			amount = 6000
+			}
+			add_equipment_to_stockpile = {
+    			type = motorized_equipment_0
     			amount = 1000
 			}
 			add_equipment_to_stockpile = {
-    			type = artillery_equipment
+    			type = artillery_equipment_1
     			amount = 500
 			}
 			add_equipment_to_stockpile = {
@@ -1036,6 +1040,65 @@ focus_tree = {
 				amount = 25
 				state = 819
 			}
+		}
+	}
+
+	focus = {
+		id = MON_Renewal
+		icon = GFX_focus_generic_concessions
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = MON_local_production }
+		relative_position_id = MON_local_production
+		
+		available_if_capitulated = yes
+
+		available = { has_completed_focus = MON_new_constitution }
+		
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			add_offsite_building = { 
+				type = industrial_complex
+				level = 1 
+			}
+			add_state_core = 759
+			add_state_core = 287
+			add_state_core = 619
+			add_state_core = 617
+			add_state_core = 618
+			add_state_core = 760
+
+		}
+	}
+
+	focus = {
+		id = MON_Restoration_of_the_empire
+		icon = GFX_focus_hol_united_netherlands
+		x = 0
+		y = 1
+		cost = 10
+		prerequisite = { focus = MON_Renewal }
+		relative_position_id = MON_Renewal
+		
+		available_if_capitulated = yes
+
+		
+		
+		ai_will_do = {
+			factor = 2
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+    		bonus = 0.5
+    		uses = 1
+    		category = industry
+			}
+			add_timed_idea = { idea = MON_restauration days = 250 }
 		}
 	}
 	

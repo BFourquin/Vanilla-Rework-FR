@@ -250,7 +250,6 @@ ideas = {
 			modifier = {
 				command_power_gain_mult = 0.1	
 			}
-		
 		}
 		USA_airborne_divisions = {
 			picture = usa_airborne_divisions
@@ -744,7 +743,10 @@ ideas = {
 			picture = generic_production_bonus
 
 			modifier = {
-				conversion_cost_civ_to_mil_factor= -0.5
+				conversion_cost_civ_to_mil_factor= -0.25
+				production_speed_arms_factory_factor = 0.25
+				production_speed_dockyard_factor = 0.25
+				industrial_capacity_dockyard = 0.1
 			}
 		}
 	
@@ -1787,42 +1789,6 @@ ideas = {
 			}
 
 			traits = { railway_company }
-		}
-		USA_civilian_expension = {
-			picture = generic_agrarian_reform
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				has_government = democratic 
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				production_speed_industrial_complex_factor = 0.75
-				
-			}
-		}
-		
-		#Custom ideas 
-		
-		USA_the_giant_sleeps = {
-			picture = generic_agrarian_reform
-			allowed = {
-				always = no 
-			}
-
-			allowed_civil_war = {
-				has_government = democratic 
-			}
-			
-			removal_cost = -1
-
-			modifier = {
-
-			}
 		}
 	}
 }

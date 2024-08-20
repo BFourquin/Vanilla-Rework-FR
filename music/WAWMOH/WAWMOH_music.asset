@@ -30,7 +30,7 @@ music = {
 
 music = {
 	name = "FINALPUSH"
-	file = "1-78 Final Push - Breaking the Enemy's Defense.ogg"
+	file = "1-78 Final Push - Breaking the Enemy_s Defense.ogg"
 	volume = 1.5
 }
 
@@ -132,7 +132,7 @@ music = {
 
 music = {
 	name = "STURMGEISTAT"
-	file = "14 - Sturmgeist's Armored Train.ogg"
+	file = "14 - Sturmgeist_s Armored Train.ogg"
 	volume = 1.5
 }
 

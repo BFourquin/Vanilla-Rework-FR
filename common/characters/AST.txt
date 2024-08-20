@@ -3,7 +3,7 @@ characters={
 		name=AST_john_curtin
 		portraits={
 			civilian={
-				large=GFX_portrait_AST_john_curtin
+				large=GFX_portrait_AST_john_curtins
 			}
 		}
 		country_leader={
