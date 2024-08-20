@@ -940,7 +940,6 @@ add_ideas = {
 	SOV_nikolay_bukharin = { SOV_purge_character_effect = yes }
 	SOV_aleksey_rykov = { SOV_purge_character_effect = yes }
 	SOV_mikhail_tomsky = { SOV_purge_character_effect = yes }
-	SOV_maksim_litvinov = { SOV_purge_character_effect = yes }
 	SOV_genrikh_yagoda = { SOV_purge_character_effect = yes }
 	SOV_nikolay_yezhov = { SOV_purge_character_effect = yes }
 	SOV_sergey_khudyakov = { SOV_purge_character_effect = yes }
