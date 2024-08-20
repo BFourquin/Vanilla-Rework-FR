@@ -4024,11 +4024,11 @@ focus_tree = {
 		id = SOV_naval_infantry
 
 		icon = GFX_SOV_naval_infantry_ccp_2d_sov_compatibility
-		prerequisite = { focus = SOV_advanced_maneuvers }
-		x = 0
+		prerequisite = { focus = SOV_expand_the_red_fleet }
+		x = 5
 		y = 1
-		relative_position_id = SOV_advanced_maneuvers
-		cost = 10
+		relative_position_id = SOV_expand_the_red_fleet
+		cost = 5
 
 		available = {
 
