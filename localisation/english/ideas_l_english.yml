@@ -400,6 +400,8 @@
  unprepared_barb_desc:0 "USSR wasn't prepared for the Barbarossa Plan, we will need time before a counter attack"
  Bagration_Ope:0 "Bagration Operation"
  Bagration_Ope_desc:0 "The counter attack HAS COME!"
+ gold_scw:0 "Spanish gold seizure"
+ gold_scw_desc:0 "We can take an advantage of the gold we took home"
  Attack_On_German_Airport:0 "Air is Ours"
  Attack_On_German_Airport_desc:0 "The counter attack HAS COME (Air)!"
  MON_soviet_stability:0 "Soviet Stability"

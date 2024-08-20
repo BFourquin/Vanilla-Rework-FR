@@ -6855,7 +6855,7 @@ focus_tree = {
 			}
 		}
 		relative_position_id = SOV_the_path_of_marxism_leninism
-		cost = 7.2
+		cost = 5
 
 		mutually_exclusive = { focus = SOV_the_right_opposition focus = SOV_the_left_opposition }
 
@@ -6950,7 +6950,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_the_centre
-		cost = 10
+		cost = 7.2
 
 		available = {
 
@@ -6977,7 +6977,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SOV_the_stalin_constitution
-		cost = 7.2
+		cost = 5
 
 		available = {
 
@@ -7078,7 +7078,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SOV_the_zinovyevite_terrorist_center
-		cost = 5
+		cost = 7.2
 
 		available = {
 
@@ -7106,7 +7106,7 @@ focus_tree = {
 		x = 0
 		y = 3
 		relative_position_id = SOV_socialism_in_one_country
-		cost = 10
+		cost = 7.2
 
 		available = {
 
@@ -7241,7 +7241,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = SOV_the_zinovyevite_terrorist_center
-		cost = 7.2
+		cost = 5
 
 		available = {
 			has_country_flag = {
@@ -7493,7 +7493,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = SOV_the_anti_soviet_trotskyist_center
-		cost = 7.2
+		cost = 5
 
 		available = {
 			has_country_flag = {
@@ -18548,7 +18548,6 @@ ai_will_do = {
 		
 
 		available_if_capitulated = no
-		will_lead_to_war_with = SOV
 
 		cancel = {
 			is_subject = yes
@@ -18556,9 +18555,9 @@ ai_will_do = {
 		}
 		
 		available = {
-			date > 1943.6.1
-			is_subject = no
+			
 		}
+
 		x = 44
 		y = 0
 		cost = 3
@@ -18569,6 +18568,31 @@ ai_will_do = {
 			SOV = {
 					add_timed_idea = { idea = Attack_On_German_Airport days = 60 }
 			}
+		}
+	}
+
+	focus = {
+		id = SPR_SOV_GOLD
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		
+
+		available_if_capitulated = no
+
+		cancel = {
+			is_subject = yes
+			NOT = { country_exists = SOV }
+		}
+		
+		available = {
+			has_global_flag = scw_over
+			NOT = {has_idea = SPR_seized_spanish_gold_reserves }
+		}
+
+		x = 5
+		y = 0
+		cost = 0
+		completion_reward = {
+			add_timed_idea = { idea = gold_scw days = 365 }
 		}
 	}
 }
