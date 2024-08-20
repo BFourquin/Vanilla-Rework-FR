@@ -4101,8 +4101,8 @@ focus_tree = {
 							infantry = { x = 1 y = 2 }
 				
 		    	   		 	infantry = { x = 2 y = 0 }
-							artillery_brigade = { x = 3 y = 0 }
-							artillery_brigade = { x = 3 y = 1 }
+							artillery_brigade = { x = 2 y = 1 }
+							artillery_brigade = { x = 2 y = 2 }
 						}
 						support = {
 							engineer = { x = 0 y = 0 }
@@ -4124,8 +4124,8 @@ focus_tree = {
 								infantry = { x = 1 y = 2 }
 					
 			    	   		 	infantry = { x = 2 y = 0 }
-								artillery_brigade = { x = 3 y = 0 }
-								artillery_brigade = { x = 3 y = 1 }
+								artillery_brigade = { x = 2 y = 1 }
+								artillery_brigade = { x = 2 y = 2 }
 							}
 							support = {
 								engineer = { x = 0 y = 0 }
@@ -4383,7 +4383,6 @@ focus_tree = {
 		id = ROM_mobile_tank_destroyers
 		icon = GFX_goal_generic_build_tank
 		prerequisite = { focus = ROM_acquire_modern_tanks }
-		prerequisite = { focus = ROM_artillery_modernization }
 		mutually_exclusive = { focus = ROM_modern_at_guns }
 		x = 0
 		y = 1
@@ -4416,7 +4415,7 @@ focus_tree = {
 				custom_effect_tooltip = available_mio_tt
 				show_mio_tooltip = ROM_leonidas_works_organization
 				mio:ROM_leonidas_works_organization = {
-					add_mio_funds = 2500
+					add_mio_size = 2
 				}
 			}
 			else = {
@@ -4517,6 +4516,15 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = ROM_expand_the_galati_shipyards_AB
+			}
+			random_owned_controlled_state = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = dockyard
