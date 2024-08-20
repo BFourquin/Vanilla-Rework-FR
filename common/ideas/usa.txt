@@ -1791,7 +1791,7 @@ ideas = {
 			traits = { railway_company }
 		}
 
-		USA_CIV_Focus = {
+		USA_civ_boost = {
 
 			picture = ARG_invest_in_railways
 
@@ -1802,8 +1802,8 @@ ideas = {
 			available = {
 			}
 
-			research_bonus = {
-				production_speed_industrial_complex_factor = 0.65
+			modifier = {
+                production_speed_industrial_complex_factor = 0.60
 			}
 
 		}
