@@ -1910,7 +1910,6 @@ SOV_defend_blitzkrieg  = {#Only perform careful attacks, we want to defend while
 	enable = {
 		date < 1943.1.1 #To space!
 		has_war_with = GER
-		GER = { has_idea = GER_barbarossa }
 	}
 
 	abort_when_not_enabled = yes
@@ -1938,7 +1937,6 @@ SOV_defend_blitzkrieg_2  = {#Only perform careful attacks, we want to defend for
 	enable = {
 		date < 1943.1.1 #To space!
 		has_war_with = GER
-		NOT = { GER = { has_idea = GER_barbarossa } }
 		is_historical_focus_on = yes
 	}
 
@@ -2111,7 +2109,6 @@ SOV_defense_in_depth = {
 		date < 1943.1.1 #Maybe this isn't such a good idea now?
 		OR = {
 			has_war = no
-			GER = { has_idea = GER_barbarossa }
 		}
 	}
 

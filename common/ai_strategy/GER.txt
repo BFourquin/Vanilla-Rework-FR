@@ -2686,7 +2686,6 @@ GER_blitzkrieg_russia_hard  = { #STEINER, IT IS NOT TIME YET
 		date > 1941.7.1
 		has_war_with = SOV
 		OR = {
-			has_idea = GER_barbarossa
 			SOV = { has_idea = SOV_desperate_measures_ns }
 		}
 		has_equipment = { infantry_equipment > 15000 } #WE NEED GUNS
@@ -2731,10 +2730,7 @@ GER_blitzkrieg_russia_soft  = { #Rolling incursions
 		date < 1942.4.1 #To space!
 		date > 1941.8.1
 		has_war_with = SOV
-		OR = {
-			has_idea = GER_barbarossa
 			SOV = { has_idea = SOV_desperate_measures_ns }
-		}
 		has_equipment = { infantry_equipment > 15000 } #WE NEED GUNS
 		set_temp_variable = { days = global.num_days }
 		modulo_temp_variable = { days = 40 }

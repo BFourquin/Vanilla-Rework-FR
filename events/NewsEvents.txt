@@ -2913,7 +2913,7 @@ news_event = {
 	}
 
 	immediate = {
-		sound_effect = 07 - Call to Arms
+		sound_effect = Call_to_Arms
 	}
 	
 	mean_time_to_happen = {
@@ -4301,7 +4301,7 @@ news_event = {
 	}
 
 	immediate = {
-		sound_effect = 07 - Call to Arms
+		sound_effect = Call_to_Arms
 	}
 	
 	mean_time_to_happen = {

@@ -10,11 +10,6 @@ set_party_name = {
 	long_name = SOV_communism_party_russian_long
 	name = SOV_communism_party_russian
 }
-set_party_name = {
-	ideology = fascism
-	long_name = SOV_fascism_party_russian_long
-	name = SOV_fascism_party_russian
-}
 
 #COUNTRY LEADERS
 recruit_character = SOV_iosif_stalin
@@ -134,12 +129,8 @@ if = {
 	}
 	recruit_character = SOV_anastasy_vonsyatsky
 	# recruit_character = SOV_grigory_semyonov # starts as an advisor to Puyi
-	recruit_character = SOV_metropolitan_anastasy
-	recruit_character = SOV_metropolitan_nikolay
 	recruit_character = SOV_nikolay_ustryalov
 	recruit_character = SOV_aleksandr_kazembek
-	recruit_character = SOV_metropolitan_aleksy
-	recruit_character = SOV_metropolitan_meletius
 	recruit_character = SOV_aleksandr_prokofyev_seversky
 	recruit_character = SOV_vyacheslav_tkachyov
 	recruit_character = SOV_yan_nagursky
@@ -195,18 +186,6 @@ SOV_patriarch_sergy = { #Priests are not political enemies at this point
 if = {
 	limit = {
 		has_dlc = "No Step Back"
-	}
-	SOV_metropolitan_anastasy = { #Priests are not political enemies at this point
-		set_character_flag = SOV_safe_from_purge_flag
-	}
-	SOV_metropolitan_nikolay = { #Priests are not political enemies at this point
-		set_character_flag = SOV_safe_from_purge_flag
-	}
-	SOV_metropolitan_aleksy = { #Priests are not political enemies at this point
-		set_character_flag = SOV_safe_from_purge_flag
-	}
-	SOV_metropolitan_meletius = { #Priests are not political enemies at this point (Also exiled)
-		set_character_flag = SOV_safe_from_purge_flag
 	}
 	SOV_anastasy_vonsyatsky = { #Not in the country
 		set_character_flag = SOV_exiled_flag

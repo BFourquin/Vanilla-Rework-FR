@@ -71,10 +71,10 @@ soundeffect = {
 }
 
 soundeffect = {
-	name = "Call_to_war"
+	name = "Call_to_Arms"
 	sounds = {
 		sound =
-			Call_to_war
+			Call_to_Arms
 	}
 	volume = 1.4
 }

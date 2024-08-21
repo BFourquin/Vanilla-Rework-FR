@@ -56,8 +56,8 @@ sound =
 
 sound =
 {
-	name = "Call_to_war"
-	file = "Call_to_war.wav"
+	name = "Call_to_Arms"
+	file = "Call_to_Arms.wav"
 
 }
 
