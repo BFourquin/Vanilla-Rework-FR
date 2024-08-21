@@ -504,4 +504,23 @@ characters={
 			}
 		}
 	}
+
+	MON_Djirqo_adai={
+		name=Djirqo_adai
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_asia_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MON_Djirqo_adai
+			allowed = {
+				original_tag = MON
+			}
+			traits = {
+				captain_of_industry 
+			}
+		}
+	}
 }
