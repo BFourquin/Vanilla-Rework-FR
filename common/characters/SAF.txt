@@ -497,25 +497,29 @@ characters={
 		}		
 	}
 
-	SAF_jim_kasley={
-		name=AST_jim_kasley
+	SAF_jonathan_sterling={
+		name=Jonathan_Sterling
 		portraits={
 			army={
-				small="GFX_idea_AST_jack_beasley" #small="GFX_idea_generic_political_advisor_europe_3"
+				small="GFX_idea_generic_air_african_2"
 			}
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = AST_jack_beasley
-			allowed = {
-				original_tag = AST
-				has_dlc = "Together for Victory"
+			idea_token = SAF_jonathan_sterling
+			allowed  = {
+				original_tag  = SAF
 			}
-			traits = {
+			traits  = {
 				war_industrialist 
 			}
-		}		
+			ai_will_do  = {
+				factor  = 2.000
+			}
+		}
 	}
+
+	
 
 	SAF_abram_fischer={
 		name=SAF_abram_fischer
