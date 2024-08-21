@@ -163,10 +163,6 @@ set_convoys = 200
 set_stability = 0.75 
 set_war_support = 0.3
 
-add_ideas = {
-	No_push_in_winter
-}
-
 1939.1.1 = {
 	add_named_threat = { threat = 40 name = 1939_bookmark_threat }
 	set_war_support = 0.7

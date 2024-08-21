@@ -787,7 +787,7 @@ guiTypes = {
 
 			iconType = {
 				name ="shocktroops_bg"
-				spriteType = "GFX_r56_shocktroop_techtree_bg"
+				spriteType = "GFX_shocktroop_techtree_bg"
 				position = { x=1530 y=33 }
 			}
 			

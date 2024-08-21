@@ -114,6 +114,8 @@ vassal_decisions_category = {
 			tag = GER
 		}
 
+		fire_only_once = yes
+
 		complete_effect  = {
 					set_autonomy = { target = ROM autonomy_state = autonomy_collaboration_government }
 
@@ -129,6 +131,8 @@ vassal_decisions_category = {
 			tag = GER
 		}
 
+		fire_only_once = yes
+
 		complete_effect  = {
 					set_autonomy = { target = HUN autonomy_state = autonomy_collaboration_government }
 
@@ -143,6 +147,8 @@ vassal_decisions_category = {
 		allowed = {
 			tag = GER
 		}
+
+		fire_only_once = yes
 
 		complete_effect  = {
 					set_autonomy = { target = BUL autonomy_state = autonomy_collaboration_government }

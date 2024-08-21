@@ -450,20 +450,20 @@ sub_units = {
 		
 		#Size Definitions
 		max_strength = 40
-		max_organisation = 75
+		max_organisation = 70
 		default_morale = 0.35
-		manpower = 1500
+		manpower = 1550
 
 		#Misc Abilities
 		training_time = 160
 		suppression = 1
 		weight = 0.6
-		supply_consumption = 0.12
-		breakthrough = 0.7
-		soft_attack = 0.7
+		supply_consumption = 0.14
+		breakthrough = 0.65
+		soft_attack = 0.65
 	
 		need = {
-			infantry_equipment = 280
+			infantry_equipment = 290
 		}
 		desert = {
 			attack = 0.05
