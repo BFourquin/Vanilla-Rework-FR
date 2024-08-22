@@ -49,7 +49,7 @@ ideologies = {
 			join_faction_tension = 0.80
 			lend_lease_tension = 0.50
 			send_volunteers_tension = 0
-			send_volunteer_divisions_required = 0
+			send_volunteer_divisions_required = -1
 			guarantee_tension = 0.25
 			# annex_cost_factor = 0.5 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
 			civilian_intel_to_others = 20.0
@@ -179,7 +179,7 @@ ideologies = {
 			hidden_modifier = { join_faction_tension = -0.1 }
 			embargo_cost_factor = 1
 			lend_lease_tension = 0.50
-			send_volunteer_divisions_required = 0
+			send_volunteer_divisions_required = -1
 		}
 
 		ai_fascist = yes # uses the fascist AI behaviour
@@ -239,7 +239,7 @@ ideologies = {
 			army_intel_to_others = 10.0
 			navy_intel_to_others = 20.0
 			airforce_intel_to_others = 10.0
-			send_volunteer_divisions_required = 0
+			send_volunteer_divisions_required = -1
 		}
 
 		faction_modifiers = {

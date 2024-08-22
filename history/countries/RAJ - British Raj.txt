@@ -122,7 +122,7 @@ if = {
 		RAJ_marginalized_muslim_community
 		RAJ_agrarian_society
 		RAJ_risk_of_famine
-		volunteer_brigades
+		
 	}
 
 	add_to_tech_sharing_group = commonwealth_research
