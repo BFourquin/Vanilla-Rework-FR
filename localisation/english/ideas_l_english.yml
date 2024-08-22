@@ -2587,6 +2587,8 @@
  GER_redirecting_naval_production:0 "Redirecting Naval Production"
  GER_wilhelm_iii:0 "Wilhelm III"
  GER_preparing_ITA_coup:0 "Rising Monarchist Sentiments"
+ african_war_failure:0 "Italian African war failure"
+ african_war_success:0 "Italian African war success"
  GER_preparing_ITA_coup2:0 "Rising Monarchist Sentiments"
  GER_soviet_protect_our_sphere:0 "Protect our Sphere of Influence"
  GER_reinstated_nazi_leadership:0 "Reinstated Nazi Leadership"
