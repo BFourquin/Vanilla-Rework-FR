@@ -281,8 +281,8 @@ ideas = {
 			picture = generic_local_self_management
 			
 			modifier = {
-				production_speed_arms_factory_factor = 0.15
-				production_speed_dockyard_factor = 0.25
+				production_speed_arms_factory_factor = 0.30
+				production_speed_dockyard_factor = 0.30
 
 			}
 		}
