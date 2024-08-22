@@ -54,6 +54,7 @@ recruit_character = MON_pai_yun_ti
 recruit_character = MON_Bortei_Norovbanzad
 recruit_character = MON_Boroghul_Agasiletai
 recruit_character = MON_Djirqo_adai
+recruit_character = MON_Zaluu_Bogd
 
 1939.1.1 = {
 

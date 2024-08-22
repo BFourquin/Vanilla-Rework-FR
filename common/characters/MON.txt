@@ -523,4 +523,23 @@ characters={
 			}
 		}
 	}
+
+	MON_Zaluu_Bogd={
+		name=Zaluu_Bogd
+		portraits={
+			army={
+				small="GFX_portrait_generic_communist_revolutionary_sami_2d"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = MON_Zaluu_Bogd
+			allowed = {
+				original_tag = MON
+			}
+			traits = {
+				popular_figurehead 
+			}
+		}
+	}
 }
