@@ -743,10 +743,10 @@ ideas = {
 			picture = generic_production_bonus
 
 			modifier = {
-				conversion_cost_civ_to_mil_factor= -0.25
-				production_speed_arms_factory_factor = 0.25
+				conversion_cost_civ_to_mil_factor= -0.2
+				production_speed_arms_factory_factor = 0.2
 				production_speed_dockyard_factor = 0.25
-				industrial_capacity_dockyard = 0.1
+				industrial_capacity_dockyard = 0.15
 			}
 		}
 	

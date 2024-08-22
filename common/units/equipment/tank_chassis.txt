@@ -704,7 +704,7 @@ equipments = {
 		parent = heavy_tank_chassis_1
 		priority = 2000
 		module_slots = inherit
-		build_cost_ic = 11
+		build_cost_ic = 11.5
 		maximum_speed = 5
 		reliability = 1.1
 		armor_value = 60
@@ -723,12 +723,12 @@ equipments = {
 		parent = heavy_tank_chassis_2
 		priority = 2000
 		module_slots = inherit
-		build_cost_ic = 13
+		build_cost_ic = 13.5
 		maximum_speed = 5
 		reliability = 1.2
 		armor_value = 75
 		resources = {
-			steel = 2
+			steel = 1
 			chromium = 1
 		}
 	}

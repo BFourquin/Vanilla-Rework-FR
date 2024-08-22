@@ -383,6 +383,10 @@ set_popularities = {
 	communism = 20
 }
 
+add_ideas = {
+	No_push_in_winter
+}
+
 create_faction = Axis
 add_to_faction = GER
 

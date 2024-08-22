@@ -18541,7 +18541,7 @@ ai_will_do = {
 		}
 		
 		available = {
-			
+			date > 1943.4.1
 		}
 
 		x = 44
