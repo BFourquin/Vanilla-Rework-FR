@@ -1332,6 +1332,7 @@ focus_tree = {
 				}
 				set_state_flag = GER_industrial_effort_2_2IC
 			}
+			add_ideas = GER_kdf_boost
 		}
 	}
 

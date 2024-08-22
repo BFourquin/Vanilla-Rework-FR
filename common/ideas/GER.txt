@@ -38,24 +38,7 @@ ideas = {
 				planning_speed = 0.25
 			}
 		}
-		GER_civilian_expension = {
-			picture = generic_agrarian_reform
-			allowed = {
-				original_tag = FRA
-				always = no
-			}
-
-			allowed_civil_war = {
-				has_government = fascism
-			}
-
-			removal_cost = -1
-			
-			modifier = {
-				production_speed_industrial_complex_factor = 0.1
-				production_speed_arms_factory_factor = -0.05
-			}
-		}
+		
 		GER_military_production = {
 			picture = chi_hyper_inflation2
 			allowed = {
@@ -74,6 +57,7 @@ ideas = {
 				production_speed_industrial_complex_factor = -0.05
 			}
 		}
+		
 		SWE_historical_trade_with_Germany_dummy = {
 			allowed = {
 				always = yes
@@ -559,6 +543,26 @@ ideas = {
 				production_speed_infrastructure_factor = 0.1
 			}
 		}
+
+		GER_kdf_boost = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+            picture = generic_production_bonus
+
+            modifier = {
+                production_speed_industrial_complex_factor = 0.1
+				production_speed_arms_factory_factor = -0.05
+            }
+        }
 
 		GER_bulwark_against_bolshevism = {
 
