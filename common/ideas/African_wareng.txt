@@ -1,6 +1,6 @@
 ideas = {
     country = {
-        african_war_failure = {
+        african_war_failure_eng = {
 
 			allowed = {
 				always = no
@@ -15,14 +15,15 @@ ideas = {
 			picture = NOR_broken_gun_ns
 
 			modifier = {
-				army_core_defence_factor = -0.05
+				army_attack_factor = -0.05
 				army_morale_factor = -0.05
-				resistance_activity = 0.05
+				industrial_capacity_dockyard = -0.1
 				naval_morale_factor = -0.05
+				navy_org_factor = -0.05
 			}
 		}
 
-		african_war_success = {
+		african_war_success_eng = {
 
 			allowed = {
 				always = no
@@ -37,12 +38,12 @@ ideas = {
 			picture = SWE_coastal_support
 
 			modifier = {
-				army_core_defence_factor = 0.05
+				army_attack_factor = 0.05
 				army_morale_factor = 0.05
-				resistance_activity = -0.1
 				naval_morale_factor = 0.05
 				production_speed_arms_factory_factor = 0.05
 				industrial_capacity_dockyard = 0.1
+				navy_org_factor = 0.05
 			}
 		}
     }

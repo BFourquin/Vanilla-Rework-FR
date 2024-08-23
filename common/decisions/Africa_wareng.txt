@@ -1,0 +1,35 @@
+ENG_african_war_category ={
+    
+    ENG_Africa_war_mission = {
+
+        icon = GFX_decision_eng_imperial_federation
+
+        allowed = {
+            original_tag = ENG
+        }
+
+        available = {
+            controls_state = 448
+            controls_state = 450
+            controls_state = 451
+        }
+
+        days_mission_timeout = 930
+
+        activation = {
+            has_war_with = ITA
+        }
+
+        is_good = no
+
+        fire_only_once = yes
+
+        timeout_effect = {
+            add_timed_idea = { idea = african_war_failure_eng days = 730 }
+        }
+
+        complete_effect = {
+            add_timed_idea = { idea = african_war_success_eng days = 730 }
+        }
+    }
+}

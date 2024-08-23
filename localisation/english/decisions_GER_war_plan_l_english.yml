@@ -45,3 +45,6 @@
  AST_carrier_nav:0 "Create a new carrier based on 1936 carrier hull and add two in production lines at 80% and 50%."
 
  ITA_Africa_war_mission:0 "Take control of Cairo"
+ ENG_Africa_war_mission:0 "Take control of Lybia"
+ ENG_african_war_category:0 "African War"
+ ITA_african_war_category:0 "African War"
