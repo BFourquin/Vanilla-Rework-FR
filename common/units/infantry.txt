@@ -76,7 +76,7 @@ sub_units = {
 		
 		#Size Definitions
 		max_strength = 22
-		max_organisation = 55
+		max_organisation = 50
 		default_morale = 0.3
 		manpower = 800
 		
@@ -88,6 +88,7 @@ sub_units = {
 		suppression = 1.5
 		weight = 0.5
 		defense = -0.15
+		soft_attack = -0.1
 		
 		supply_consumption = 0.04 #I bring my own supplies
 	
@@ -497,8 +498,8 @@ sub_units = {
 			defence = 0.05
 		}
 		urban = {
-			attack = 0.3
-			movement = 0.3
+			attack = 0.1
+			movement = 0.25
 			defence = 0.1
 		}
 		river = {
@@ -515,7 +516,7 @@ sub_units = {
 			defence = 0.05
 		}
 		fort = {
-			attack = 0.2
+			attack = 0.15
 			movement = 0.1
 			defence = 0.1
 		}
@@ -565,9 +566,9 @@ sub_units = {
 			infantry_equipment = 200
 		}
 		forest = {
-			attack = 0.2
-			defence = 0.2
-			movement = 0.2
+			attack = 0.1
+			defence = 0.1
+			movement = 0.1
 		}
 		desert = {
 			attack = -0.15
@@ -589,9 +590,9 @@ sub_units = {
 			movement = -0.05
 		}
 		jungle = {
-			attack = 0.2
-			movement = 0.2
-			defence = 0.2
+			attack = 0.1
+			movement = 0.1
+			defence = 0.1
 		}
 	}
 
@@ -639,9 +640,9 @@ sub_units = {
 			infantry_equipment = 200
 		}
 		desert = {
-			attack = 0.3
-			defence = 0.3
-			movement = 0.3
+			attack = 0.15
+			defence = 0.15
+			movement = 0.15
 		}
 
 		forest = {
