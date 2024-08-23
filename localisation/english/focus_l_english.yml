@@ -1418,6 +1418,8 @@
  AST_additional_militia_training_desc:0 "Much of our militia is unfit for service - either sick or under-equipped. We are taking steps to remedy this oversight in a dangerous world."
  AST_royal_australian_artillery:0 "Royal Australian Artillery"
  AST_royal_australian_artillery_desc:0 "Artillery is the queen of the battlefield, and we must expand our access to heavy guns."
+ AST_time_for_combat:0 "Time to defend the crown"
+ AST_time_for_combat_desc:0 "We have to recruit all men capable to hold a weapon."
  AST_promote_reservists:0 "Promote Reservists"
  AST_promote_reservists_desc:0 "Though we need a home defense force, promoting militia and reserves into the regular army will give us a needed boost in available soldiers and experience."
  AST_daimler_dingo:0 "Daimler Dingo"

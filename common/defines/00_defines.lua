@@ -1782,7 +1782,7 @@ NNavy = {
 	ESCAPE_SPEED_SUB_BASE = 0.08,									-- subs get faster escape speed. gets replaced by hidden version below if hidden
 	ESCAPE_SPEED_HIDDEN_SUB = 0.18,									-- hidden subs get faster escape speed
 
-	SUB_DETECTION_CHANCE_BASE = 7,									-- to start spotting a submarine, a dice is rolled and checked if it succeeds this percentage. if not, that enemy sub force won't be spotted on this tick
+	SUB_DETECTION_CHANCE_BASE = 6,									-- to start spotting a submarine, a dice is rolled and checked if it succeeds this percentage. if not, that enemy sub force won't be spotted on this tick
 	SUB_DETECTION_CHANCE_BASE_SPOTTING_EFFECT = 0.5,				-- effect of base spotting for initial spotting of pure submarine forces. this along with next value is added together and rolled against a random to start spotting
 	SUB_DETECTION_CHANCE_SPOTTING_SPEED_EFFECT = 2.0,				-- effect of spotting speed for initial spotting of pure submarine forces. this along with prev value is added together and rolled against a random to start spotting
 	SUB_DETECTION_CHANCE_BASE_SPOTTING_POW_EFFECT = 1.5,			-- effect of spotting speed will be powered by this for initial spotting of pure submarine forces. this along with prev value is added together and rolled against a random to start spotting
@@ -1833,7 +1833,7 @@ NNavy = {
 	POSITIONING_PENALTY_HOURLY_DECAY_FOR_NEWLY_JOINED_SHIPS			= 0.05,-- the accumulated penalty from new ships will decay hourly by this value
 
 	DAMAGE_PENALTY_ON_MINIMUM_POSITIONING 							= 0.75,	-- damage penalty at 0% positioning
-	SCREENING_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING				= 0.3,  -- screening efficiency (screen to capital ratio) at 0% positioning
+	SCREENING_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING				= 0.1,  -- screening efficiency (screen to capital ratio) at 0% positioning
 	AA_EFFICIENCY_PENALTY_ON_MINIMUM_POSITIONING					= 0.7,  -- AA penalty at 0% positioning
 	SUBMARINE_REVEAL_ON_MINIMUM_POSITIONING                         = 2.0,  -- submarine reveal change on 0% positioning
 
@@ -1878,8 +1878,8 @@ NNavy = {
 		36.0,	-- small guns
 	},
 
-	DEPTH_CHARGES_HIT_CHANCE_MULT 									= 1.5, 		-- multiplies hit chance of small guns
-	DEPTH_CHARGES_DAMAGE_MULT 										= 0.9, 		-- multiplies damage of depth charges
+	DEPTH_CHARGES_HIT_CHANCE_MULT 									= 1.2, 		-- multiplies hit chance of small guns
+	DEPTH_CHARGES_DAMAGE_MULT 										= 0.7, 		-- multiplies damage of depth charges
 	DEPTH_CHARGES_HIT_PROFILE 										= 100.0,	-- hit profile for depth charges
 
 	CONVOY_HIT_PROFILE												= 85.0,  	-- convoys has this contant hit profile
@@ -1913,7 +1913,7 @@ NNavy = {
 	NAVAL_COMBAT_SUB_DETECTION_FACTOR                               = 1.0,      -- balance value for sub detection in combat by ships
 	SUBMARINE_HIDE_TIMEOUT 											= 20,		-- Amount of in-game-hours that takes the submarine (with position unrevealed), to hide.
 	SUBMARINE_REVEALED_TIMEOUT 										= 16,		-- Amount of in-game-hours that makes the submarine visible if it is on the defender side.
-	SUBMARINE_REVEAL_BASE_CHANCE 									= 14,		-- Base factor for submarine detection. It's modified by the difference of a spotter's submarines detection vs submarine visibility. Use this variable for game balancing. setting this too low will cause bad spotting issues.
+	SUBMARINE_REVEAL_BASE_CHANCE 									= 12,		-- Base factor for submarine detection. It's modified by the difference of a spotter's submarines detection vs submarine visibility. Use this variable for game balancing. setting this too low will cause bad spotting issues.
 	SUBMARINE_REVEAL_POW 											= 3.0,		-- A scaling factor that is applied to the reveal chance in order to make large differences in detection vs visibility more pronounced
 	SUBMARINE_BASE_TORPEDO_REVEAL_CHANCE 							= 0.07,		-- Chance of a submarine being revealed when it fires. 1.0 is 100%. this chance is then multiplied with modifier created by comparing firer's visibiility and target's detection
 

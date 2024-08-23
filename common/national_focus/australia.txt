@@ -1812,7 +1812,7 @@
 		y = 3
 		relative_position_id = AST_cockatoo_island_shipyards
 
-		cost = 10
+		cost = 7.2
 
 		ai_will_do = {
 			factor = 1
@@ -1920,7 +1920,7 @@
 		y = 1
 		relative_position_id = AST_cruisers
 
-		cost = 7.2
+		cost = 10
 
 			available = {
 			OR = {
@@ -2534,7 +2534,7 @@
 		}
 
 		available = {
-				threat > 0.10
+				threat > 0.15
 			}
 		
 		bypass = {
@@ -2942,24 +2942,24 @@
 	}
 
 	focus = {
-		id = AST_research_collaboration
-		icon = GFX_goal_generic_scientific_exchange
+		id = AST_fund_australian_defense_research
+		icon = GFX_focus_research
 		prerequisite = { focus = AST_fight_work_or_perish }
 		prerequisite = { focus = AST_australian_arms_production }
-		x = -5
-		y = 5
-		relative_position_id = AST_establish_advisory_war_council
+		x = -2
+		y = 1
+		relative_position_id = AST_fight_work_or_perish
 
 		cost = 10
 
 		ai_will_do = {
-			factor = 25
+			factor = 1
 		}
 
 		available = {
-			date > 1941.1.1
+	
 		}
-
+		
 		bypass = {
 
 		}
@@ -3150,22 +3150,22 @@
 	}
 
 	focus = {
-		id = AST_fund_australian_defense_research
-		icon = GFX_focus_research
-		prerequisite = { focus = AST_rationing_and_recycling }
+		id = AST_time_for_combat
+		icon = GFX_focus_rom_royal_dictatorship
 		prerequisite = { focus = AST_classify_aliens }
+		prerequisite = { focus = AST_rationing_and_recycling }
 		x = 1
-		y = 4
-		relative_position_id = AST_establish_advisory_war_council
+		y = 1
+		relative_position_id = AST_rationing_and_recycling
 
-		cost = 10
+		cost = 4
 
 		ai_will_do = {
 			factor = 1
 		}
 
 		available = {
-			num_of_factories > 50
+
 		}
 		
 		bypass = {
@@ -3175,12 +3175,14 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		search_filters = { FOCUS_FILTER_RESEARCH }
+		search_filters = { FOCUS_FILTER_MANPOWER }
 
 		completion_reward = {
-			add_research_slot = 1
+			add_manpower = 100000
 		}
 	}
+
+
 
 	############################
 	#### GO WITH UK SECTION ####

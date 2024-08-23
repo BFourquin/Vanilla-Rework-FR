@@ -32,25 +32,6 @@ characters={
 		}
 	}
 
-	MON_Ghazan_Ajai={
-		name="Ghazan Ajai"
-		portraits={
-			army={
-				large=GFX_Portrait_Asia_Generic_land_5
-				small=GFX_Portrait_Asia_Generic_land_5_small
-			}
-		}
-		corps_commander={
-			traits={ cavalry_leader cavalry_expert }
-			skill=4
-			attack_skill=4
-			defense_skill=2
-			planning_skill=4
-			logistics_skill=3
-			legacy_id=10001
-		}
-	}
-
 	MON_Boroghul_Agasiletai={
 		name="Boroghul Agasiletai"
 		portraits={

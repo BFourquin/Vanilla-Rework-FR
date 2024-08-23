@@ -1464,10 +1464,18 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			recruit_character = MON_Ghazan_Ajai
-		}
-	}	
-	
+			create_corps_commander = {
+				name = "Gazai ajai"
+				picture = "GFX_Portrait_Asia_Generic_warlord2"
+				traits={ cavalry_leader cavalry_expert }
+					skill=4
+					attack_skill=4
+					defense_skill=2
+					planning_skill=4
+					logistics_skill=3
+			}
+		}	
+	}
 	
 	focus = {
 		id = MON_spirit_of_genghis
