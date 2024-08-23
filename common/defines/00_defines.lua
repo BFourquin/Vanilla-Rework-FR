@@ -813,7 +813,7 @@ NMilitary = {
 
 	BASE_DIVISION_BRIGADE_GROUP_COST = 1, 	--Base cost to unlock a regiment slot,
 	BASE_DIVISION_BRIGADE_CHANGE_COST = 1,	--Base cost to change a regiment column.
-	BASE_DIVISION_SUPPORT_SLOT_COST = 5, 	--Base cost to unlock a support slot
+	BASE_DIVISION_SUPPORT_SLOT_COST = 2, 	--Base cost to unlock a support slot
 
 	MAX_ARMY_EXPERIENCE = 5000,			--Max army experience a country can store
 	MAX_NAVY_EXPERIENCE = 5000,			--Max navy experience a country can store
