@@ -18557,30 +18557,6 @@ ai_will_do = {
 		}
 	}
 
-	focus = {
-		id = SPR_SOV_GOLD
-		icon = GFX_focus_usa_reestablish_the_gold_standard
-		
-
-		available_if_capitulated = no
-
-		cancel = {
-			is_subject = yes
-			NOT = { country_exists = SOV }
-		}
-		
-		available = {
-			has_global_flag = scw_over
-			NOT = {has_idea = SPR_seized_spanish_gold_reserves }
-		}
-
-		x = 5
-		y = 0
-		cost = 0
-		completion_reward = {
-			add_timed_idea = { idea = gold_scw days = 365 }
-		}
-	}
 }
 ###  ###  ##  ###  ##  #  #  ##  #    	   ## ### #  # ### ###         
 #  # #   #     #  #  # ## # #  # #    	  #    #  #  # #   #   {~._.~} 
