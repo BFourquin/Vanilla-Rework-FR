@@ -64,7 +64,6 @@ if = { #DLC
 		BUL_imro_01
 		
 	}
-	add_ideas = volunteer_brigades
 
 	#Army limitations due to Treaty of Neuilly sur Seine
 	set_rule = { #DLC
