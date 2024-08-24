@@ -75,9 +75,9 @@ sub_units = {
 		combat_width = 2
 		
 		#Size Definitions
-		max_strength = 22
+		max_strength = 20
 		max_organisation = 50
-		default_morale = 0.3
+		default_morale = 0.25
 		manpower = 800
 		
 		soft_attack = -0.2 #Some of the anti-infantry stuff were taken to the front
