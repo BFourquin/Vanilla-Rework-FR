@@ -1,6 +1,7 @@
 ﻿l_english:
 
 spanish_war: "Spanish Civil War Intervention"
+post_spanish_war: "Our turn to help with volunteers"
 
 spain_volunteer_minor:0 "Send volunteers (Minor)"
 spain_volunteer_sov:0 "Send volunteers (Soviet)"
@@ -10,3 +11,4 @@ spain_volunteer_jap:0 "Send volunteers (Japan)"
 spain_recall_volunteer:0 "Recall the volunteers"
 spain_republican_capitulation:0 "The Republicans are lost"
 spain_nationalist_survival:0 "Save the Nationalists"
+volunteer_nation:0 "Volunteers nation"

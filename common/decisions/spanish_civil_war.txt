@@ -235,3 +235,35 @@ spanish_war = {
 	}	
 
 }
+
+
+
+post_spanish_war = {
+
+	
+	volunteer_nation = {
+
+		icon = generic_prepare_civil_war
+
+		#available = {
+		#	SPR_scw_in_progress = yes
+		#}
+
+		visible = {
+			has_global_flag = scw_over
+			original_tag = SPR
+			
+		}
+
+		complete_effect = {
+			add_ideas = volunteer_nation
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		fire_only_once = yes
+	}
+}
+	
