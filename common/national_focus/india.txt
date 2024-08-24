@@ -635,7 +635,7 @@ focus_tree = {
 		y = 4
 		relative_position_id = RAJ_all_india_forward_bloc
 
-		cost = 10
+		cost = 7.2
 
 		ai_will_do = {
 			factor = 25
@@ -662,7 +662,7 @@ focus_tree = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
@@ -684,7 +684,7 @@ focus_tree = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
-					level = 2
+					level = 1
 					instant_build = yes
 				}
 			}
