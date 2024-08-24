@@ -21,7 +21,7 @@ ideas = {
 			}
 
 			cancel = {
-				NOT = {SPR_scw_in_progress = yes}
+				has_global_flag = scw_over
 			}
 		}
 
@@ -41,6 +41,10 @@ ideas = {
 				send_volunteer_divisions_required = -1
 				send_volunteer_size = 8
 			}
+			
+			cancel = {
+				has_global_flag = scw_over
+			}
 		}
 
 
@@ -58,6 +62,10 @@ ideas = {
 			modifier = {
 				send_volunteer_divisions_required = -1
 				send_volunteer_size = 6
+			}
+			
+			cancel = {
+				has_global_flag = scw_over
 			}
 		}
 
@@ -77,6 +85,10 @@ ideas = {
 				send_volunteer_divisions_required = -1
 				send_volunteer_size = 3
 			}
+			
+			cancel = {
+				has_global_flag = scw_over
+			}
 		}
 
 
@@ -94,6 +106,10 @@ ideas = {
 			modifier = {
 				send_volunteer_divisions_required = -1
 				send_volunteer_size = 3
+			}
+			
+			cancel = {
+				has_global_flag = scw_over
 			}
 		}
 
