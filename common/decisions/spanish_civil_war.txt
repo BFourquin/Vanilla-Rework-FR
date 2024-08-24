@@ -10,6 +10,7 @@ spanish_war = {
 		}
 
 		visible = {
+			NOT = { has_global_flag = scw_over }
 			OR = {
 				original_tag = ROM
 				original_tag = HUN
@@ -51,6 +52,7 @@ spanish_war = {
 		}
 		visible = {
 			original_tag = SOV
+			NOT = { has_global_flag = scw_over }
 		}
 
 		complete_effect = {
@@ -74,6 +76,7 @@ spanish_war = {
 		}
 		visible = {
 			original_tag = GER
+			NOT = { has_global_flag = scw_over }
 		}
 
 		complete_effect = {
@@ -97,6 +100,7 @@ spanish_war = {
 		}
 		visible = {
 			original_tag = ITA
+			NOT = { has_global_flag = scw_over }
 		}
 
 
@@ -121,6 +125,7 @@ spanish_war = {
 		}
 		visible = {
 			original_tag = JAP
+			NOT = { has_global_flag = scw_over }
 		}
 
 
@@ -148,7 +153,8 @@ spanish_war = {
 		}
 
 		visible = {
-			has_volunteers_amount_from = { tag = ROOT count > 0 }
+			#has_volunteers_amount_from = { tag = ROOT count > 0 }
+			NOT = { has_global_flag = scw_over }
 		}
 
 		complete_effect = {
@@ -178,6 +184,7 @@ spanish_war = {
 				original_tag = SOV
 				original_tag = SPA
 			}
+			NOT = { has_global_flag = scw_over }
 		}
 
 		complete_effect = {
