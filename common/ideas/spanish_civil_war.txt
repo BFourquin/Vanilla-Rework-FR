@@ -1,0 +1,103 @@
+
+
+ideas = {
+
+	country = {
+
+		spain_volunteer_minor = {
+
+			picture = SPR_nationalist_remnants
+
+			removal_cost = -1
+
+			allowed_civil_war = {
+			}
+
+			rule = { can_send_volunteers = yes }
+			
+			modifier = {
+				send_volunteer_divisions_required = -1
+				send_volunteer_size = 2
+			}
+
+			cancel = {
+				NOT = {SPR_scw_in_progress = yes}
+			}
+		}
+
+
+		spain_volunteer_sov = {
+
+			picture = SPR_nationalist_remnants
+
+			removal_cost = -1
+
+			allowed_civil_war = {
+			}
+
+			rule = { can_send_volunteers = yes }
+			
+			modifier = {
+				send_volunteer_divisions_required = -1
+				send_volunteer_size = 8
+			}
+		}
+
+
+		spain_volunteer_ger = {
+
+			picture = SPR_nationalist_remnants
+
+			removal_cost = -1
+
+			allowed_civil_war = {
+			}
+
+			rule = { can_send_volunteers = yes }
+			
+			modifier = {
+				send_volunteer_divisions_required = -1
+				send_volunteer_size = 6
+			}
+		}
+
+
+		spain_volunteer_ita = {
+
+			picture = SPR_nationalist_remnants
+
+			removal_cost = -1
+
+			allowed_civil_war = {
+			}
+
+			rule = { can_send_volunteers = yes }
+			
+			modifier = {
+				send_volunteer_divisions_required = -1
+				send_volunteer_size = 3
+			}
+		}
+
+
+		spain_volunteer_jap = {
+
+			picture = SPR_nationalist_remnants
+
+			removal_cost = -1
+
+			allowed_civil_war = {
+			}
+
+			rule = { can_send_volunteers = yes }
+			
+			modifier = {
+				send_volunteer_divisions_required = -1
+				send_volunteer_size = 3
+			}
+		}
+
+
+    }
+
+}
