@@ -279,7 +279,7 @@ equipment_modules = {
 		}
 		add_average_stats = {
 			hg_armor_piercing = 31
-			lg_armor_piercing = 15
+			lg_armor_piercing = 8
 		}
 		build_cost_resources = {
 			steel = 1
@@ -308,7 +308,7 @@ equipment_modules = {
 		}
 		add_average_stats = {
 			hg_armor_piercing = 36
-			lg_armor_piercing = 20
+			lg_armor_piercing = 12
 		}
 		build_cost_resources = {
 			steel = 1
@@ -342,7 +342,7 @@ equipment_modules = {
 		}
 		add_average_stats = {
 			hg_armor_piercing = 40
-			lg_armor_piercing = 25
+			lg_armor_piercing = 15
 		}
 		build_cost_resources = {
 			steel = 1
@@ -378,7 +378,7 @@ equipment_modules = {
 		}
 		add_average_stats = {
 			hg_armor_piercing = 45
-			lg_armor_piercing = 29
+			lg_armor_piercing = 18
 		}
 		build_cost_resources = {
 			steel = 1
@@ -417,7 +417,7 @@ equipment_modules = {
 		}
 		add_average_stats = {
 			hg_armor_piercing = 45
-			lg_armor_piercing = 35
+			lg_armor_piercing = 21
 		}
 		critical_parts = { damaged_heavy_guns }
 	}
@@ -446,7 +446,7 @@ equipment_modules = {
 		}
 		add_average_stats = {
 			hg_armor_piercing = 22
-			lg_armor_piercing = 6	
+			lg_armor_piercing = 3	
 		}
 		build_cost_resources = {
 			steel = 1
@@ -486,6 +486,7 @@ equipment_modules = {
 		}
 		add_average_stats = {
 			hg_armor_piercing = 25
+			lg_armor_piercing = 5
 		}
 		build_cost_resources = {
 			steel = 1
@@ -525,6 +526,7 @@ equipment_modules = {
 		}
 		add_average_stats = {
 			hg_armor_piercing = 29
+			lg_armor_piercing = 7
 		}
 		build_cost_resources = {
 			steel = 2
@@ -570,6 +572,7 @@ equipment_modules = {
 		}
 		add_average_stats = {
 			hg_armor_piercing = 34
+			lg_armor_piercing = 9
 		}
 		build_cost_resources = {
 			steel = 2

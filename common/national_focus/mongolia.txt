@@ -1063,7 +1063,7 @@ focus_tree = {
 		completion_reward = {
 			add_offsite_building = { 
 				type = industrial_complex
-				level = 1 
+				level = 2
 			}
 			add_state_core = 759
 			add_state_core = 287
@@ -1098,7 +1098,7 @@ focus_tree = {
     		uses = 1
     		category = industry
 			}
-			add_timed_idea = { idea = MON_restauration days = 250 }
+			add_timed_idea = { idea = MON_restauration days = 365 }
 		}
 	}
 	
