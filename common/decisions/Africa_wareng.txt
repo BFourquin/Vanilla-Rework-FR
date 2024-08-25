@@ -14,7 +14,7 @@ ENG_african_war_category ={
             controls_state = 451
         }
 
-        days_mission_timeout = 930
+        days_mission_timeout = 1095
 
         activation = {
             has_war_with = ITA

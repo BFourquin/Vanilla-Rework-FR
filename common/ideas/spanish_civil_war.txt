@@ -1,0 +1,135 @@
+
+
+ideas = {
+
+	country = {
+
+		spain_volunteer_minor = {
+
+			picture = SPR_nationalist_remnants
+
+			removal_cost = -1
+
+			allowed_civil_war = {
+			}
+
+			rule = { can_send_volunteers = yes }
+			
+			modifier = {
+				send_volunteer_divisions_required = -1
+				send_volunteer_size = 1  # +1 from base size
+			}
+
+			cancel = {
+				has_global_flag = scw_over
+			}
+		}
+
+
+		spain_volunteer_sov = {
+
+			picture = SPR_nationalist_remnants
+
+			removal_cost = -1
+
+			allowed_civil_war = {
+			}
+
+			rule = { can_send_volunteers = yes }
+			
+			modifier = {
+				send_volunteer_divisions_required = -1
+				send_volunteer_size = 7  # +1 from base size
+			}
+			
+			cancel = {
+				has_global_flag = scw_over
+			}
+		}
+
+
+		spain_volunteer_ger = {
+
+			picture = SPR_nationalist_remnants
+
+			removal_cost = -1
+
+			allowed_civil_war = {
+			}
+
+			rule = { can_send_volunteers = yes }
+			
+			modifier = {
+				send_volunteer_divisions_required = -1
+				send_volunteer_size = 5  # +1 from base size
+			}
+			
+			cancel = {
+				has_global_flag = scw_over
+			}
+		}
+
+
+		spain_volunteer_ita = {
+
+			picture = SPR_nationalist_remnants
+
+			removal_cost = -1
+
+			allowed_civil_war = {
+			}
+
+			rule = { can_send_volunteers = yes }
+			
+			modifier = {
+				send_volunteer_divisions_required = -1
+				send_volunteer_size = 2  # +1 from base size
+			}
+			
+			cancel = {
+				has_global_flag = scw_over
+			}
+		}
+
+
+		spain_volunteer_jap = {
+
+			picture = SPR_nationalist_remnants
+
+			removal_cost = -1
+
+			allowed_civil_war = {
+			}
+
+			rule = { can_send_volunteers = yes }
+			
+			modifier = {
+				send_volunteer_divisions_required = -1
+				send_volunteer_size = 2  # +1 from base size
+			}
+			
+			cancel = {
+				has_global_flag = scw_over
+			}
+		}
+
+
+		volunteer_nation = {
+
+			picture = SPR_nationalist_remnants
+
+			removal_cost = -1
+
+			rule = { can_send_volunteers = yes }
+			
+			modifier = {
+				send_volunteer_divisions_required = -1
+				send_volunteer_size = 19  # +1 from base size
+			}
+			
+		}
+
+
+    }
+
+}

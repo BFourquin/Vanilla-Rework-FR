@@ -271,6 +271,7 @@ equipment_modules = {
 		add_stats = {
 			
 			hg_attack = 14
+			lg_attack = 3
 			build_cost_ic = 1550
 		}
 		multiply_stats = {
@@ -278,6 +279,7 @@ equipment_modules = {
 		}
 		add_average_stats = {
 			hg_armor_piercing = 31
+			lg_armor_piercing = 15
 		}
 		build_cost_resources = {
 			steel = 1
@@ -298,6 +300,7 @@ equipment_modules = {
 		
 		add_stats = {
 			hg_attack = 18
+			lg_attack = 5
 			build_cost_ic = 1650
 		}
 		multiply_stats = {
@@ -305,6 +308,7 @@ equipment_modules = {
 		}
 		add_average_stats = {
 			hg_armor_piercing = 36
+			lg_armor_piercing = 20
 		}
 		build_cost_resources = {
 			steel = 1
@@ -330,6 +334,7 @@ equipment_modules = {
 		
 		add_stats = {
 			hg_attack = 22
+			lg_attack = 8
 			build_cost_ic = 1750
 		}
 		multiply_stats = {
@@ -337,6 +342,7 @@ equipment_modules = {
 		}
 		add_average_stats = {
 			hg_armor_piercing = 40
+			lg_armor_piercing = 25
 		}
 		build_cost_resources = {
 			steel = 1
@@ -363,6 +369,7 @@ equipment_modules = {
 		add_stats = {
 			
 			hg_attack = 26
+			lg_attack = 12
 			build_cost_ic = 1850
 			
 		}
@@ -371,6 +378,7 @@ equipment_modules = {
 		}
 		add_average_stats = {
 			hg_armor_piercing = 45
+			lg_armor_piercing = 29
 		}
 		build_cost_resources = {
 			steel = 1
@@ -397,6 +405,7 @@ equipment_modules = {
 		
 		add_stats = {
 			hg_attack = 27
+			lg_attack = 20
 			build_cost_ic = 2000
 		}
 		build_cost_resources = {
@@ -408,6 +417,7 @@ equipment_modules = {
 		}
 		add_average_stats = {
 			hg_armor_piercing = 45
+			lg_armor_piercing = 35
 		}
 		critical_parts = { damaged_heavy_guns }
 	}

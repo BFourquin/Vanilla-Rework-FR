@@ -15,8 +15,8 @@ state={
 		owner = RAJ
 		buildings = {
 			infrastructure = 1
-			arms_factory = 3
-			industrial_complex = 4
+			arms_factory = 2
+			industrial_complex = 2
 		}
 		victory_points = {
 			8010 3 
