@@ -1194,7 +1194,10 @@ ideas = {
 				navy_anti_air_attack_factor = 0.1
 				army_attack_factor = 0.2
 				fortification_damage = 0.2
-				naval_invasion_prep_speed = 0.25
+				naval_invasion_prep_speed = 0.5
+				amphibious_invasion = 0.25
+				invasion_preparation = -0.3
+				naval_invasion_capacity = 75
 				naval_damage_factor = 0.15
 				naval_morale = 0.25
 			}
