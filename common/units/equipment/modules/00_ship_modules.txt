@@ -334,7 +334,7 @@ equipment_modules = {
 		
 		add_stats = {
 			hg_attack = 22
-			lg_attack = 8
+			lg_attack = 7
 			build_cost_ic = 1750
 		}
 		multiply_stats = {
@@ -369,7 +369,7 @@ equipment_modules = {
 		add_stats = {
 			
 			hg_attack = 26
-			lg_attack = 12
+			lg_attack = 9
 			build_cost_ic = 1850
 			
 		}
@@ -405,7 +405,7 @@ equipment_modules = {
 		
 		add_stats = {
 			hg_attack = 27
-			lg_attack = 20
+			lg_attack = 11
 			build_cost_ic = 2000
 		}
 		build_cost_resources = {
