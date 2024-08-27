@@ -10,7 +10,7 @@ state={
 		steel = 40
 	}
 	history={
-		add_core_of = RAJ
+		add_core_of = BRM
 		owner = RAJ
 		buildings = {
 			infrastructure = 2
