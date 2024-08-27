@@ -4,8 +4,6 @@ state={
 	name="STATE_514"
 
 	history={
-		owner = NEU
-		add_core_of = NEU
 		buildings = {
 			infrastructure = 0
 

@@ -6,8 +6,6 @@ state={
 	impassable = yes
 
 	history={
-		owner = NEU
-		add_core_of = NEU
 
 	}
 
