@@ -69,7 +69,7 @@ ideas = {
 			picture = generic_exploit_mines
 			
 			modifier = {
-				production_speed_industrial_complex_factor = 0.15
+				production_speed_industrial_complex_factor = 0.1
 			}
 		}
 

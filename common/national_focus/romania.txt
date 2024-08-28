@@ -107,13 +107,8 @@ focus_tree = {
 		}
 
 		available = {
-			NOT = { has_war_with = SOU }
-			SOU = {
-				exists = yes
-				is_puppet = no
-				has_civil_war = no
-			}
-		}
+            has_game_rule = { rule = RULE_ALLOW_AHISTORICAL option = AHISTORICAL_ENABLED } 
+        }
 
 		bypass = {
 
@@ -568,14 +563,8 @@ focus_tree = {
 		}
 
 		available = {
-			POL = { 
-				exists = yes 
-				is_puppet = no
-				has_game_rule = { rule = RULE_ALLOW_AHISTORICAL option = AHISTORICAL_ENABLED } 
-			}
-			NOT = { has_war_with = POL }
-			is_subject = no
-		}
+            has_game_rule = { rule = RULE_ALLOW_AHISTORICAL option = AHISTORICAL_ENABLED } 
+        }
 
 		bypass = {
 
@@ -1528,8 +1517,8 @@ focus_tree = {
 		}
 
 		available = {
-
-		}
+            has_game_rule = { rule = RULE_ALLOW_AHISTORICAL option = AHISTORICAL_ENABLED } 
+        }
 
 		bypass = {
 

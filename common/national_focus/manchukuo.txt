@@ -308,9 +308,7 @@
 			factor = 10
 		}
 
-		available = {
-			is_subject = no
-		}
+		available = { has_completed_focus = MAN_assertiveness }
 
 		bypass = {
 
@@ -1832,13 +1830,8 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			if = {
-				limit = {
-					is_subject_of = JAP
-				}
-				unlock_decision_tooltip = MAN_prepare_to_seize_arms
-			}
-			add_stability = 0.1
+			
+			add_stability = 0.15
 			
 			if = {
 				limit = {

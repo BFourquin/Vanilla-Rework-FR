@@ -106,7 +106,6 @@ script_enum_equipment_category = {
 	train
 	floating_harbor
 	railway_gun
-	siege_gun
 	armor
 	motorized
 	mechanized
@@ -151,7 +150,6 @@ script_enum_equipment_bonus_type = {
 	train
 	floating_harbor
 	railway_gun
-	siege_gun
 	armor
 	motorized
 	mechanized
@@ -254,8 +252,6 @@ script_enum_equipment_bonus_type = {
 	transport_plane_equipment_1
 	railway_gun_equipment
 	railway_gun_equipment_1
-	siege_gun_equipment
-	siege_gun_equipment_1
 	ship_hull_carrier
 	ship_hull_carrier_1
 	ship_hull_carrier_2
