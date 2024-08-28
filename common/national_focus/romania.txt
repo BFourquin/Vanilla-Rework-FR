@@ -3774,7 +3774,7 @@ focus_tree = {
 	focus = {
 		id = ROM_army_maneuvers
 		icon = GFX_goal_generic_army_doctrines
-		x = 40
+		x = 44
 		y = 0
 
 		cost = 10
@@ -3876,6 +3876,151 @@ focus_tree = {
 				bonus = 1.0
 				uses = 1
 				category = infantry_weapons
+			}
+		}
+	}
+
+	focus = {
+		id = ROM_Marine_SF
+		icon = GFX_focus_generic_naval_discipline
+		prerequisite = { focus = ROM_the_zb_53 }
+		mutually_exclusive = { focus = ROM_jaeger_SF }
+		x = -3
+		y = 1
+		relative_position_id = ROM_the_zb_53
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = marine_tech
+			}
+		}
+	}
+
+	focus = {
+		id = ROM_jaeger_SF
+		icon = GFX_focus_FIN_jaeger_movement
+		prerequisite = { focus = ROM_the_zb_53 }
+		mutually_exclusive = { focus = ROM_Marine_SF }
+		x = -5
+		y = 1
+		relative_position_id = ROM_the_zb_53
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = category_jaeger_tech
+			}
+		}
+	}
+
+	focus = {
+		id = ROM_shocktroop_SF
+		icon = GFX_focus_ITA_moschettieri_del_duce
+		prerequisite = { focus = ROM_Marine_SF focus = ROM_jaeger_SF }
+		x = 1
+		y = 1
+		relative_position_id = ROM_jaeger_SF
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = category_shocktroop_tech
+			}
+		}
+	}
+
+	focus = {
+		id = ROM_doctrine_FS
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = ROM_shocktroop_SF }
+		x = 0
+		y = 1
+		relative_position_id = ROM_shocktroop_SF
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			if = {
+				limit = { has_dlc = "Arms Against Tyranny" }
+				add_doctrine_cost_reduction = {
+					cost_reduction = 0.75
+					uses = 2
+					category = special_forces_doctrine
+				}
 			}
 		}
 	}
@@ -4469,7 +4614,7 @@ focus_tree = {
 	focus = {
 		id = ROM_expand_the_galati_shipyards
 		icon = GFX_goal_generic_construct_naval_dockyard
-		x = 47
+		x = 52
 		y = 0
 
 		cost = 10
@@ -4848,51 +4993,6 @@ focus_tree = {
 				bonus = 1.0
 				uses = 1
 				category = naval_bomber
-			}
-		}
-	}
-
-	focus = {
-		id = ROM_expand_the_marine_regiment
-		icon = GFX_goal_generic_amphibious_assault
-		prerequisite = { focus = ROM_capital_ships }
-		x = 2
-		y = 2
-		relative_position_id = ROM_black_sea_dominance
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			add_tech_bonus = {
-				name = ROM_expand_the_marine_regiment
-				bonus = 0.5
-				uses = 2
-				category = tp_tech
-				category = marine_tech
-			}
-			if = {
-				limit = { has_dlc = "Arms Against Tyranny" }
-				add_doctrine_cost_reduction = {
-					cost_reduction = 0.5
-					uses = 2
-					category = special_forces_doctrine
-				}
 			}
 		}
 	}
