@@ -1229,8 +1229,6 @@
 				}
 			}
 			add_named_threat = { threat = 1 name = JAP_intervene_in_china }
-			add_ideas = JAP_intervene_in_china_5
-			unlock_decision_tooltip = JAP_china_step_up_war_effort
 		}
 	}
 
@@ -1272,10 +1270,13 @@
 
 		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
 		completion_reward = {
-			JAP_intervene_in_china_remove = yes
-			add_named_threat = { threat = 15 name = JAP_secure_china }		
+			add_named_threat = { threat = 15 name = JAP_secure_china }
+			add_research_slot = 1		
 			USA = { add_war_support = 0.05 }	
 			unlock_decision_tooltip = JAP_ichi_go
+			army_experience = 150
+			navy_experience = 150
+			air_experience = 150
 		}
 	}
 
@@ -2054,7 +2055,6 @@
 		}
 
 		available = {
-			has_war = yes
 		}
 
 		bypass = {
@@ -2113,6 +2113,7 @@
 					level = 2
 					instant_build = yes
 				}
+				
 				set_state_flag = JAP_nationalize_war_industry_AF
 			}
 			random_owned_controlled_state = {
@@ -2138,9 +2139,9 @@
 					level = 2
 					instant_build = yes
 				}
+
 				set_state_flag = JAP_nationalize_war_industry_IC
 			}
-			add_timed_idea = { idea = JAP_industrialisation days = 1250 }
 		}
 	}
 
@@ -2212,7 +2213,7 @@
 				uses = 1
 				category = synth_resources	
 			}
-			add_timed_idea = { idea = JAP_industrialisation_two days = 300 }
+			add_timed_idea = { idea = JAP_industrialisation_two days = 110 }
 			random_owned_controlled_state = {
 				limit = {
 					ROOT = { has_full_control_of_state = PREV }
