@@ -2142,7 +2142,6 @@
 
 				set_state_flag = JAP_nationalize_war_industry_IC
 			}
-			add_timed_idea = { idea = JAP_industrialisation days = 365 }
 		}
 	}
 
@@ -2214,6 +2213,7 @@
 				uses = 1
 				category = synth_resources	
 			}
+			add_timed_idea = { idea = JAP_industrialisation_two days = 110 }
 			random_owned_controlled_state = {
 				limit = {
 					ROOT = { has_full_control_of_state = PREV }

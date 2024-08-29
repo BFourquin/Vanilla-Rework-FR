@@ -261,8 +261,27 @@ ideas = {
 			picture = generic_central_management
 			
 			modifier = {
-				production_speed_dockyard_factor = 0.2
-				production_speed_arms_factory_factor = 0.2
+				production_speed_dockyard_factor = 0.30
+
+			}
+		}
+		JAP_industrialisation_two = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_local_self_management
+			
+			modifier = {
+				production_speed_dockyard_factor = 0.30
+
 			}
 		}
 
