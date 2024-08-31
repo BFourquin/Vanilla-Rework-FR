@@ -430,6 +430,8 @@
  MON_independance_path_desc:0 "Our country is on the good path to avoid the influence of communism."
  MON_restauration:0 "Former Empire Restoration"
  MON_restauration_desc:0 "It's time to engage our restoration"
+ MON_socialism:0 "Socialism required"
+ MON_forced_mob:0 "Forced mobilization"
  #generic_communist_revolutionary:0 "Communist Politician"
  #generic_democratic_reformer:0 "Democratic Politician"
  #generic_fascist_demagogue:0 "Fascist Politician"
