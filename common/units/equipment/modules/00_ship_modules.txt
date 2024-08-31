@@ -282,7 +282,7 @@ equipment_modules = {
 			lg_armor_piercing = 8
 		}
 		build_cost_resources = {
-			steel = 1
+			# steel = 1
 		}
 		can_convert_from = {
 			module_category = ship_heavy_battery
@@ -311,7 +311,7 @@ equipment_modules = {
 			lg_armor_piercing = 12
 		}
 		build_cost_resources = {
-			steel = 1
+			# steel = 1
 		}
 		can_convert_from = {
 			module_category = ship_heavy_battery
@@ -333,8 +333,8 @@ equipment_modules = {
 		add_equipment_type = capital_ship
 		
 		add_stats = {
-			hg_attack = 22
-			lg_attack = 7
+			hg_attack = 25
+			lg_attack = 10
 			build_cost_ic = 1750
 		}
 		multiply_stats = {
@@ -449,7 +449,7 @@ equipment_modules = {
 			lg_armor_piercing = 3	
 		}
 		build_cost_resources = {
-			steel = 1
+			# steel = 1
 		}
 
 		forbid_module_categories = {
@@ -476,8 +476,8 @@ equipment_modules = {
 
 		add_equipment_type = capital_ship
 		add_stats = {
-			hg_attack = 7.5
-			lg_attack = 2.5
+			hg_attack = 8
+			lg_attack = 3
 			build_cost_ic = 700
 		}
 		multiply_stats = {
@@ -489,7 +489,7 @@ equipment_modules = {
 			lg_armor_piercing = 5
 		}
 		build_cost_resources = {
-			steel = 1
+			# steel = 1
 		}
 
 		forbid_module_categories = {
@@ -516,8 +516,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			hg_attack = 8.5
-			lg_attack = 3
+			hg_attack = 9
+			lg_attack = 3.5
 			build_cost_ic = 725
 		}
 		multiply_stats = {
@@ -529,7 +529,7 @@ equipment_modules = {
 			lg_armor_piercing = 7
 		}
 		build_cost_resources = {
-			steel = 2
+			steel = 1
 		}
 
 		forbid_module_categories = {

@@ -6,6 +6,11 @@ state={
 	
 	state_category = metropolis
 	
+	resources={
+		tungsten=50
+	}
+
+
 	history={
 		owner = RAJ
 		buildings = {

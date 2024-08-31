@@ -6,7 +6,7 @@ state={
 	resources = {
 		aluminium = 30.000
 		chromium = 20.000
-		steel = 50
+		steel = 10
 
 	}
 	buildings_max_level_factor = 1

@@ -200,6 +200,7 @@ focus_tree = {
 		id = RAJ_quit_india_movement
 		icon = GFX_goal_generic_propaganda
 		prerequisite = { focus = RAJ_swaraj focus = RAJ_cripps_mission }
+		mutually_exclusive = { focus = RAJ_two_nation_theory }
 		x = 0
 		y = 2
 		relative_position_id = RAJ_swaraj
@@ -225,6 +226,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_stability = 0.1
 			add_ideas = RAJ_quit_india_movement
 			set_country_flag = RAJ_quit_india_movement
 			custom_effect_tooltip = "tfv_raj_quit_india_unrest_tt"
@@ -1170,6 +1172,7 @@ focus_tree = {
 		id = RAJ_two_nation_theory
 		icon = GFX_focus_RAJ_two_nation_theory
 		prerequisite = { focus = RAJ_cripps_mission focus = RAJ_swaraj }
+		mutually_exclusive = { focus = RAJ_quit_india_movement }
 		x = 0
 		y = 2
 		relative_position_id = RAJ_indian_national_congress
@@ -3506,13 +3509,14 @@ focus_tree = {
 		}
 
 		available = {
-			if = {
-				limit = { NOT = { has_government = fascism } }
-				compare_autonomy_state > autonomy_colony
-			}
-			if = {
-				limit = { has_government = fascism }
-				compare_autonomy_state > autonomy_reichsprotectorate
+			OR = {
+				AND = {
+					compare_autonomy_state > autonomy_colony
+					is_subject_of = ENG
+				}
+				AND = {
+					NOT = { is_subject_of = ENG }
+				}
 			}
 		}
 
@@ -3544,7 +3548,15 @@ focus_tree = {
 		}
 
 		available = {
-			is_subject = no
+			OR = {
+				AND = {
+					compare_autonomy_state > autonomy_colony
+					is_subject_of = ENG
+				}
+				AND = {
+					NOT = { is_subject_of = ENG }
+				}
+			}
 		}
 
 		bypass = {
@@ -3659,12 +3671,10 @@ focus_tree = {
 		available = {
 			OR = {
 				AND = {
-					compare_autonomy_progress_ratio > 0.4
 					compare_autonomy_state > autonomy_puppet
 					is_subject_of = ENG
 				}
 				AND = {
-					has_global_flag = ENG_decolonized
 					is_in_faction_with = ENG
 				}
 			}
@@ -3714,7 +3724,7 @@ focus_tree = {
 				localization = RAJ_strengthen_ties_with_british_investors
 			}
 			random_owned_controlled_state = {
-				prioritize = {  }
+				prioritize = { 437 }
 				limit = {
 					free_building_slots = {
 						building = arms_factory
@@ -3726,6 +3736,12 @@ focus_tree = {
 				add_building_construction = {
 					type = arms_factory
 					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
 					instant_build = yes
 				}
 				set_state_flag = RAJ_strengthen_ties_with_british_investors_AF1
@@ -3765,9 +3781,15 @@ focus_tree = {
 		}
 
 		available = {
-			compare_autonomy_progress_ratio > 0.4
-			compare_autonomy_state > autonomy_puppet
-			is_subject_of = ENG
+			OR = {
+				AND = {
+					compare_autonomy_state > autonomy_colony
+					is_subject_of = ENG
+				}
+				AND = {
+					NOT = { is_subject_of = ENG }
+				}
+			}
 		}
 
 		bypass = {
@@ -3867,9 +3889,15 @@ focus_tree = {
 		}
 
 		available = {
-			compare_autonomy_progress_ratio > 0.4
-			compare_autonomy_state > autonomy_puppet
-			is_subject_of = ENG
+			OR = {
+				AND = {
+					compare_autonomy_state > autonomy_colony
+					is_subject_of = ENG
+				}
+				AND = {
+					NOT = { is_subject_of = ENG }
+				}
+			}
 		}
 
 		bypass = {
