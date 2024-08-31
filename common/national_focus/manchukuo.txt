@@ -451,7 +451,7 @@
 		}
 
 		available = {
-            has_game_rule = { rule = RULE_ALLOW_AHISTORICAL option = AHISTORICAL_ENABLED } 
+            
         }
 
 		bypass = {

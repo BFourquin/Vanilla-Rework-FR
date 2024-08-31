@@ -2086,7 +2086,7 @@ equipment_modules = {
 		
 		
 		add_stats = {
-			sub_attack = 9
+			sub_attack = 7
 			build_cost_ic = 90
 		}
 
@@ -2107,7 +2107,7 @@ equipment_modules = {
 		parent = ship_depth_charge_1
 		
 		add_stats = {
-			sub_attack = 13
+			sub_attack = 11
 			build_cost_ic = 120
 		}
 
@@ -2128,7 +2128,7 @@ equipment_modules = {
 		parent = ship_depth_charge_2
 		
 		add_stats = {
-			sub_attack = 17
+			sub_attack = 15
 			build_cost_ic = 150
 		}
 
@@ -2149,7 +2149,7 @@ equipment_modules = {
 		parent = ship_depth_charge_3
 		
 		add_stats = {
-			sub_attack = 21
+			sub_attack = 20
 			build_cost_ic = 180
 		}
 
@@ -2178,7 +2178,7 @@ equipment_modules = {
 		gfx = ship_sub_snorkel_1
 		
 		multiply_stats = {
-			sub_visibility = -0.15 
+			sub_visibility = -0.2
 		}
 		
 		add_stats = {

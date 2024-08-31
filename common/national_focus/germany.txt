@@ -6506,9 +6506,10 @@ focus_tree = {
 		}
 
 		available = {
-			is_subject = no
-			has_government = fascism
+			NOT = { has_country_flag = britain_enforced_our_loyalty }
+			 has_game_rule = { rule = RULE_ALLOW_AHISTORICAL option = AHISTORICAL_ENABLED }
 		}
+
 		x = 55
 		y = 0
 
