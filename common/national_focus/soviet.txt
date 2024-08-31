@@ -1864,7 +1864,7 @@ focus_tree = {
 		id = SOV_transformation_of_nature
 
 		icon = GFX_SOV_transformation_of_nature_ccp_2d_sov_compatibility
-		prerequisite = { focus = SOV_fourth_five_year_plan }
+
 		prerequisite = { focus = SOV_national_academies_of_sciences }
 		x = 2
 		y = 0
@@ -18489,7 +18489,7 @@ ai_will_do = {
 		
 		available = {
 			casualties > 100
-			surrender_progress > 0.35
+			surrender_progress > 0.5
 		}
 
 		completion_reward = {
@@ -18511,7 +18511,6 @@ ai_will_do = {
 							infantry = { x = 2 y = 2 }
 							}
 							support = {
-							#recon = { x = 0 y = 0 }
 							engineer = { x = 0 y = 1 }
 							artillery = { x = 0 y = 0 } 	
 							}
@@ -18520,7 +18519,7 @@ ai_will_do = {
 					limit = { ROOT = { has_full_control_of_state = PREV } }
 					prioritize = { 249 }
 					create_unit = {
-						division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 1.0" 
+						division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.1" 
 						owner = SOV
 						count = 50
 					}
