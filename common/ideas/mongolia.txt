@@ -221,7 +221,7 @@ ideas = {
 		MON_independance_path = {
 
 			allowed = {
-				always = yes
+				always = no
 			}
 
 			allowed_civil_war = {
@@ -242,7 +242,7 @@ ideas = {
 		MON_restauration = {
 
 			allowed = {
-				always = yes
+				always = no
 			}
 
 			allowed_civil_war = {
@@ -263,6 +263,48 @@ ideas = {
 					instant = yes
 					}
 				}
+		}
+
+		MON_socialism = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = saf_soviet_advisers
+
+			modifier = {
+               resistance_growth = -0.1
+			   compliance_growth = 0.05
+			   stability_factor = -0.05
+			   communism_drift = 0.03
+			}
+		}
+
+		MON_forced_mob = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			modifier = {
+               conscription_factor = 0.1
+			   local_resources_factor = -0.05
+			}
 		}
     }
 }

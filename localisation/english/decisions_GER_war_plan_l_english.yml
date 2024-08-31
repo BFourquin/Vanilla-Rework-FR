@@ -48,3 +48,20 @@
  ENG_Africa_war_mission:0 "Take control of Lybia"
  ENG_african_war_category:0 "African War"
  ITA_african_war_category:0 "African War"
+
+ MON_new_launch_category:0 "The Great Project"
+
+ MON_soviet_submit:0 "The Motherland Call"
+
+ MON_great_project1:0 "Focus on the construction"
+ MON_great_project2:0 "Focus on the resources"
+ MON_great_project3:0 "Focus on the production"
+ MON_great_project4:0 "Focus on the research"
+
+ MON_railway:0 "Focus on the railway"
+ MON_mils:0 "Focus on the production"
+ MON_training:0 "Focus on the training"
+ MON_shovel:0 "Focus on the trenchies and shovel"
+ MON_conscription:0 "Focus on the conscription"
+ MON_stability:0 "Focus on the stability"
+ 

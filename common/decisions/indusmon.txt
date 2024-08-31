@@ -1,0 +1,268 @@
+MON_new_launch_category ={
+    
+    MON_great_project1 = {
+
+       icon = GFX_decision_generic_operation
+
+
+		allowed = {
+			original_tag = MON
+		}
+
+		cost = 75
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		fire_only_once = no
+
+		days_remove = 90
+        days_re_enable = 120
+
+		modifier = {
+            consumer_goods_factor = 0.05
+            production_speed_buildings_factor = 0.05
+		}
+    }
+
+    MON_great_project2 = {
+
+       icon = GFX_decision_generic_operation
+
+
+		allowed = {
+			original_tag = MON
+		}
+
+		cost = 75
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		fire_only_once = no
+
+		days_remove = 135
+        days_re_enable = 100
+
+		modifier = {
+            conscription_factor = -0.05
+            local_resources_factor = 0.1
+		}
+    }
+
+    MON_great_project3 = {
+
+       icon = GFX_decision_generic_operation
+
+
+		allowed = {
+			original_tag = MON
+		}
+
+		cost = 75
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		fire_only_once = no
+
+		days_remove = 90
+        days_re_enable = 120
+
+		modifier = {
+            conscription_factor = -0.05
+            industrial_capacity_factory = 0.05
+		}
+    }
+
+    MON_great_project4 = {
+
+       icon = GFX_decision_generic_operation
+
+
+		allowed = {
+			original_tag = MON
+		}
+
+		cost = 75
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		fire_only_once = no
+
+		days_remove = 150
+        days_re_enable = 100
+
+		modifier = {
+            consumer_goods_factor = 0.05
+            research_speed_factor = 0.05
+		}
+    }
+}
+
+MON_soviet_submit ={
+    
+    MON_railway = {
+
+       icon = GFX_decision_generic_operation
+
+
+		allowed = {
+			original_tag = MON
+		}
+
+		cost = 75
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		fire_only_once = no
+
+		days_remove = 120
+        days_re_enable = 120
+
+		modifier = {
+            production_speed_rail_way_factor = 0.1
+		    production_speed_supply_node_factor = 0.05
+            consumer_goods_factor = 0.05
+		}
+    }
+
+    MON_mils = {
+
+       icon = GFX_decision_generic_operation
+
+
+		allowed = {
+			original_tag = MON
+		}
+
+		cost = 75
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		fire_only_once = no
+
+		days_remove = 120
+        days_re_enable = 100
+
+		modifier = {
+            industrial_capacity_factory = 0.05
+            consumer_goods_factor = 0.05
+		}
+    }
+
+    MON_training = {
+
+       icon = GFX_decision_generic_operation
+
+
+		allowed = {
+			original_tag = MON
+		}
+
+		cost = 75
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		fire_only_once = no
+
+		days_remove = 100
+        days_re_enable = 100
+
+		modifier = {
+            training_time_army_factor = -0.1
+		}
+    }
+
+    MON_shovel = {
+
+       icon = GFX_decision_generic_operation
+
+
+		allowed = {
+			original_tag = MON
+		}
+
+		cost = 100
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		fire_only_once = no
+
+		days_remove = 180
+        days_re_enable = 100
+
+		modifier = {
+            dig_in_speed_factor = 0.1
+            conscription_factor = -0.05
+		}
+    }
+
+    MON_conscription = {
+
+       icon = GFX_decision_generic_operation
+
+
+		allowed = {
+			original_tag = MON
+		}
+
+		cost = 100
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		fire_only_once = no
+
+		days_remove = 150
+        days_re_enable = 100
+
+		modifier = {
+            conscription_factor = 0.05
+            weekly_manpower = 1500 
+            non_core_manpower = 0.1
+            resistance_damage_to_garrison = 0.05
+            resistance_decay = -0.1
+		}
+    }
+
+	MON_stability = {
+
+       icon = GFX_decision_generic_operation
+
+
+		allowed = {
+			original_tag = MON
+		}
+
+		cost = 75
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		fire_only_once = no
+
+		days_remove = 150
+        days_re_enable = 100
+
+		modifier = {
+            industrial_capacity_factory = -0.05
+            stability_weekly = 0.15
+		}
+    }
+}
