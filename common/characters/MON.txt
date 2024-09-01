@@ -22,12 +22,12 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={ unyielding_defender inflexible_strategist }
-			skill=4
-			attack_skill=3
+			traits={ unyielding_defender }
+			skill=3
+			attack_skill=2
 			defense_skill=4
-			planning_skill=3
-			logistics_skill=3
+			planning_skill=2
+			logistics_skill=2
 			legacy_id=10003
 		}
 	}
@@ -42,10 +42,10 @@ characters={
 		}
 		corps_commander={
 			traits={ panzer_leader }
-			skill=5
-			attack_skill=4
-			defense_skill=4
-			planning_skill=3
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
 			logistics_skill=4
 			legacy_id=10002
 		}
