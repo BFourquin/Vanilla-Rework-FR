@@ -99,11 +99,11 @@ characters={
 			}
 		}
 		field_marshal={
-			skill=4
-			attack_skill=4
-			defense_skill=2
-			planning_skill=4
-			logistics_skill=3
+			skill=6
+			attack_skill=6
+			defense_skill=4
+			planning_skill=6
+			logistics_skill=5
 			legacy_id=-1
 		}
 	}
@@ -117,6 +117,7 @@ characters={
 			}
 		}
 		corps_commander={
+			traits={ panzer_leader engineer }
 			skill=3
 			attack_skill=1
 			defense_skill=1
@@ -135,12 +136,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ hill_fighter }
-			skill=4
-			attack_skill=4
-			defense_skill=3
-			planning_skill=3
-			logistics_skill=3
+			traits={ hill_fighter panzer_leader }
+			skill=6
+			attack_skill=6
+			defense_skill=5
+			planning_skill=5
+			logistics_skill=5
 			legacy_id=-1
 		}
 	}
