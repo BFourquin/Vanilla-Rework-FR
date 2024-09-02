@@ -1,0 +1,153 @@
+ideas = {
+    country = {
+        SIA_preparation_for_the_coup = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = ast_abandon_the_westminster_system_fascism
+
+			removal_cost = -1
+
+			modifier = {
+				stability_weekly = -0.004
+                war_support_weekly  = 0.003
+			}
+		}
+
+        SIA_anti_counter_revolution = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = FRA_matignon_agreements
+
+			removal_cost = -1
+
+			modifier = {
+				fascism_drift = 0.02
+                fascism_acceptance = 50
+                conscription_factor = 0.05
+			}
+		}
+
+        SIA_army_submission = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = chi_army_corruption2
+
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = 0.03
+                command_power_gain_mult = 0.15
+                experience_gain_army_factor = 0.05
+                experience_gain_navy_factor = 0.05
+			}
+		}
+
+        SIA_industrialist_submissive = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = chi_army_corruption2
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_industrial_complex_factor = 0.1
+                production_speed_arms_factory_factor = 0.1
+			}
+		}
+
+		SIA_new_era = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = man_militarism
+
+			removal_cost = -1
+
+			modifier = {
+				local_resources_factor = 0.1
+				consumer_goods_factor = -0.15
+				assign_army_leader_cp_cost = -20
+				research_speed_factor = 0.05
+			}
+		}
+
+		SIA_jap_advisor = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = imperial_glory_idea
+
+			removal_cost = -1
+
+			modifier = {
+				research_sharing_per_country_bonus_factor = 0.1
+				license_purchase_cost_factor = -0.3
+			}
+		}
+
+		SIA_jap_engineer = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_coastal_navy
+
+			removal_cost = -1
+
+			equipment_bonus = {
+				convoy = {
+					instant = yes
+					build_cost_ic = -0.15
+				}
+			}
+			modifier = {
+				convoy_retreat_speed = 0.1
+			}
+		}
+    }
+}
