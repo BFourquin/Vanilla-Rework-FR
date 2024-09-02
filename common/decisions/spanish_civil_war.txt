@@ -147,7 +147,7 @@ spanish_war = {
 		available = {
 			OR = {
 				SPR = { surrender_progress > 0.5 }
-				D01 = { surrender_progress > 0.5 }
+				SPA = { surrender_progress > 0.5 }
 			}
 			
 		}
@@ -159,7 +159,7 @@ spanish_war = {
 
 		complete_effect = {
 			recall_volunteers_from = SPR
-			recall_volunteers_from = D01
+			recall_volunteers_from = SPA
 		}
 
 	}	
@@ -175,7 +175,7 @@ spanish_war = {
 				original_tag = SOV
 				original_tag = SPA
 			}
-			D01 = { surrender_progress > 0.6 }
+			SPR = { surrender_progress > 0.6 }
 		}
 
 		visible = {
@@ -188,7 +188,7 @@ spanish_war = {
 		}
 
 		complete_effect = {
-			D01 = {remove_ideas = SPR_death_before_surrender
+			SPR = {remove_ideas = SPR_death_before_surrender
 				   set_war_support = 0}
 		}
 
@@ -205,7 +205,7 @@ spanish_war = {
 		icon = GFX_decision_generic_form_nation
 
 		available = {
-			SPR = { surrender_progress > 0.5 }
+			SPA = { surrender_progress > 0.5 }
 		}
 
 		visible = {
@@ -253,7 +253,7 @@ post_spanish_war = {
 			has_global_flag = scw_over
 			OR = {
 				original_tag = SPR
-				original_tag = D01
+				original_tag = SPA
 				original_tag = SPB
 				original_tag = SPC
 			}
