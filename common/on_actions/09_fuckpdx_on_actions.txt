@@ -1,0 +1,38 @@
+on_actions = {
+    on_startup = {
+
+		effect = {
+			if = {
+				limit = {
+					OR = {
+						has_game_rule = {
+							rule = navy_cap
+							option = ENABLED
+						}
+					}
+				}
+				SWE = { HMP_startup_on_actions = yes }
+				every_country = {
+					set_variable = { global.update_monie_ui = 0 }
+					set_variable = { var = destroyer_count_calculator value = 0 }
+					set_variable = { var = light_cruiser_count_calculator value = 0 }
+					set_variable = { var = heavy_cruiser_count_calculator value = 0 }
+					set_variable = { var = battleship_count_calculator value = 0 }
+					set_variable = { var = battlecruiser_count_calculator value = 0 }
+					set_variable = { var = carrier_count_calculator value = 0 }
+					set_variable = { var = shbb_count_calculator value = 0 }
+					set_variable = { var = shcv_count_calculator value = 0 }
+					set_variable = { var = destroyer_count_calculator_total value = 0 }
+					set_variable = { var = light_cruiser_count_calculator_total value = 0 }
+					set_variable = { var = heavy_cruiser_count_calculator_total value = 0 }
+					set_variable = { var = battleship_count_calculator_total value = 0 }
+					set_variable = { var = battlecruiser_count_calculator_total value = 0 }
+					set_variable = { var = carrier_count_calculator_total value = 0 }
+					set_variable = { var = shbb_count_calculator_total value = 0 }
+					set_variable = { var = shcv_count_calculator_total value = 0 }
+					calculator_fleet_size = yes
+				}
+			}
+		}
+	}
+}

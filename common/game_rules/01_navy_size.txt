@@ -1,0 +1,19 @@
+## Ajout ##
+
+## fleet cap ##
+
+navy_cap = {
+	name = "RULE_NAVY_CAP"
+	group = "RULE_GROUP_TFB"
+	icon = "GFX_airwing_carrier_icon"
+	default = {
+		name = "ENABLED"
+		text = "RULE_OPTION_ENABLED"
+		desc = "RULE_OPTION_NAVY_CAP_ENABLED_DESC"
+	}
+	option = {
+		name = "DISABLED"
+		text = "RULE_OPTION_DISABLED"
+		desc = "RULE_OPTION_NAVY_CAP_DISABLED_DESC"
+	}
+}

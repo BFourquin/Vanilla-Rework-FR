@@ -1,0 +1,29 @@
+## Ajout ##
+
+## fleet cap ##
+
+on_actions = {
+	on_daily = {
+		effect = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = navy_cap
+						option = ENABLED
+					}
+				}
+				HMP_check_fleet_size = yes 
+			}
+		}
+	}
+	on_startup = {
+		effect = {
+			every_country = { 
+				country_event = { 
+					id = startingevent.29
+				}
+			}
+		}	
+	}
+}
+
