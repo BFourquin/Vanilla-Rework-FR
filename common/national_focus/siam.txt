@@ -129,7 +129,7 @@ focus_tree = {
 		prerequisite = { focus = SIA_convince_the_army }
 		prerequisite = { focus = SIA_persecute_counter_revolutionaries }
 		prerequisite = { focus = SIA_convince_the_navy }
-		x = 0
+		x = -1
 		y = 2
 		relative_position_id = SIA_preparation_for_the_coup
 
@@ -143,6 +143,32 @@ focus_tree = {
 		completion_reward = {
 			add_manpower = 100000
 			kill_country_leader = yes
+		}
+	}
+
+	focus = {
+		id = SIA_volonteers_for_china_war
+		icon = GFX_focus_attack_china
+		prerequisite = { focus = SIA_persecute_counter_revolutionaries }
+		x = 1
+		y = 1
+		relative_position_id = SIA_persecute_counter_revolutionaries
+
+		cost = 5
+
+		available = {
+			JAP = {
+				has_war = yes
+			}
+		}
+
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_ideas = war_economy
+			set_rule = {
+				can_send_volunteers = yes
+			}
+			add_ideas = SIA_volunteers_in_china
 		}
 	}
 	
@@ -169,7 +195,6 @@ focus_tree = {
 		completion_reward = {
             add_political_power = 100
 			remove_ideas = SIA_preparation_for_the_coup
-			add_ideas = war_economy
             create_country_leader = {
                 name = "Plaek Phibunsongkrham"
                 picture = "GFX_Portrait_Asia_Generic_land_4"

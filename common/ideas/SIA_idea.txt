@@ -149,5 +149,24 @@ ideas = {
 				convoy_retreat_speed = 0.1
 			}
 		}
+
+		SIA_volunteers_in_china = {
+			picture = chi_warlord_integration
+
+			allowed = {
+				original_tag = SIA
+			}
+		
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				send_volunteer_divisions_required = -0.75
+				send_volunteer_size = 4
+				send_volunteers_tension = -1
+			} 
+		}
     }
 }
