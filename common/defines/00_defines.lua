@@ -1845,7 +1845,7 @@ NNavy = {
 	BASE_GUN_COOLDOWNS = { -- number of hours for a gun to be ready after shooting
 		2,	-- big guns
 		4,	-- torpedoes
-		1,	-- small guns
+		2,	-- small guns
 	},
 
 	BASE_JOIN_COMBAT_HOURS						= 2,				-- the taskforces that wants to join existing combats will wait for at least this amount
@@ -2014,29 +2014,86 @@ NNavy = {
 
 	NAVY_PIERCING_THRESHOLDS = {					-- Our piercing / their armor must be this value to deal damage fraction equal to the index in the array below [higher number = higher penetration]. If armor is 0, 1.00 will be returned.
 		2.00,
+		1.75,
+		1.50,
+		1.25,
 		1.00,
+		0.95,
+		0.90,
+		0.85,
+		0.80,
 		0.75,
+		0.70,
+		0.65,
+		0.60,
+		0.55,
 		0.50,
+		0.45,
+		0.40,
+		0.35,
+		0.30,
+		0.25,
+		0.20,
+		0.15,
 		0.10,
+		0.05,
 		0.00 --there isn't much point setting this higher than 0
 	},
 
 	NAVY_PIERCING_THRESHOLD_CRITICAL_VALUES = {	-- 0 armor will always receive maximum damage (so add overmatching at your own peril). the system expects at least 2 values, with no upper limit.
 		2.00,
+		1.75,
+		1.50,
+		1.25,
 		1.00,
+		0.95,
+		0.90,
+		0.85,
+		0.80,
 		0.75,
+		0.70,
+		0.65,
+		0.60,
+		0.55,
 		0.50,
+		0.45,
+		0.40,
+		0.35,
+		0.30,
+		0.25,
+		0.20,
+		0.15,
 		0.10,
-		0.00 -- For criticals, you could reduce crit chance unlike damage in army combat, but we do not for now.
+		0.05,
+		0.00-- For criticals, you could reduce crit chance unlike damage in army combat, but we do not for now.
 	},
 
 	NAVY_PIERCING_THRESHOLD_DAMAGE_VALUES = {	-- 0 armor will always receive maximum damage (so add overmatching at your own peril). the system expects at least 2 values, with no upper limit.
-		1.3,
+		1.5,
+		1.35,
+		1.20,
+		1.10,
 		1.00,
+		0.95,
+		0.90,
+		0.85,
+		0.80,
+		0.75,
 		0.70,
+		0.65,
+		0.60,
+		0.55,
+		0.50,
+		0.45,
 		0.40,
+		0.35,
 		0.30,
-		0.10 -- 
+		0.25,
+		0.20,
+		0.15,
+		0.10,
+		0.05,
+		0.03 -- 
 	},
 
 	-- all of these NEED to be the same size!!!!
