@@ -385,6 +385,7 @@ set_popularities = {
 
 add_ideas = {
 	No_push_in_winter
+	# no_grinding
 }
 
 create_faction = Axis

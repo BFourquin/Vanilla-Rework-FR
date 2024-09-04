@@ -4,6 +4,27 @@ ideas = {
 
 	country = {
 
+		no_grinding = {
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = stavka
+
+			modifier = {
+				experience_gain_factor = -1
+			}
+			cancel = {
+				AND = {
+					POL = { has_capitulated = yes }
+					FRA = { has_capitulated = yes }
+				}
+			}
+		}
+
 		spain_volunteer_minor = {
 
 			picture = SPR_nationalist_remnants

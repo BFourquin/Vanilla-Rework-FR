@@ -1,0 +1,112 @@
+﻿l_english:
+
+USA_great_depression_cooldown_tt:0 "After this law is passed, it will take §Y230 days§! until further New Deal legislation is drafted and ready to be signed.\n\n"
+ #### TOOLTIPS ####
+
+ GetAdmiralNameTitle_def:0 "[THIS.GetName]"
+ GetShipCount_def:0 "£fleet_texticon Ship Count: [?THIS.get_num_ships]"
+ GetCommandLimit_under_def:0 "£command_power_texticon §GCommand Limit: [?THIS.command_limit_used]/100!"
+ GetCommandLimit_equal_def:0 "£command_power_texticon §HCommand Limit: [?THIS.command_limit_used]/100!"
+ GetCommandLimit_over_def:0 "£command_power_texticon §RCommand Limit: [?THIS.command_limit_used]/100!"
+ GetScreens_under_def:0 "§G[?THIS.screen_count]§!"
+ GetScreens_equal_def:0 "§H[?THIS.screen_count]§!"
+ GetScreens_over_def:0 "§R[?THIS.screen_count]§!"
+ GetScreensNeeded_under_def:0 "§GScreens Needed: [?THIS.needed_screen_count]§!"
+ GetScreensNeeded_equal_def:0 "§HScreens Needed: [?THIS.needed_screen_count]§!"
+ GetScreensNeeded_over_def:0 "§RScreens Needed: [?THIS.needed_screen_count]§!"
+ GetCommandLimit_disabled:0 "£command_power_texticon §RCmd Limit: §0(DISABLED)§!"
+ #GetCommandLimit_2:0 "[?THIS.fleet_overstack_naval_damage_factor]"
+ GetAdmiralPortrait_tt:0 "[GetAdmiralPortrait]"
+
+ ### EVENT ###
+ startingevent.29.t:0 "Naval Fleet Size §0(Important)§!"
+ startingevent.29.desc:0 "1) You should have multiple fleets, with no fleet exceeding a Command Limit of 100.\n2) Fleets should have high screening values for capitals and carriers\n3) You need 1 destroyer for every 2 convoys in a battle, and one for every 40 convoys in a space for escort efficiency.\n4)Your host should require an admiral on all fleets\n\n§BFleet Command Limit§!\n\nEvery ship class has a 'command limit' value. A fleet (all taskforces underneath one admiral) can support at most 100 'command limit'. As long as you are at or below your command limit value for every fleet with an admiral leading it, then you will not have special debuffs applied to your admiral and country. Any admiral which is leading a fleet will appear in a list just right of the admiral portraits. This list contains useful information about your fleets so that you can easily adhere to this system.\n\nDestroyers - 1command limit\nSubmarines - 2 command limit\nLight Cruisers/Heavy Cruisers - 3 command limit\nBattleships and Battlecruisers - 5 command limit\nCarriers/Super Heavy Battleships - 8 command limit\n\n§RIf you are over the cap you will deal 5% less damage, and for each Command Limit you are over the cap, your country will deal an additional 1% less naval damage.§! Command Limit is recalculated every week when there is no war, so you may need to wait to see the changes update. Once at war it will update the calculation daily."
+
+ #### UNITS ####
+ advanced_sonar:0 "Sonobuoys"
+ modern_sonar:0 "Towed Array Sonar"
+ ship_sonar_3:0 "Sonobuoys"
+ ship_sonar_4:0 "Towed Array Sonar"
+
+ #### EQUIPMENT ####
+ ship_hull_heavy_3:0 "1939 Heavy Ship Hull"
+ ship_hull_heavy_4:0 "1942 Heavy Ship Hull"
+ ship_hull_light_3:0 "1939 Destroyer Hull"
+ ship_hull_light_4:0 "1942 Destroyer Hull"
+ ship_hull_submarine_3:0 "1940 Submarine Hull"
+ ship_hull_submarine_4:0 "1944 Submarine Hull"
+ ship_hull_carrier_2:0 "1939 Carrier Hull"
+ ship_hull_carrier_3:0 "1942 Carrier Hull"
+ ship_hull_cruiser_3:0 "1939 Cruiser Hull"
+ ship_hull_cruiser_4:0 "1942 Cruiser Hull"
+ ship_hull_heavy_0:0 "Superdreadnought Hull"
+ ship_hull_monitor_submarine:0 "Submarine Monitor"
+ ship_hull_carrier_submarine:0 "Carrier Submarine"
+
+ ## HEAVY ANTI TANKS ##
+ heavy_anti_tank_brigade:0 "Heavy Anti-Tank"
+ heavy_anti_tank_equipment:0 "Heavy Anti-Tank"
+ heavy_anti_tank_equipment_desc:0 "The heaviest form of Anti tank avaiable which requires to be towed by trucks but offers relief in the face of heavy tanks."
+ heavy_anti_tank_equipment_1:0 "Heavy AT I"
+ heavy_anti_tank_equipment_1_desc:0 "The heaviest form of Anti tank avaiable which requires to be towed by trucks but offers relief in the face of heavy tanks."
+ heavy_anti_tank_equipment_2:0 "Heavy AT II"
+ heavy_anti_tank_equipment_2_desc:0 "The heaviest form of Anti tank avaiable which requires to be towed by trucks but offers relief in the face of heavy tanks."
+ 
+ ### MODULES ###
+ ship_heavy_battery_twin_1:0 "Twin Battery I"
+ ship_heavy_battery_twin_2:0 "Twin Battery II"
+ ship_heavy_battery_twin_3:0 "Twin Battery III"
+ ship_heavy_battery_twin_4:0 "Twin Battery IV"
+ ship_heavy_battery_twin_5:0 "Twin Battery V"
+ ship_heavy_battery_twin_6:0 "Twin Battery VI"
+ ship_heavy_battery_twin_7:0 "Twin Battery VII"
+ ship_heavy_battery_triple_1:0 "Triple Battery I"
+ ship_heavy_battery_triple_2:0 "Triple Battery II"
+ ship_heavy_battery_triple_3:0 "Triple Battery III"
+ ship_heavy_battery_triple_4:0 "Triple Battery IV"
+ ship_heavy_battery_quad_1:0 "Quad Battery I"
+ ship_heavy_battery_quad_2:0 "Quad Battery II"
+ ship_heavy_battery_quad_3:0 "Quad Battery III"
+ ship_super_heavy_battery_twin_1:0 "Super-Heavy Twin Battery"
+ ship_super_heavy_battery_triple_1:0 "Super-Heavy Triple Battery I"
+ ship_super_heavy_battery_triple_2:0 "Super-Heavy Triple Battery II"
+ ship_heavy_battery_sub_1:0 "Heavy Submarine Battery"
+ ship_armor_bb_light_2:0 "Fast Battleship Armour II"
+ ship_armor_bb_light_3:0 "Fast Battleship Armour III"
+
+ # Ships
+ SHBB:0 "Super Heavy Battleship"
+ BB_aa:0 "Standard Battleship"
+ BB_LA:0 "Pure Damage Battleship"
+ BC_aa:0 "Standard Battlecruiser"
+ BC_la:0 "Pure Damage Battlecruiser"
+ HCtorpedoMAX:0 "Heavy Cruiser (Torpedo)"
+ HCaaMAX:0 "Heavy Cruiser (Standard AA)"
+ LCaaMAX:0 "AA Light Cruiser"
+ LCtorpedoMAX:0 "Torpedo Light Cruiser"
+ LClightAttackMAX:0 "Anti-Destroyer Light Cruiser"
+ LCpiercingMAX:0 "Anti-LC Light Cruiser"
+ LCspottingMAX:0 "Spotting Light Cruiser"
+ torpedoMAX:0 "Torpedo Destroyer"
+ aaMAX:0 "AA Destroyer"
+ lightAttackMAX:0 "Light Attack Max Destroyer"
+ depth_charge_MAX:0 "ASW Destroyer"
+
+# GAME RULES
+ RULE_OPTION_ENABLED:0 "Enabled"
+ RULE_OPTION_ENABLED_DESC:0 "Enabled"
+ RULE_OPTION_DISABLED:0 "Disabled"
+ RULE_OPTION_DISABLED_DESC:0 "Disabled"
+ RULE_NAVY_CAP:0 "Admiral Command Limit"
+ RULE_OPTION_NAVY_CAP_ENABLED_DESC:0 "Limit the amount of ships a single Admiral can command"
+ RULE_OPTION_NAVY_CAP_DISABLED_DESC:0 "Allow Admirals to have an unlimited number of ships under them"
+
+ # new event
+ NewBritain.1.t:0 "The axis navy"
+ NewBritain.1.d:0 "Our spies discovered that some axis members are rearming navally and trying to compete with us."
+ NewBritain.1.a:0 "We shall rearm"
+ germany_navy_deffy_us:0 "Axis deffy us"
+ germany_navy_deffy_us_2:0 "Axis deffy us"
+
+
+ cap_over_on:0 "§ROVER NAVAL CAP§!"
