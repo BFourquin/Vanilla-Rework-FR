@@ -18553,6 +18553,12 @@ ai_will_do = {
 			SOV = {
 					add_timed_idea = { idea = Attack_On_German_Airport days = 60 }
 			}
+			MON = {
+					add_timed_idea = { idea = Bagration_Ope days = 90 }
+			}
+			MON = {
+					add_timed_idea = { idea = Attack_On_German_Airport days = 60 }
+			}
 		}
 	}
 

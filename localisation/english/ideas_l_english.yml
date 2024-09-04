@@ -416,6 +416,8 @@
  military_idea:0 "Military enhanced"
  MON_resistance:0 "Mongolian resilience"
  MON_resistance_desc:0 "Mongolian army is renowned for its pugnacity and resilience against any enemy."
+ MON_steppes_resistance:0 "Steppes resistance"
+ MON_steppes_resistance_desc:0 "Steppes won't accept communism, we should be prepared for a resistance acts"
  MON_spe:0 "Cavalry specialized"
  MON_spe_desc:0 "For centuries, mongolians are renowned for their cavalry, and it won't change in the XXth century."
  MON_mobilize_steppes1:0 "Steppes mobilization"

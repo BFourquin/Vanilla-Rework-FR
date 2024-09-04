@@ -22,6 +22,28 @@ ideas = {
             }
         }
 
+		MON_steppes_resistance = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+            picture = SPR_masters_of_our_own_fate
+
+            modifier = {
+                required_garrison_factor = 0.1
+				resistance_target = 0.3
+				resistance_decay = -0.3
+				compliance_growth = -0.05
+            }
+        }
+
         MON_collect_finished = {
 
 			allowed = {
@@ -280,7 +302,7 @@ ideas = {
 			picture = saf_soviet_advisers
 
 			modifier = {
-               resistance_growth = -0.1
+               resistance_growth = -0.15
 			   compliance_growth = 0.05
 			   stability_factor = -0.05
 			   communism_drift = 0.03
@@ -303,7 +325,7 @@ ideas = {
 
 			modifier = {
                conscription_factor = 0.1
-			   local_resources_factor = -0.05
+			   compliance_growth = 0.15
 			}
 		}
     }

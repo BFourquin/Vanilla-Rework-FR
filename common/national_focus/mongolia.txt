@@ -180,6 +180,7 @@ focus_tree = {
 			add_stability = 0.05
 			add_political_power = 120
 			add_ideas = MON_soviet_stability
+			add_ideas = MON_steppes_resistance
 			SOV = { puppet = MON }
 			set_popularities = {
 				democratic = 0
