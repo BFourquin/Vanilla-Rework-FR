@@ -1476,6 +1476,14 @@
 				value = 200
 			}
 			add_timed_idea = { idea = JAP_tora_tora_tora_idea days = 180 }
+
+			SIA = {
+					add_timed_idea = { idea = JAP_tora_tora_tora_idea days = 180 }
+			}
+
+			MAN = {
+					add_timed_idea = { idea = JAP_tora_tora_tora_idea days = 180 }
+			}
 		}
 	}
 
