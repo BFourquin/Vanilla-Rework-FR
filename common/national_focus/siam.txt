@@ -380,7 +380,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			set_state_name = "Great Thailand"
+			unlock_decision_category_tooltip = SIA_proud_decision_category
 		}
 	}
 	
@@ -590,6 +590,33 @@ focus_tree = {
 			}
 		}
 	}
+
+	focus = {
+		id = SIA_air_base_investments
+		icon = GFX_goal_generic_air_fighter2
+		prerequisite = { focus = SIA_nav_base_investments }
+		x = 0
+		y = 1
+		relative_position_id = SIA_nav_base_investments
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 7
+		}
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			724 = {
+			add_building_construction = {
+						type = air_base
+						level = 4
+						instant_build = yes
+								
+					}
+			}
+		}
+	}
 	
 	
 	focus = {
@@ -665,7 +692,7 @@ focus_tree = {
 		icon = GFX_focus_mex_privatisation
 		prerequisite = { focus =  SIA_rapid_urbanization }
 		x = 0
-		y = 1
+		y = 2
 		relative_position_id =  SIA_rapid_urbanization
 
 		cost = 10
@@ -708,7 +735,7 @@ focus_tree = {
         icon = GFX_focus_generic_industry_3
         prerequisite = { focus = SIA_arms_production }
         x = 0
-        y = 1
+        y = 2
         relative_position_id = SIA_arms_production
 
         cost = 7.2 
@@ -744,7 +771,7 @@ focus_tree = {
         prerequisite = { focus = SIA_arms_industry focus = SIA_invite_japanese_investors }
         search_filters = { FOCUS_FILTER_RESEARCH }
         x = 2
-        y = 1
+        y = 2
         relative_position_id = SIA_invite_japanese_investors
 
         cost = 10
@@ -766,7 +793,7 @@ focus_tree = {
         id = SIA_reform_army
         icon = GFX_goal_generic_army_doctrines
 
-        x = 17
+        x = 18
         y = 0
         cost = 5
 
@@ -953,7 +980,7 @@ focus_tree = {
         id = SIA_mountain_training
         icon = GFX_goal_generic_special_forces
         prerequisite = { focus = SIA_own_expert }
-        x = -1
+        x = 0
         y = 1
         relative_position_id = SIA_own_expert
 
@@ -976,7 +1003,7 @@ focus_tree = {
 		id = SIA_jaeger_SF
 		icon = GFX_focus_SWE_beneath_sticks_and_stone
 		prerequisite = { focus = SIA_own_expert }
-		x = -3
+		x = -2
 		y = 1
 		relative_position_id = SIA_own_expert
 
@@ -1092,7 +1119,7 @@ focus_tree = {
 	focus = {
 		id = SIA_build_our_navy
 		icon = GFX_goal_generic_construct_naval_dockyard
-		x = 25
+		x = 26
 		y = 0
 
 		cost = 5

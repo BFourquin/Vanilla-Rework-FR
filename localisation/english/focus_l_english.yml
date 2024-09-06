@@ -1173,6 +1173,7 @@
  SIA_roads_to_bangkok:0 "A road towards Bangkok"
  SIA_rail_investors:0 "Railway investments"
  SIA_nav_base_investments:0 "Naval Base investments"
+ SIA_air_base_investments:0 "Air Base investments"
  SIA_defense_industry:0 "Defense industry"
  SIA_arms_production:0 "Arms manufactury"
  SIA_invite_japanese_investors:0 "Invite japanese investors"
