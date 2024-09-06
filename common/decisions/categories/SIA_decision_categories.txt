@@ -1,0 +1,16 @@
+#siam
+
+SIA_proud_decision_category = {
+	icon = GFX_decision_category_SWI_federal_council
+
+
+	allowed = {
+		original_tag = SIA
+	}
+
+	visible = {
+		has_completed_focus = SIA_restore_the_proud
+	}
+
+	priority = 15
+}

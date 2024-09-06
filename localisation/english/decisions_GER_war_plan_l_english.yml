@@ -64,4 +64,14 @@
  MON_shovel:0 "Focus on the trenchies and shovel"
  MON_conscription:0 "Focus on the conscription"
  MON_stability:0 "Focus on the stability"
- 
+
+ SIA_proud_decision_category:0 "Restore Our Proud"
+
+ SIA_great_project1:0 "The Research"
+ SIA_great_project2:0 "The Production"
+ SIA_great_project3:0 "The Consumption"
+ SIA_great_project4:0 "The Conscription"
+ SIA_great_project5:0 "The Naval Production"
+ SIA_great_project6:0 "Civilian Factory"
+ SIA_great_project7:0 "Military Factory"
+ SIA_great_project8:0 "The Army"

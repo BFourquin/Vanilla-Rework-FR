@@ -1,0 +1,185 @@
+SIA_proud_decision_category ={
+    
+    SIA_great_project1 = {
+
+       icon = GFX_decision_generic_operation
+
+
+		allowed = {
+			original_tag = SIA
+		}
+
+		cost = 250
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		fire_only_once = yes
+
+
+		modifier = {
+            research_speed_factor = 0.05
+		}
+    }
+
+	SIA_great_project2 = {
+
+       icon = GFX_decision_generic_operation
+
+
+		allowed = {
+			original_tag = SIA
+		}
+
+		cost = 250
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		fire_only_once = yes
+
+
+		modifier = {
+            industrial_capacity_factory = 0.1
+		}
+    }
+	SIA_great_project3 = {
+
+       icon = GFX_decision_generic_operation
+
+
+		allowed = {
+			original_tag = SIA
+		}
+
+		cost = 250
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		fire_only_once = yes
+
+
+		modifier = {
+            consumer_goods_factor = -0.05
+		}
+    }
+
+	SIA_great_project4 = {
+
+       icon = GFX_decision_generic_operation
+
+
+		allowed = {
+			original_tag = SIA
+		}
+
+		cost = 250
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		fire_only_once = yes
+
+
+		modifier = {
+            conscription_factor = 0.05
+		}
+    }
+
+	SIA_great_project5 = {
+
+       icon = GFX_decision_generic_operation
+
+
+		allowed = {
+			original_tag = SIA
+		}
+
+		cost = 250
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+            industrial_capacity_dockyard = 0.1
+		}
+		
+    }
+
+	SIA_great_project6 = {
+
+       icon = GFX_decision_generic_operation
+
+
+		allowed = {
+			original_tag = SIA
+		}
+
+		cost = 250
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+            industrial_factory_donations = 3
+		}
+    }
+
+	SIA_great_project7 = {
+
+       icon = GFX_decision_generic_operation
+
+
+		allowed = {
+			original_tag = SIA
+		}
+
+		cost = 250
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+            military_factory_donations = 3
+		}
+    }
+
+	SIA_great_project8 = {
+
+       icon = GFX_decision_generic_operation
+
+
+		allowed = {
+			original_tag = SIA
+		}
+
+		cost = 250
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		fire_only_once = yes
+
+		modifier = {
+            experience_gain_army_factor = 0.05
+			experience_gain_navy_factor = 0.05
+			experience_gain_air_factor = 0.05
+		}
+    }
+}
+    
