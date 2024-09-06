@@ -21,7 +21,6 @@ on_actions = {
 					set_variable = { var = battlecruiser_count_calculator value = 0 }
 					set_variable = { var = carrier_count_calculator value = 0 }
 					set_variable = { var = shbb_count_calculator value = 0 }
-					set_variable = { var = shcv_count_calculator value = 0 }
 					set_variable = { var = destroyer_count_calculator_total value = 0 }
 					set_variable = { var = light_cruiser_count_calculator_total value = 0 }
 					set_variable = { var = heavy_cruiser_count_calculator_total value = 0 }
@@ -29,7 +28,6 @@ on_actions = {
 					set_variable = { var = battlecruiser_count_calculator_total value = 0 }
 					set_variable = { var = carrier_count_calculator_total value = 0 }
 					set_variable = { var = shbb_count_calculator_total value = 0 }
-					set_variable = { var = shcv_count_calculator_total value = 0 }
 					calculator_fleet_size = yes
 				}
 			}

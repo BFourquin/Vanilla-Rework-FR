@@ -56,20 +56,17 @@ calculator_fleet_size = {
 		add_to_variable = { number_of_ships_calculator = battlecruiser_count_calculator }
 		add_to_variable = { number_of_ships_calculator = carrier_count_calculator }
 		add_to_variable = { number_of_ships_calculator = shbb_count_calculator }
-		add_to_variable = { number_of_ships_calculator = shcv_count_calculator }
 
 		add_to_variable = { capital_count_calculator = heavy_cruiser_count_calculator }
 		add_to_variable = { capital_count_calculator = battleship_count_calculator }
 		add_to_variable = { capital_count_calculator = battlecruiser_count_calculator }
 		add_to_variable = { capital_count_calculator = carrier_count_calculator }
 		add_to_variable = { capital_count_calculator = shbb_count_calculator }
-		add_to_variable = { capital_count_calculator = shcv_count_calculator }
 
 		add_to_variable = { screen_count_calculator = destroyer_count_calculator }
 		add_to_variable = { screen_count_calculator = light_cruiser_count_calculator }
 
 		add_to_variable = { carrier_have_count_calculator = carrier_count_calculator }
-		add_to_variable = { carrier_have_count_calculator = shcv_count_calculator }
 
 		add_to_variable = { heavy_count_calculator = heavy_cruiser_count_calculator }
 		add_to_variable = { heavy_count_calculator = battleship_count_calculator }
@@ -128,11 +125,6 @@ calculator_fleet_size = {
 		set_temp_variable = { shbb_count_calculator_temp = shbb_count_calculator }
 		multiply_temp_variable  = { shbb_count_calculator_temp = 8 }
 		add_to_temp_variable = { command_limit_calculator_used_temp = shbb_count_calculator_temp }
-
-		# SHCV
-		set_temp_variable = { shcv_count_calculator_temp = shcv_count_calculator }
-		multiply_temp_variable  = { shcv_count_calculator_temp = 14 }
-		add_to_temp_variable = { command_limit_calculator_used_temp = shcv_count_calculator_temp }
 
 		set_variable = {command_limit_calculator = command_limit_calculator_used_temp}
 

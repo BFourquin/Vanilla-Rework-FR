@@ -110,3 +110,6 @@ USA_great_depression_cooldown_tt:0 "After this law is passed, it will take §Y23
 
 
  cap_over_on:0 "§ROVER NAVAL CAP§!"
+
+ modifier_experience_gain_sh_battleship_training_factor:0 "Super Heavy Battleship Training Factor"
+ modifier_experience_gain_sh_battleship_combat_factor:0 "Super Heavy Battleship Combat Factor"

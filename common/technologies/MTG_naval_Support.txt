@@ -146,7 +146,7 @@ technologies = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
 		}
-		battle_cruiser = {
+		sh_battleship = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
 		}
@@ -254,6 +254,10 @@ technologies = {
 			lg_armor_piercing = 0.05
 		}
 		battle_cruiser = {
+			lg_attack = 0.05
+			lg_armor_piercing = 0.05
+		}
+		sh_battleship = {
 			lg_attack = 0.05
 			lg_armor_piercing = 0.05
 		}
@@ -685,6 +689,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		sh_battleship = {
+			hg_attack = 0.05
+			hg_armor_piercing = 0.05
+		}
 		battleship = {
 			hg_attack = 0.05
 			hg_armor_piercing = 0.05
@@ -726,6 +734,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		sh_battleship = {
+			hg_attack = 0.05
+			hg_armor_piercing = 0.05
+		}
 		battleship = {
 			hg_attack = 0.05
 			hg_armor_piercing = 0.05

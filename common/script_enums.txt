@@ -286,11 +286,13 @@ script_enum_equipment_bonus_type = {
 	ship_hull_heavy_2
 	ship_hull_heavy_3
 	ship_hull_heavy_4
+	ship_hull_super_heavy
 	ship_hull_super_heavy_1
 	battleship_1
 	battleship_2
 	battleship_3
 	battleship_4
+	sh_battleship
 	SH_battleship_1
 	SH_battleship_2
 	battle_cruiser_1

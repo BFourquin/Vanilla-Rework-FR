@@ -164,16 +164,6 @@ guiTypes = {
 			fixedsize = yes		
 		}
 		instantTextBoxType = {
-			name = "shcv"
-			position = { x = 370 y = 45 }
-			font = "hoi_18mbs"
-			text = "SHCV: [?shcv_count]" 
-			format = left
-			maxWidth = 65
-			maxHeight = 24
-			fixedsize = yes		
-		}
-		instantTextBoxType = {
 			name = "Capitals"
 			position = { x = 50 y = 65 }
 			font = "hoi_18mbs"

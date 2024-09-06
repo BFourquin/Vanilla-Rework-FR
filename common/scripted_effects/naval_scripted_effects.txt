@@ -58,7 +58,7 @@ HMP_check_fleet_size = {
 		}
 		clear_variable = shbb_count
 		add_to_variable = {
-			var = shbb_count
+		 	var = shbb_count
 			value = num_ships_with_type@sh_battleship
 		}
 
@@ -81,8 +81,8 @@ HMP_check_fleet_size = {
 			value = num_ships_with_type@carrier
 		}
 		add_to_variable = {
-			var = capital_count
-			value = num_ships_with_type@sh_battleship
+		 	var = capital_count
+		 	value = num_ships_with_type@sh_battleship
 		}
 
 		clear_variable = screen_count
@@ -198,17 +198,6 @@ HMP_check_fleet_size = {
 			var = command_limit_used_temp
 			value = shbb_count_temp
 		}
-		set_temp_variable ={
-			var = shcv_count_temp
-			value = shcv_count
-		}
-		multiply_temp_variable = {
-			var = shcv_count_temp value = 8
-		}
-		add_to_temp_variable = {
-			var = command_limit_used_temp
-			value = shcv_count_temp
-		}
 		set_temp_variable = {
 			var = submarine_count_temp
 			value = submarine_count
@@ -261,7 +250,7 @@ HMP_check_fleet_size = {
 			custom_trigger_tooltip = {
 				OR = {
 					check_variable = { num_ships_with_type@carrier > 0 }
-					check_variable = { num_ships_with_type@sh_battleship > 0 }
+					# check_variable = { num_ships_with_type@sh_battleship > 0 }
 					check_variable = { num_ships_with_type@light_cruiser > 0 }
 					check_variable = { num_ships_with_type@battleship > 0 }
 					check_variable = { num_ships_with_type@battle_cruiser > 0 }
