@@ -197,7 +197,7 @@ focus_tree = {
 			remove_ideas = SIA_preparation_for_the_coup
             create_country_leader = {
                 name = "Plaek Phibunsongkrham"
-                picture = "GFX_Portrait_Asia_Generic_land_4"
+                picture = "GFX_Portrait_Asia_Generic_fascism"
                 expire = "1965.1.1"
                 ideology = fascism_ideology 
                 traits = {
@@ -585,7 +585,7 @@ focus_tree = {
 						type = naval_base
 						level = 2
 						instant_build = yes
-						province = 1337			
+						province = 7236		
 					}
 			}
 		}

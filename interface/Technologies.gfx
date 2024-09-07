@@ -1356,6 +1356,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/S5.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_shocktroop_level_3_a_medium"
+		texturefile = "gfx/interface/technologies/S6.dds"
+	}
+
 	
 	### Soviet Aircrafts ###
 
