@@ -6,7 +6,7 @@ state = {
 		steel=40 # was: 20
 		chromium = 20
 		aluminium = 20
-		oil = 20 # was: 4
+		oil = 5 # was: 4
 	}
 
 	
@@ -20,7 +20,7 @@ state = {
 			infrastructure = 4
 			air_base = 8
 			arms_factory = 6
-			industrial_complex =10
+			industrial_complex =5
 			dockyard = 3
 			11751 = {
 				naval_base = 5

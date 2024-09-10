@@ -3,8 +3,8 @@ state= {
 	name="STATE_537"
 	manpower = 295196
 	resources={
-		oil=70 # was: 70
-		aluminium = 55
+		oil=25 # was: 70
+		aluminium = 30
 	}
 	
 	state_category = rural
@@ -15,7 +15,7 @@ state= {
 
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 7
+			industrial_complex = 4
 		}
 		
 		buildings = {
