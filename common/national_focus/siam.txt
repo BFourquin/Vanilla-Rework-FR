@@ -107,9 +107,7 @@ focus_tree = {
 					}
 				}
 			
-			set_technology = {
-    			early_submarine = 1
-			}
+			
 			create_navy_leader = {
 				name = "Wongsawan Boonma"
 				gfx = "GFX_Portrait_Asia_Generic_warlord3"
