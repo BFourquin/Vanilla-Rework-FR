@@ -1188,17 +1188,17 @@ focus_tree = {
 		}
 
 		bypass = {
-			OR = {
-				has_idea = RAJ_marginalized_muslim_community_happy
-				PAK = { exists = yes }
-			}
+			#OR = {
+			#	has_idea = RAJ_marginalized_muslim_community_happy
+			#	PAK = { exists = yes }
+			#}
 		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-
+ 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			custom_effect_tooltip = RAJ_two_nation_theory_effect
