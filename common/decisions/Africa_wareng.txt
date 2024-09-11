@@ -9,9 +9,16 @@ ENG_african_war_category ={
         }
 
         available = {
-            controls_state = 448
-            controls_state = 450
-            controls_state = 451
+            OR = {
+                controls_state = 448
+                controls_state = 450
+                controls_state = 451
+                    FRA = {
+                        controls_state = 448
+                        controls_state = 450
+                        controls_state = 451
+                }
+            }
         }
 
         days_mission_timeout = 1095

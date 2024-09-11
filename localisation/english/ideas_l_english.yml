@@ -434,6 +434,7 @@
  MON_restauration_desc:0 "It's time to engage our restoration"
  MON_socialism:0 "Socialism required"
  MON_forced_mob:0 "Forced mobilization"
+ MON_graveyard:0 "Expand the Graveyard"
  SIA_preparation_for_the_coup:0 "Preparation for the coup"
  SIA_anti_counter_revolution:0 "Anti counter revolution"
  SIA_army_submission:0 "Army submission"

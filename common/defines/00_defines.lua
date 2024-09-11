@@ -678,7 +678,7 @@ NTechnology = {
 },
 
 NPolitics = {
-	BASE_LEADER_TRAITS = 3,				-- Base amount of leader traits.
+	BASE_LEADER_TRAITS = 6,				-- Base amount of leader traits.
 	MAX_RANDOM_LEADERS = 1,				-- Maximum amount random leader to have per party.
 	BASE_POLITICAL_POWER_INCREASE = 2,	-- Weekly increase of PP.
 	ARMY_LEADER_COST = 5,					-- command power cost for recruiting new leaders, 'this value' * number_of_existing_leaders_of_type
@@ -905,8 +905,8 @@ NMilitary = {
 	DIG_IN_FACTOR = 0.02,						   -- bonus factor for each dug-in level
 	ARMY_LEADER_XP_GAIN_PER_UNIT_IN_COMBAT = 0.1, -- XP gain per unit in combat
 	CONSTANT_XP_RATIO_FOR_MULTIPLE_LEADERS_IN_SAME_COMBAT = 0.5, -- if there are multiple leaders in same combat, each one gets thisratio + (1-thisratio)/num leaders. amount of xp each general gets scales 1 0.75 0.66 etc for 1 2 3 generals
-	BASE_LEADER_TRAIT_GAIN_XP = 0.4,			   -- Base xp gain for traits per hour for armies
-	MAX_NUM_TRAITS = -1,						   -- cant have more, -1 to disable
+	BASE_LEADER_TRAIT_GAIN_XP = 0.00,			   -- Base xp gain for traits per hour for armies
+	MAX_NUM_TRAITS = 10,						   -- cant have more, -1 to disable
 	ENEMY_AIR_SUPERIORITY_IMPACT = -0.35,          -- effect on defense due to enemy air superiorty
 	ENEMY_AIR_SUPERIORITY_DEFENSE = 0.70,	       -- more AA attack will approach this amount of help (diminishing returns)
 	ENEMY_AIR_SUPERIORITY_DEFENSE_STEEPNESS = 112, -- how quickly defense approaches the max impact diminishing returns curve
@@ -1128,7 +1128,7 @@ NMilitary = {
 		0.0, -- operative
 	},
 
-	UNIT_LEADER_USE_NONLINEAR_XP_GAIN = false,       -- Whether unit leader XP gain is scaled by 1/<nr_of_traits>
+	UNIT_LEADER_USE_NONLINEAR_XP_GAIN = true,       -- Whether unit leader XP gain is scaled by 1/<nr_of_traits>
 
 	HOURS_REQ_REJOIN_BORDER_WAR_FOR_INJURED_UNITS = 336, -- minimum hours required for units to rejoin border wars
 
