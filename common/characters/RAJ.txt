@@ -83,7 +83,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ hill_fighter }
+			traits={ hill_fighter panzer_leader }
 			skill=3
 			attack_skill=2
 			defense_skill=2
@@ -102,9 +102,9 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ desert_fox }
-			skill=3
-			attack_skill=1
+			traits={ desert_fox infantry_leader commando }
+			skill=4
+			attack_skill=2
 			defense_skill=3
 			planning_skill=3
 			logistics_skill=3

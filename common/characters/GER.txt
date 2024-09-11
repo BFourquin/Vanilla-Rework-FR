@@ -105,12 +105,12 @@ characters={
 		}
 		
 		field_marshal={
-			traits={ old_guard urban_assault_specialist defensive_doctrine }
-			skill=3
-			attack_skill=3
+			traits={ old_guard urban_assault_specialist defensive_doctrine panzer_leader organizer winter_specialist }
+			skill=5
+			attack_skill=4
 			defense_skill=2
 			planning_skill=3
-			logistics_skill=2
+			logistics_skill=4
 			legacy_id=1
 		}
 	}
@@ -181,12 +181,12 @@ characters={
 		}
 		
 		corps_commander={
-			traits={ trait_reckless media_personality armor_officer war_hero trickster }
-			skill=4
-			attack_skill=4
+			traits={ trait_reckless media_personality armor_officer war_hero trickster panzer_leader desert_fox trait_engineer fortress_buster}
+			skill=7
+			attack_skill=6
 			defense_skill=4
-			planning_skill=2
-			logistics_skill=3
+			planning_skill=4
+			logistics_skill=4
 			legacy_id=4
 		}
 	}
@@ -213,9 +213,9 @@ characters={
 		}
 		
 		corps_commander={
-			traits={ brilliant_strategist armor_officer trickster trait_engineer }
-			skill=4
-			attack_skill=2
+			traits={ brilliant_strategist armor_officer trickster trait_engineer panzer_leader ranger hill_fighter }
+			skill=6
+			attack_skill=5
 			defense_skill=4
 			planning_skill=3
 			logistics_skill=4
@@ -321,12 +321,12 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={ brilliant_strategist trait_cautious politically_connected defensive_doctrine }
-			skill=3
-			attack_skill=2
+			traits={ brilliant_strategist trait_cautious politically_connected defensive_doctrine infantry_leader commando hill_fighter ranger }
+			skill=5
+			attack_skill=4
 			defense_skill=4
-			planning_skill=2
-			logistics_skill=2
+			planning_skill=3
+			logistics_skill=4
 			legacy_id=10
 		}
 	}
@@ -676,12 +676,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ war_hero trait_engineer winter_specialist }
-			skill=3
-			attack_skill=3
-			defense_skill=2
-			planning_skill=3
-			logistics_skill=2
+			traits={ war_hero trait_engineer winter_specialist infantry_leader commando ranger }
+			skill=6
+			attack_skill=4
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=4
 			legacy_id=34
 		}
 	}

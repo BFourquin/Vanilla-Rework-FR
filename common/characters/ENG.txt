@@ -209,10 +209,10 @@ characters={
 		}
 		
 		field_marshal={
-			traits={ career_officer trait_cautious defensive_doctrine }
+			traits={ career_officer trait_cautious defensive_doctrine infantry_leader trickster naval_invader }
 			skill=5
-			attack_skill=3
-			defense_skill=5
+			attack_skill=5
+			defense_skill=4
 			planning_skill=5
 			logistics_skill=3
 			legacy_id=997
@@ -247,10 +247,10 @@ characters={
 		}
 		
 		field_marshal={
-			traits={ inflexible_strategist trait_cautious media_personality organizer logistics_wizard offensive_doctrine }
-			skill=4
-			attack_skill=2
-			defense_skill=4
+			traits={ inflexible_strategist trait_cautious media_personality organizer logistics_wizard offensive_doctrine panzer_leader fortress_buster trait_engineer desert_fox }
+			skill=6
+			attack_skill=4
+			defense_skill=5
 			planning_skill=3
 			logistics_skill=4
 			legacy_id=996
@@ -284,9 +284,9 @@ characters={
 		}
 		
 		corps_commander={
-			traits={ inflexible_strategist career_officer }
-			skill=5
-			attack_skill=3
+			traits={ inflexible_strategist career_officer infantry_leader desert_fox trait_mountaineer trickster }
+			skill=6
+			attack_skill=4
 			defense_skill=5
 			planning_skill=3
 			logistics_skill=5
@@ -648,12 +648,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ harsh_leader armor_officer politically_connected }
-			skill=4
+			traits={ harsh_leader armor_officer politically_connected panzer_leader trickster desert_fox hill_fighter fortress_buster }
+			skill=5
 			attack_skill=4
-			defense_skill=2
+			defense_skill=3
 			planning_skill=3
-			logistics_skill=4
+			logistics_skill=3
 			legacy_id=993
 		}
 	}
@@ -836,12 +836,12 @@ characters={
 		}
 		
 		navy_leader={
-			traits={ gunnery_expert bold navy_career_officer blockade_runner superior_tactician }
+			traits={ gunnery_expert bold navy_career_officer blockade_runner superior_tactician naval_invader commando hill_fighter trait_mountaineer}
 			skill=5
 			attack_skill=5
 			defense_skill=4
-			maneuvering_skill=3
-			coordination_skill=4
+			maneuvering_skill=4
+			coordination_skill=3
 			legacy_id=985
 		}
 	}

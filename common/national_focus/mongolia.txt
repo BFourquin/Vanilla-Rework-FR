@@ -1769,7 +1769,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = MON_tactical_innovations
 
-		cost = 12
+		cost = 8
 
 		ai_will_do = {
 			factor = 27
@@ -1784,7 +1784,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_ideas = MON_graveyard
+			add_timed_idea = { idea = MON_graveyard days = 365 }
 		}
 	}
 
@@ -1838,7 +1838,7 @@ focus_tree = {
 			create_corps_commander = {
 				name = "Gazai ajai"
 				picture = "GFX_Portrait_Asia_Generic_warlord2"
-				traits={ cavalry_leader cavalry_expert }
+				traits={ cavalry_leader cavalry_expert ranger}
 					skill=4
 					attack_skill=4
 					defense_skill=2
