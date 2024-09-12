@@ -3431,16 +3431,16 @@ focus_tree = {
 			}
 		}	
 		completion_reward = {
-			GER = {
-				remove_ideas = {
-					no_grinding
-				}
-			}
-			SOV = {
-				remove_ideas = {
-					no_grinding
-				}
-			}
+			# GER = {
+			# 	remove_ideas = {
+			# 		no_grinding
+			# 	}
+			# }
+			# SOV = {
+			# 	remove_ideas = {
+			# 		no_grinding
+			# 	}
+			# }
 			IF = {
 				limit = { SOV = { has_civil_war = no } }
 				create_wargoal = {

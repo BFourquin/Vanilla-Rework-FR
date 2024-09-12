@@ -67,16 +67,16 @@ news_event = {
 
 	immediate = {
 		hidden_effect = {
-			GER = {
-				add_ideas = {
-					no_grinding
-				}
-			}
-			SOV = {
-				add_ideas = {
-					no_grinding
-				}
-			}
+			# GER = {
+			# 	add_ideas = {
+			# 		no_grinding
+			# 	}
+			# }
+			# SOV = {
+			# 	add_ideas = {
+			# 		no_grinding
+			# 	}
+			# }
 			if = {
 				limit = {
 					has_completed_focus = SPA_the_phalanx_ascendant
