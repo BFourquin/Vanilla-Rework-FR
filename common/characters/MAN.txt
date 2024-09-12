@@ -44,11 +44,11 @@ characters={
 				small="GFX_idea_MAN_zhang_jinghui"
 			}
 		}
-		corps_commander={
-			traits={ infantry_officer }
-			skill=2
-			attack_skill=2
-			defense_skill=1
+		field_marshal={
+			traits={ infantry_officer infantry_leader commando jungle_rat }
+			skill=3
+			attack_skill=3
+			defense_skill=2
 			planning_skill=2
 			logistics_skill=2
 			legacy_id=-1
@@ -63,8 +63,8 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ career_officer }
-			skill=3
+			traits={ career_officer hill_fighter infantry_leader}
+			skill=4
 			attack_skill=3
 			defense_skill=3
 			planning_skill=3
@@ -82,9 +82,9 @@ characters={
 		}
 		gender = female
 		corps_commander={
-			traits={ cavalry_officer }
-			skill=3
-			attack_skill=3
+			traits={ cavalry_officer panzer_leader trait_engineer}
+			skill=4
+			attack_skill=4
 			defense_skill=3
 			planning_skill=2
 			logistics_skill=2

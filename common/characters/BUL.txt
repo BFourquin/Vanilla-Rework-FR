@@ -203,10 +203,10 @@ characters = {
 			}
 		}
 		field_marshal = {
-			traits = { career_officer politically_connected trait_BUL_tsar_loyalist fortress_buster }
+			traits = { career_officer politically_connected trait_BUL_tsar_loyalist trait_engineer organizer }
 			skill = 4
 			attack_skill = 4
-			defense_skill = 2
+			defense_skill = 3
 			planning_skill = 3
 			logistics_skill = 3
 			legacy_id = 1201
@@ -267,10 +267,10 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { trait_reckless cavalry_leader }
-			skill = 3
+			traits = { trait_reckless cavalry_leader panzer_leader hill_fighter trickster}
+			skill = 4
 			attack_skill = 4
-			defense_skill = 2
+			defense_skill = 3
 			planning_skill = 3
 			logistics_skill = 3
 			legacy_id = 1205
@@ -286,8 +286,8 @@ characters = {
 			}
 		}
 		corps_commander = {
-			traits = { old_guard infantry_leader }
-			skill = 3
+			traits = { old_guard infantry_leader commando organizer }
+			skill = 4
 			attack_skill = 4
 			defense_skill = 4
 			planning_skill = 2
@@ -375,10 +375,10 @@ characters = {
 				small = GFX_portrait_BUL_damian_velchev_small
 			}
 		}
-		corps_commander = {
-			traits = { trait_reckless harsh_leader trait_BUL_zveno_member }
-			skill = 2
-			attack_skill = 3
+		field_marshal = {
+			traits = { trait_reckless harsh_leader panzer_leader trait_BUL_zveno_member }
+			skill = 3
+			attack_skill = 4
 			defense_skill = 1
 			planning_skill = 1
 			logistics_skill = 2

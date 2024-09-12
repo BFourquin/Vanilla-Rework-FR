@@ -76,11 +76,11 @@ focus_tree = {
 			create_corps_commander = {
 				name = "Phuket Katar"
 				picture = "GFX_Portrait_Asia_Generic_warlord2"
-				traits={ engineer_officer }
-					skill=2
-					attack_skill=2
-					defense_skill=1
-					planning_skill=1
+				traits={ engineer_officer trait_engineer jungle_rat infantry_leader panzer_leader }
+					skill=4
+					attack_skill=3
+					defense_skill=3
+					planning_skill=3
 					logistics_skill=2
 			}
 		}
@@ -107,15 +107,13 @@ focus_tree = {
 					}
 				}
 			
-			set_technology = {
-    			early_submarine = 1
-			}
+			
 			create_navy_leader = {
 				name = "Wongsawan Boonma"
 				gfx = "GFX_Portrait_Asia_Generic_warlord3"
 				traits = { spotter }
-				skill = 2
-				attack_skill = 2
+				skill = 3
+				attack_skill = 3
 				defense_skill = 1
 				maneuvering_skill = 2
 				coordination_skill = 1

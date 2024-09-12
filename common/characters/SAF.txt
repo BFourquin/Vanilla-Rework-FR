@@ -95,13 +95,32 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ desert_fox }
+			traits={ desert_fox panzer_leader trickster }
 			skill=4
 			attack_skill=4
 			defense_skill=4
 			planning_skill=4
 			logistics_skill=1
 			legacy_id=-1
+		}
+	}
+
+	MON_Jan_Smuts={
+		name="Jan Smuts"
+		portraits={
+			army={
+				large=GFX_portrait_BEL_mcl_keyaerts
+				small=GFX_portrait_BEL_mcl_keyaerts_small
+			}
+		}
+		field_marshal={
+			traits={ unyielding_defender panzer_leader desert_fox cavalry_leader }
+			skill=4
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=10003
 		}
 	}
 

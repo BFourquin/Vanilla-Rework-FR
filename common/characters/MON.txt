@@ -22,7 +22,7 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={ unyielding_defender }
+			traits={ inflexible_strategist unyielding_defender ranger}
 			skill=3
 			attack_skill=2
 			defense_skill=4
@@ -41,7 +41,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ panzer_leader }
+			traits={ panzer_leader ranger }
 			skill=3
 			attack_skill=2
 			defense_skill=2

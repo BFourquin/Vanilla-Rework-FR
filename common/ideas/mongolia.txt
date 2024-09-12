@@ -343,11 +343,11 @@ ideas = {
 			picture = ENG_the_war_to_end_all_wars
 
 			modifier = {
-               conscription_factor = 0.15
-			   army_defence_factor = 0.15
-			   army_attack_factor = 0.15
-			   army_morale_factor = -0.15
-			   army_org_regain = -0.15
+               conscription_factor = 0.1
+			   stability_weekly_factor = -0.04
+			   industrial_capacity_factory = 0.05
+			   army_attack_factor = -0.1
+			   army_defence_factor = 0.1
 			}
 		}
     }

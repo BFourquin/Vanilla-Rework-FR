@@ -64,9 +64,9 @@ characters={
 		}
 
 		corps_commander={
-			traits={ brilliant_strategist politically_connected trickster trait_engineer }
-			skill=5
-			attack_skill=4
+			traits={ brilliant_strategist politically_connected trickster trait_engineer commando naval_invader jungle_rat hill_fighter }
+			skill=7
+			attack_skill=6
 			defense_skill=5
 			planning_skill=3
 			logistics_skill=4
@@ -96,7 +96,7 @@ characters={
 		}
 		
 		field_marshal={
-			traits={ politically_connected JAP_samurai_lineage offensive_doctrine }
+			traits={ politically_connected JAP_samurai_lineage offensive_doctrine infantry_leader organizer jungle_rat naval_invader }
 			skill=4
 			attack_skill=4
 			defense_skill=4
@@ -131,7 +131,7 @@ characters={
 		}
 		
 		field_marshal={
-			traits={ JAP_samurai_lineage offensive_doctrine }
+			traits={ JAP_samurai_lineage offensive_doctrine panzer_leader hill_fighter }
 			skill=4
 			attack_skill=3
 			defense_skill=4
@@ -188,7 +188,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ career_officer infantry_officer trickster }
+			traits={ career_officer infantry_officer trickster infantry_leader trait_mountaineer jungle_rat}
 			skill=4
 			attack_skill=4
 			defense_skill=3
@@ -379,9 +379,9 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ old_guard trait_reckless cavalry_officer }
-			skill=4
-			attack_skill=3
+			traits={ old_guard trait_reckless cavalry_officer panzer_leader hill_fighter }
+			skill=5
+			attack_skill=4
 			defense_skill=2
 			planning_skill=4
 			logistics_skill=4
