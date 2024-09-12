@@ -1770,16 +1770,16 @@ focus_tree = {
 		}
 
 		bypass = {
-			HUN = {
-				OR = {
-					exists = no
-					is_subject = yes			
-					AND = {
-						is_subject = no
-						is_in_faction_with = ROOT
-					}
-				}
-			}
+			# HUN = {
+			# 	OR = {
+			# 		exists = no
+			# 		is_subject = yes			
+			# 		AND = {
+			# 			is_subject = no
+			# 			is_in_faction_with = ROOT
+			# 		}
+			# 	}
+			# }
 		}
 		
 		completion_reward = {
@@ -1870,16 +1870,16 @@ focus_tree = {
 		}
 
 		bypass = {
-			ROM = {
-				OR = {
-					exists = no
-					is_subject = yes
-					AND = {
-						is_subject = no
-						is_in_faction_with = ROOT
-					}
-				}
-			}
+			# ROM = {
+			# 	OR = {
+			# 		exists = no
+			# 		is_subject = yes
+			# 		AND = {
+			# 			is_subject = no
+			# 			is_in_faction_with = ROOT
+			# 		}
+			# 	}
+			# }
 		}
 		
 		completion_reward = {
@@ -2256,6 +2256,9 @@ focus_tree = {
 				}
 				custom_effect_tooltip = GER_integrate_war_economies_tt4
 			}
+			70 = { add_compliance = 100 }
+			71 = { add_compliance = 100 }
+			73 = { add_compliance = 100 }  
 		}
 	}
 
