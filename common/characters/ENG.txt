@@ -322,8 +322,9 @@ characters={
 			}
 		}
 		corps_commander={
+			traits={ naval_invader commando hill_fighter trait_mountaineer brilliant_strategist }
 			skill=4
-			attack_skill=4
+			attack_skill=3
 			defense_skill=1
 			planning_skill=4
 			logistics_skill=4
@@ -836,12 +837,12 @@ characters={
 		}
 		
 		navy_leader={
-			traits={ gunnery_expert bold navy_career_officer blockade_runner superior_tactician naval_invader commando hill_fighter trait_mountaineer}
-			skill=5
-			attack_skill=5
-			defense_skill=4
+			traits={ gunnery_expert bold navy_career_officer blockade_runner superior_tactician}
+			skill=3
+			attack_skill=3
+			defense_skill=3
 			maneuvering_skill=4
-			coordination_skill=3
+			coordination_skill=4
 			legacy_id=985
 		}
 	}
