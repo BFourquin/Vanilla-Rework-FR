@@ -3434,7 +3434,7 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_RESEARCH}
 
 		completion_reward = {
-			add_research_slot = 2
+			add_research_slot = 1
 		}
 	}
 
@@ -9299,9 +9299,28 @@ focus_tree = {
 	}
 
 	focus = {
+		id = ITA_La_ricerca_in_primo_luogo
+		icon = GFX_focus_research
+		prerequisite = { focus = ITA_la_battaglia_per_le_nascite }
+
+		x = 0
+		y = 2
+		relative_position_id = ITA_la_battaglia_per_le_nascite
+		cost = 10
+		available = {
+		}
+
+		search_filters = {FOCUS_FILTER_RESEARCH}
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+
+	focus = {
 		id = ITA_strengthen_the_regime
 		icon = GFX_goal_generic_political_pressure
-		prerequisite = { focus = ITA_la_battaglia_per_le_nascite }
+		prerequisite = { focus = ITA_La_ricerca_in_primo_luogo }
 
 		x = 0
 		y = 5
