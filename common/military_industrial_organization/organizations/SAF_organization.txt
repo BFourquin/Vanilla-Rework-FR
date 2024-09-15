@@ -1,0 +1,68 @@
+#####################
+
+###  ##  #  # # #  ## 
+ #  #  # ## # # # #   
+ #  #### # ## ##   #  
+ #  #  # #  # # #   # 
+ #  #  # #  # # # ## 
+
+ #################### 
+SAF_iscor_organization = {
+    name = SAF_iscor_organization
+    include = generic_medium_tank_organization
+    icon = GFX_idea_SAF_idea_iscor
+    allowed = {
+        original_TAG = SAF
+        has_dlc = "Together for Victory"
+    }
+}
+
+SAF_vauxhall_organization = {
+    name = SAF_vauxhall_organization
+    include = generic_infantry_tank_organization
+    icon = GFX_idea_vauxhall
+    allowed = {
+        original_TAG = SAF
+        has_dlc = "Together for Victory"
+    }
+
+    available = {
+		FROM = { has_completed_focus = SAF__south_african_military_college }
+	}
+}
+
+
+#####################
+
+ ## #  # ### ###   ## 
+#   #  #  #  #  # #   
+ #  ####  #  ###   #  
+  # #  #  #  #      # 
+##  #  # ### #    ##  
+ 
+#####################
+
+
+
+###########################
+
+###  #    ##  #  # ###  ## 
+#  # #   #  # ## # #   #   
+###  #   #### # ## ##   #  
+#    #   #  # #  # #     # 
+#    ### #  # #  # ### ##  
+
+###########################
+
+
+
+################################### 
+
+#   #  ##  ### ### ###  ### ### #   
+## ## #  #  #  #   #  #  #  #   #   
+# # # ####  #  ##  ###   #  ##  #   
+#   # #  #  #  #   #  #  #  #   #   
+#   # #  #  #  ### #  # ### ### ### 
+
+
+###################################
