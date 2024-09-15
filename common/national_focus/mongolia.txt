@@ -1471,6 +1471,10 @@ focus_tree = {
 				add_mio_size = 1
 				add_mio_funds = 300
 			}
+			mio:SOV_okmo_organization = {
+				add_mio_size = 1
+				add_mio_funds = 300
+			}
 		}
 	}
 

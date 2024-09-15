@@ -333,7 +333,7 @@
 		x = 5
 		y = 0
 
-		cost = 10
+		cost = 7.2
 
 		ai_will_do = {
 			factor = 1
@@ -372,7 +372,7 @@
 		y = 1
 		relative_position_id = SAF_support_the_policy_of_appeasement
 
-		cost = 10
+		cost = 7.2
 
 		ai_will_do = {
 			factor = 1
@@ -445,7 +445,7 @@
 		y = 2
 		relative_position_id = SAF_support_the_policy_of_appeasement
 
-		cost = 10
+		cost = 7.2
 
 		ai_will_do = {
 			factor = 1
@@ -2627,7 +2627,7 @@
 		y = 1
 		relative_position_id = SAF_special_service_battalion
 
-		cost = 5
+		cost = 7.2
 
 		ai_will_do = {
 			factor = 1
@@ -2664,7 +2664,7 @@
 		y = 1
 		relative_position_id = SAF_special_service_battalion
 
-		cost = 5
+		cost = 7.2
 
 		ai_will_do = {
 			factor = 1
@@ -2744,7 +2744,7 @@
 		y = 3
 		relative_position_id = SAF_special_service_battalion
 
-		cost = 5
+		cost = 7.2
 
 		ai_will_do = {
 			factor = 1
@@ -2781,7 +2781,7 @@
 		y = 3
 		relative_position_id = SAF_special_service_battalion
 
-		cost = 5
+		cost = 7.2
 
 		ai_will_do = {
 			factor = 1
@@ -2818,7 +2818,7 @@
 		y = 4
 		relative_position_id = SAF_special_service_battalion
 
-		cost = 5
+		cost = 7.2
 
 		ai_will_do = {
 			factor = 1
@@ -2856,7 +2856,7 @@
 		y = 5
 		relative_position_id = SAF_special_service_battalion
 
-		cost = 5
+		cost = 7.2
 
 		ai_will_do = {
 			factor = 1
@@ -2893,7 +2893,7 @@
 		y = 5
 		relative_position_id = SAF_special_service_battalion
 
-		cost = 5
+		cost = 7.2
 
 		ai_will_do = {
 			factor = 1
@@ -2940,7 +2940,7 @@
 		y = 6
 		relative_position_id = SAF_special_service_battalion
 
-		cost = 5
+		cost = 7.2
 
 		ai_will_do = {
 			factor = 1
