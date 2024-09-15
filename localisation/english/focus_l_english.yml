@@ -1120,6 +1120,7 @@
  MON_Military_expansion_desc:0 "A military expansion will help us to get a strong army."
  MON_expansion_of_oil:0 "Oil expansion"
  MON_expansion_of_oil_desc:0 "Whoever get an motorized army, needs petrol to advance." 
+ MON_focus_on_refinery:0 "Focus on Refinery"
  MON_focus_on_production:0 "Focus on production"
  MON_focus_on_production_desc:0 "We need to prioritize the production above all!!"
  MON_tank_investments:0 "Tank Investments"

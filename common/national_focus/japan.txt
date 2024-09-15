@@ -1763,6 +1763,7 @@
 				id = "SIA"
 				value = 100
 			}
+			give_resource_rights = { receiver = JAP state = 724 }
 		}
 	}
 
