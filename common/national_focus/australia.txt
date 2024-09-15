@@ -3326,8 +3326,8 @@
 
 		available = {
 			523 = { is_owned_and_controlled_by = AST }
-			336 = { is_owned_and_controlled_by = MAL }
-			333 = { is_owned_and_controlled_by = MAL }
+			336 = { is_owned_and_controlled_by = ENG }
+			333 = { is_owned_and_controlled_by = ENG }
 		} 
 
 		completion_reward = {
