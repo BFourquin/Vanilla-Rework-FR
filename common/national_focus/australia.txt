@@ -1838,7 +1838,7 @@
 
 	focus = {
 		id = AST_cruisers
-		icon = GFX_goal_generic_navy_battleship
+		icon = GFX_focus_generic_cruiser_submarines
 		prerequisite = { focus = AST_naval_auxiliary_patrol }
 		x = 0
 		y = 4
@@ -3178,7 +3178,40 @@
 		search_filters = { FOCUS_FILTER_MANPOWER }
 
 		completion_reward = {
-			add_manpower = 100000
+			add_manpower = 150000
+		}
+	}
+
+	focus = {
+		id = AST_protect_the_pacific
+		icon = GFX_focus_generic_little_entente
+		prerequisite = { focus = AST_time_for_combat }
+		prerequisite = { focus = AST_fight_work_or_perish}
+		x = -2
+		y = 1
+		relative_position_id = AST_time_for_combat
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			has_war_with = JAP
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_MANPOWER }
+
+		completion_reward = {
+			add_ideas = AST_defend_the_crown
 		}
 	}
 

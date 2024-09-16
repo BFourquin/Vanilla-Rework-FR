@@ -496,6 +496,12 @@
 
 		completion_reward = {
 			add_ideas = SAF_desert_equipment
+			add_tech_bonus = {
+				name = desertinf_bonus
+				bonus = 2
+				uses = 1
+				category = category_desertinfantry_tech
+			}
 		}
 	}
 

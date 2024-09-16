@@ -1108,50 +1108,10 @@
 	}
 
 	focus = {
-		id = MAN_vassalize_mengukuo
-		icon = GFX_goal_generic_forceful_treaty
-		prerequisite = { focus = MAN_chinese_leadership }
-		x = -1
-		y = 1
-		relative_position_id = MAN_chinese_leadership
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-			is_subject_of = JAP
-			NOT = { has_war_with = JAP }
-			NOT = { has_war_with = MEN }
-			MEN = {
-				exists = yes
-				is_subject_of = JAP
-			}
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		search_filters = { FOCUS_FILTER_ANNEXATION }
-		
-
-		completion_reward = {
-			annex_country = { target = MEN transfer_troops = yes }
-		}
-	}
-
-	focus = {
 		id = MAN_national_cooperation_government
 		icon = GFX_goal_generic_improve_relations
 		prerequisite = { focus = MAN_chinese_leadership }
-		x = 1
+		x = 0
 		y = 1
 		relative_position_id = MAN_chinese_leadership
 
@@ -1205,12 +1165,12 @@
 			MAN = { 
 				ic_ratio = {
 					tag = JAP
-					ratio > 0.2
+					ratio > 0.3
 				}
 			}
 			strength_ratio = {
 				tag = JAP
-				ratio > 0.25
+				ratio > 0.3
 			}
 		}
 

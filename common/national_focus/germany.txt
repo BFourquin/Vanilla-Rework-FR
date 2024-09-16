@@ -3260,6 +3260,27 @@ focus_tree = {
 	}
 
 	focus = {
+		id = GER_Abwher
+		icon = GFX_focus_SWI_promote_henne
+		prerequisite = { focus = GER_rhineland }
+		
+		cancel_if_invalid = yes
+		x = -4
+		y = 1
+		relative_position_id = GER_rhineland
+		cost = 7.2
+
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			create_intelligence_agency = {
+				name = Abwehr
+			}
+		}
+	}
+
+	focus = {
 		id = GER_anti_comitern_pact
 		icon = GFX_goal_anti_comintern_pact
 		prerequisite = { focus = GER_rhineland  }
