@@ -1570,9 +1570,9 @@ SOV_trigger_great_purge_moscow_trial_effect = {
 						is_character_slot = political_advisor
 						has_character_flag = SOV_targeted_for_purge_flag
 						SOV_character_can_be_purged = yes
-					}
-					NOT = { #stop purge industry captain
-						is_character = SOV_nikolay_voznesensky
+						NOT = { #stop purge industry captain
+							is_character = SOV_nikolay_voznesensky
+						}
 					}
 					PREV = { add_to_temp_variable = { temp_targets_index = 1 } }
 				}
@@ -8742,7 +8742,7 @@ SOV_the_eyes_fear_units = {
 	}
 	division_template = {
 		name = "Ruki"			#
-		division_names_group = SOV_INF_03
+		# division_names_group = SOV_INF_03
 		regiments = {
 			infantry = { x = 0 y = 0 }
 			infantry = { x = 0 y = 1 }

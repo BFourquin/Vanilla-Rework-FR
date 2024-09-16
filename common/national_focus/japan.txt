@@ -2610,8 +2610,7 @@
 			else = {
 				add_ideas = tot_economic_mobilisation
 			}
-		}
-		random_owned_controlled_state = {
+			random_owned_controlled_state = {
 				limit = {
 					ROOT = { has_full_control_of_state = PREV }
 					is_core_of = ROOT
@@ -2636,6 +2635,7 @@
 				}
 				set_state_flag = JAP_zaibatsus_factories
 			}
+		}
 			
 	}
 

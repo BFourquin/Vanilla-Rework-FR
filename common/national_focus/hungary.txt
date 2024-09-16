@@ -1949,7 +1949,7 @@ focus_tree = {
 					}
 				}
 			}
-			else = {
+			else_if = {
 				limit = {
 					HUN = {
 						controls_state = 76
