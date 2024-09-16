@@ -301,7 +301,8 @@ generic_infantry_tank_organization = {
 	icon = GFX_idea_generic_tank_manufacturer_3
 
 	allowed = {
-		always = no # Archetype only - countries using it have their own verisons
+		NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA tag = BEL tag = YUG tag = ROM tag = CZE tag = CHI tag = MAN tag = HOL tag = BUL tag = GRE tag = TUR tag = LAT tag = LIT } }
+		# always = no # Archetype only - countries using it have their own verisons
 	}
 
 	equipment_type = { armor }
@@ -346,7 +347,7 @@ generic_infantry_tank_organization = {
 
 		equipment_bonus = {
 			soft_attack = 0.05
-			hard_attack = 0.05
+			hard_attack = 0.02
 			armor_value = 0.05
 		}
 	}
@@ -362,8 +363,8 @@ generic_infantry_tank_organization = {
 		relative_position_id = generic_mio_trait_light_tank_improvements
 		
 		equipment_bonus = {
-			soft_attack = 0.05
-			hard_attack = 0.05
+			soft_attack = 0.03
+			hard_attack = 0.03
 			armor_value = 0.05
 		}
 
@@ -412,7 +413,7 @@ generic_infantry_tank_organization = {
 		any_parent = { generic_mio_trait_production_division }
 
 		equipment_bonus = {
-			soft_attack = 0.05
+			soft_attack = 0.02
 			defense = 0.05
 		}
 
@@ -452,7 +453,7 @@ generic_infantry_tank_organization = {
 		limit_to_equipment_type = { mio_cat_eq_all_medium_tank mio_cat_eq_all_heavy_tank }
 
 		equipment_bonus = {
-			hard_attack = 0.05
+			hard_attack = 0.02
 			ap_attack = 0.1
 		}
 	}
@@ -503,8 +504,8 @@ generic_infantry_tank_organization = {
 		any_parent = { generic_mio_trait_medium_tank_improvements }
 
 		production_bonus = {
-			production_efficiency_cap_factor = 0.1
-			production_efficiency_gain_factor = 0.1
+			production_efficiency_cap_factor = 0.05
+			production_efficiency_gain_factor = 0.05
 		}
 	}
 
@@ -1890,7 +1891,7 @@ generic_battle_line_ship_organization = {
 		mutually_exclusive = { generic_mio_trait_external_armor_belt }
 
 		equipment_bonus = {
-			armor_value = 0.15
+			armor_value = 0.10
 			build_cost_ic = 0.05
 		}
 	}
@@ -2668,6 +2669,7 @@ generic_submarine_organization = {
 	icon = GFX_idea_generic_naval_manufacturer_1
 
 	allowed = {
+
 		always = no # Archetype only - countries using it have their own verisons
 	}
 
