@@ -2858,6 +2858,7 @@ focus_tree = {
 
 		available = {
 			NOT = { has_country_flag = britain_enforced_our_loyalty }
+			 has_game_rule = { rule = RULE_ALLOW_AHISTORICAL option = AHISTORICAL_ENABLED }
 		}
 		
 		bypass = {
