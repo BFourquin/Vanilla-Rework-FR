@@ -2357,8 +2357,8 @@ equipment_modules = {
 		gfx = ship_armor_1
 		
 		multiply_stats = {
-			build_cost_ic = 0.1
-			naval_speed = -0.03
+			build_cost_ic = 0.075
+			naval_speed = 0.0
 			max_strength = 0.05
 		}
 
@@ -2402,8 +2402,8 @@ equipment_modules = {
 		gfx = ship_armor_2
 		parent = ship_armor_bc_1
 		multiply_stats = {
-			build_cost_ic = 0.125
-			naval_speed = -0
+			build_cost_ic = 0.075
+			naval_speed = 0.03
 			max_strength = 0.1
 		}
 		build_cost_resources = {
@@ -2451,8 +2451,8 @@ equipment_modules = {
 		gfx = ship_armor_3
 		parent = ship_armor_bc_2
 		multiply_stats = {
-			build_cost_ic = 0.125
-			naval_speed = 0.03
+			build_cost_ic = 0.075
+			naval_speed = 0.06
 			max_strength = 0.1
 		}
 		build_cost_resources = {
