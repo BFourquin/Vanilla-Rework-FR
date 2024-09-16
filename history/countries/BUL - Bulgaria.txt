@@ -239,11 +239,11 @@ if = { #DLC
 	recruit_character = BUL_kimon_georgiev
 	recruit_character = BUL_ivan_dochev
 	recruit_character = BUL_georgi_ivanov_kyoseivanov
-	recruit_character = BUL_stefan_stefanov
+	# recruit_character = BUL_stefan_stefanov
 	recruit_character = BUL_nikola_zhekov
-	recruit_character = BUL_valko_chervenkov
+	# recruit_character = BUL_valko_chervenkov
 	recruit_character = BUL_vasil_kolarov
-	recruit_character = BUL_konstantin_muraviev
+	# recruit_character = BUL_konstantin_muraviev
 	recruit_character = BUL_nikola_petkov
 
 	recruit_character = BUL_ferdinand_i #Starts as empty, can become country leader later
