@@ -105,12 +105,12 @@ characters={
 		}
 	}
 
-	SAF_Jan_Smuts={
-		name="Jan Smuts"
+	SAF_archibald_noerk={
+		name="Archibald Noerk"
 		portraits={
 			army={
-				large=GFX_portrait_BEL_mcl_keyaerts
-				small=GFX_portrait_BEL_mcl_keyaerts_small
+				large=GFX_portrait_BEL_georges_timmermans
+				small=GFX_portrait_BEL_georges_timmermans_small
 			}
 		}
 		field_marshal={
@@ -120,7 +120,7 @@ characters={
 			defense_skill=4
 			planning_skill=2
 			logistics_skill=3
-			legacy_id=10003
+			legacy_id=-1
 		}
 	}
 

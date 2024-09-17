@@ -217,6 +217,8 @@ recruit_character = SAF_nicolaas_havenga
 recruit_character = SAF_sir_patrick_duncan
 recruit_character = SAF_abram_fischer
 recruit_character = SAF_jonathan_sterling
+recruit_character = SAF_archibald_noerk
+
 
 
 1939.1.1 = {
