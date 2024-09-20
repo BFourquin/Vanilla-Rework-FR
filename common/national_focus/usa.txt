@@ -6061,7 +6061,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_strategic_bombing
-		icon = GFX_strategic_bombing_usa
+		icon = GFX_combined_bomber_offensive1
 		prerequisite = { focus = USA_air_war_plans_division }
 		x = 1
 		y = 1

@@ -979,7 +979,7 @@
 
 	focus = {
 		id = JAP_purge_the_kodoha_faction
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_JAP_kohoda
 		mutually_exclusive = { focus = JAP_the_unthinkable_option focus = JAP_support_the_kodoha_faction focus = JAP_strengthen_civilian_government }
 		x = 8
 		y = 0
@@ -5568,7 +5568,7 @@
 		y = 0
 		relative_position_id = JAP_army_expansion_law
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -5684,14 +5684,13 @@
 
 	focus = {
 		id = JAP_carrier_warfare_experiments
-		icon = GFX_goal_generic_navy_doctrines_tactics
+		icon = GFX_JAP_navy
 		prerequisite = { focus = JAP_new_naval_estimates }
-		mutually_exclusive = { focus = JAP_supremacy_of_the_battlefleet }
 		x = -1
 		y = 1
 		relative_position_id = JAP_new_naval_estimates
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -5855,14 +5854,13 @@
 
 	focus = {
 		id = JAP_supremacy_of_the_battlefleet
-		icon = GFX_goal_generic_navy_doctrines_tactics
+		icon = GFX_JAP_navy
 		prerequisite = { focus = JAP_new_naval_estimates }
-		mutually_exclusive = { focus = JAP_carrier_warfare_experiments }
 		x = 1
 		y = 1
 		relative_position_id = JAP_new_naval_estimates
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -5907,7 +5905,7 @@
 
 	focus = {
 		id = JAP_the_ultimate_battleship
-		icon = GFX_goal_generic_navy_battleship
+		icon = GFX_Japanese_Fleet
 		prerequisite = { focus = JAP_supremacy_of_the_battlefleet }
 		x = 0
 		y = 2
