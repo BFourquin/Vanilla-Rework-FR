@@ -1,4 +1,6 @@
 ﻿l_english:
+ USA_Iowa:0 "The Big Stick"
+ USA_Iowa_desc:0 "The hull of the Iowa-class battleship is 270 meters long, 33 meters wide and has a draft of 11 meters. Displacement is 45,000 standard tons and approximately 58,000 tons fully loaded, with the empty hull weighing 12,000 tons."
  WHILE_FOCUSING:0 "While focusing on this, there will be the following effects:\n$EFF$"
  generic_focus:0 "National Focus"
  army_effort:0 "Army Effort"
