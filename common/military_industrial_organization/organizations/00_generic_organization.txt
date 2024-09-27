@@ -301,7 +301,7 @@ generic_infantry_tank_organization = {
 	icon = GFX_idea_generic_tank_manufacturer_3
 
 	allowed = {
-		NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = SAF tag = ITA tag = JAP tag = USA tag = BEL tag = YUG tag = ROM tag = CZE tag = CHI tag = MAN tag = HOL tag = BUL tag = GRE tag = TUR tag = LAT tag = LIT } }
+		NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = SAF tag = ITA tag = JAP tag = USA tag = BEL tag = YUG tag = ROM tag = CZE tag = CHI tag = HOL tag = BUL tag = GRE tag = TUR tag = LAT tag = LIT } }
 		# always = no # Archetype only - countries using it have their own verisons
 	}
 
