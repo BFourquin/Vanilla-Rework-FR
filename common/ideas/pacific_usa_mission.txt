@@ -1,0 +1,74 @@
+ideas = {
+    country = {
+        pacific_war_failure_usa = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_army_problems
+
+			modifier = {
+				spotting_chance = -0.05
+				air_nav_efficiency = -0.05
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.05
+				war_support_factor = -0.05
+				stability_factor = -0.05
+			}
+		}
+
+		pacific_war_success_usa = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = SWE_coastal_support
+
+			modifier = {
+				naval_invasion_capacity = 35
+				naval_detection = 0.05
+				naval_speed_factor = 0.05
+				industrial_capacity_dockyard = 0.05
+				production_factory_efficiency_gain_factor = 0.05
+				air_nav_efficiency = 0.05
+			}
+		}
+
+		pacific_war_success_usa2 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_navy_carrier_bonus
+
+			modifier = {
+				naval_invasion_planning_bonus_speed = 0.1
+				amphibious_invasion_defence = 0.05
+				amphibious_invasion = 0.1
+				naval_invasion_planning_bonus_speed = 0.1
+				port_strike = 0.05
+			}
+		}
+    }
+}

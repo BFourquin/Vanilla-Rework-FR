@@ -3268,7 +3268,7 @@ focus_tree = {
 		x = -4
 		y = 1
 		relative_position_id = GER_rhineland
-		cost = 7.2
+		cost = 3
 
 		ai_will_do = {
 			factor = 1

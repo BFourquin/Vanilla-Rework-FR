@@ -25,11 +25,11 @@ ITA_african_war_category ={
         fire_only_once = yes
 
         timeout_effect = {
-            add_timed_idea = { idea = african_war_failure days = 730 }
+            add_timed_idea = { idea = african_war_failure days = 500 }
         }
 
         complete_effect = {
-            add_timed_idea = { idea = african_war_success days = 730 }
+            add_timed_idea = { idea = african_war_success days = 500 }
         }
     }
 }

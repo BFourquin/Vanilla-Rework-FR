@@ -1,0 +1,68 @@
+USA_pacific_war_category ={
+    
+    USA_pacific_war_mission = {
+
+        icon = GFX_decision_generic_naval
+
+        allowed = {
+            original_tag = USA
+        }
+
+        available = {
+            controls_state = 623
+            controls_state = 627
+            controls_state = 327
+            controls_state = 628
+        }
+
+        days_mission_timeout = 760
+
+        activation = {
+            has_war_with = JAP
+        }
+
+        is_good = no
+
+        fire_only_once = yes
+
+        timeout_effect = {
+            add_timed_idea = { idea = pacific_war_failure_usa days = 365 }
+        }
+
+        complete_effect = {
+            add_timed_idea = { idea = pacific_war_success_usa days = 365 }
+        }
+    }
+
+    USA_pacific_war_mission2 = {
+
+        icon = GFX_decision_generic_naval
+
+        allowed = {
+            original_tag = USA
+        }
+
+        available = {
+                controls_state = 524
+                controls_state = 526
+                controls_state = 645
+                controls_state = 648
+                controls_state = 632
+                controls_state = 647
+        }
+
+        days_mission_timeout = 1095
+
+        activation = {
+            has_war_with = JAP
+        }
+
+        is_good = no
+
+        fire_only_once = yes
+
+        timeout_effect = {
+            add_timed_idea = { idea = pacific_war_success_usa2 days = 365 }
+        }
+    }
+}

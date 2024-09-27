@@ -1,0 +1,70 @@
+ideas = {
+    country = {
+        pacific_war_failure_jap = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = NOR_broken_gun_ns
+
+			modifier = {
+				resistance_activity = 0.1
+				war_support_factor = -0.1
+				stability_factor = -0.1
+				industrial_capacity_dockyard = -0.05
+			}
+		}
+
+		pacific_war_failure_jap2 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_army_problems
+
+			modifier = {
+				production_factory_efficiency_gain_factor = -0.05
+				production_oil_factor = -0.05
+				war_support_factor = -0.1
+				stability_factor = -0.05
+			}
+		}
+
+		pacific_war_success_jap = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = SWE_coastal_support
+
+			modifier = {
+				industrial_capacity_dockyard = 0.1
+				conscription_factor = 0.02
+				naval_detection = 0.05
+				port_strike = 0.05
+				air_nav_efficiency = 0.05
+			}
+		}
+    }
+}

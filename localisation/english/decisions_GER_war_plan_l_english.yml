@@ -48,6 +48,12 @@
  ENG_Africa_war_mission:0 "Take control of Lybia"
  ENG_african_war_category:0 "African War"
  ITA_african_war_category:0 "African War"
+ JAP_pacific_war_category:0 "Pacific War - Attack"
+ USA_pacific_war_category:0 "Pacific War - Defense"
+ USA_pacific_war_mission:0 "Keep the Philippines"
+ USA_pacific_war_mission2:0 "Open the road to Japan"
+ JAP_pacific_war_mission:0 "Secure the way"
+ JAP_pacific_war_mission2:0 "Take control of ressources"
 
  MON_new_launch_category:0 "The Great Project"
 

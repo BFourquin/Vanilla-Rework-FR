@@ -215,8 +215,8 @@ characters={
 
 		corps_commander={
 			traits={ infantry_expert infantry_leader commando }
-			skill=3
-			attack_skill=3
+			skill=4
+			attack_skill=4
 			defense_skill=2
 			planning_skill=3
 			logistics_skill=2
