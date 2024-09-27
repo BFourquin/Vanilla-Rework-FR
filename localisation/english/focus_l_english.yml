@@ -65,6 +65,9 @@
  GER_unternehmen_achse:0 "Unternehmen achse"
  GER_Abwher:0 "Abwher"
  GER_Abwher_desc:0 "The reich need men to inform what happend in other country to put in place the best plan."
+ GER_enigma:0 "Gerät Enigma"
+ GER_gegenpartisanen:0 "Gegenpartisanen"
+ GER_train_the_gestapo:0 "Gestapo formation"
  
  GER_naval_effort2_tt: "Builds §Y2 Naval Dockyards§! in §Y2§! coastal states currently controlled by §Y[ROOT.GetFlag][ROOT.GetNameDef]§!"
  flexible_navy:0 "Flexible Navy"

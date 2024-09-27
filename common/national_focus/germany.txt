@@ -3281,6 +3281,65 @@ focus_tree = {
 	}
 
 	focus = {
+		id = GER_enigma
+		icon = GFX_focus_generic_university_1
+		prerequisite = { focus = GER_Abwher }
+		
+		cancel_if_invalid = yes
+		x = -1
+		y = 1
+		relative_position_id = GER_Abwher
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			upgrade_intelligence_agency = upgrade_form_department
+			upgrade_intelligence_agency = upgrade_crypto_strength
+		}
+	}
+
+	focus = {
+		id = GER_gegenpartisanen
+		icon = GFX_focus_SWE_neither_death_nor_dishonor
+		prerequisite = { focus = GER_enigma }
+		
+		cancel_if_invalid = yes
+		x = -2
+		y = 1
+		relative_position_id = GER_enigma
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			upgrade_intelligence_agency = upgrade_anti_partisan
+		}
+	}
+
+	focus = {
+		id = GER_train_the_gestapo
+		icon = GFX_focus_SWI_embrace_rote_drei
+		prerequisite = { focus = GER_enigma }
+		
+		cancel_if_invalid = yes
+		x = 0
+		y = 1
+		relative_position_id = GER_enigma
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			upgrade_intelligence_agency = upgrade_interrogation_techniques
+		}
+	}
+	
+
+	focus = {
 		id = GER_anti_comitern_pact
 		icon = GFX_goal_anti_comintern_pact
 		prerequisite = { focus = GER_rhineland  }
