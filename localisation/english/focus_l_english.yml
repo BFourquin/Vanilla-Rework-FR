@@ -68,6 +68,7 @@
  GER_enigma:0 "Gerät Enigma"
  GER_gegenpartisanen:0 "Gegenpartisanen"
  GER_train_the_gestapo:0 "Gestapo formation"
+ GER_collaboration_with_vichy:0 "Collaboration with Vichy France"
  
  GER_naval_effort2_tt: "Builds §Y2 Naval Dockyards§! in §Y2§! coastal states currently controlled by §Y[ROOT.GetFlag][ROOT.GetNameDef]§!"
  flexible_navy:0 "Flexible Navy"
@@ -1134,7 +1135,7 @@
  MON_infantry_investments:0 "Infantry Investments"
  MON_production_means_seizure:0 "Seizure of production means"
  MON_time_for_war:0 "Time for War"
- MON_soviet_demand:0 "Soviet demand"
+ MON_soviet_demand:0 "Special Soviet demand"
  MON_new_rifles:0 "New rifles"
  MON_new_rifles_desc:0 "Better one good gun than 10 bad ones."
  MON_mongolia_people_army:0 "Mongolia people army"

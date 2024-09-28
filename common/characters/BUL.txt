@@ -204,7 +204,7 @@ characters = {
 		}
 		field_marshal = {
 			traits = { career_officer politically_connected trait_BUL_tsar_loyalist trait_engineer organizer }
-			skill = 4
+			skill = 5
 			attack_skill = 4
 			defense_skill = 3
 			planning_skill = 3
@@ -227,7 +227,7 @@ characters = {
 			}
 			corps_commander = {
 				traits = { infantry_officer war_hero skilled_staffer }
-				skill = 4
+				skill = 5
 				attack_skill = 3
 				defense_skill = 3
 				planning_skill = 3
@@ -248,7 +248,7 @@ characters = {
 			}
 			field_marshal = {
 				traits = { defensive_doctrine }
-				skill = 4
+				skill = 5
 				attack_skill = 2
 				defense_skill = 4
 				planning_skill = 3
@@ -268,7 +268,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = { trait_reckless cavalry_leader panzer_leader hill_fighter trickster}
-			skill = 4
+			skill = 5
 			attack_skill = 4
 			defense_skill = 3
 			planning_skill = 3
@@ -287,7 +287,7 @@ characters = {
 		}
 		corps_commander = {
 			traits = { old_guard infantry_leader commando organizer }
-			skill = 4
+			skill = 5
 			attack_skill = 4
 			defense_skill = 4
 			planning_skill = 2

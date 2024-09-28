@@ -79,7 +79,7 @@ characters={
 		}
 		field_marshal={
 			traits={ hill_fighter organizer naval_invader }
-			skill=4
+			skill=5
 			attack_skill=4
 			defense_skill=2
 			planning_skill=4
@@ -97,7 +97,7 @@ characters={
 			}
 		}
 		corps_commander={
-			skill=4
+			skill=5
 			attack_skill=4
 			defense_skill=3
 			planning_skill=3
@@ -115,7 +115,7 @@ characters={
 			}
 		}
 		corps_commander={
-			skill=4
+			skill=5
 			attack_skill=3
 			defense_skill=4
 			planning_skill=3
@@ -134,7 +134,7 @@ characters={
 		}
 		corps_commander={
 			traits={ hill_fighter panzer_leader naval_invader }
-			skill=4
+			skill=5
 			attack_skill=3
 			defense_skill=4
 			planning_skill=3
@@ -153,7 +153,7 @@ characters={
 		}
 		corps_commander={
 			traits={ desert_fox trait_mountaineer commando naval_invader infantry_leader }
-			skill=4
+			skill=5
 			attack_skill=4
 			defense_skill=3
 			planning_skill=3
