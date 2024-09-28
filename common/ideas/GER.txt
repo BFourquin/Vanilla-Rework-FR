@@ -1544,6 +1544,24 @@ ideas = {
 			}
 		}
 
+		GER_gouv_collab = {
+			allowed = {
+				original_tag = GER
+			}
+			allowed_civil_war = {
+				has_government = fascism
+			}
+			removal_cost = -1
+			picture = generic_spy_coup
+			modifier = {
+				operation_collaboration_government_cost = -0.85
+				operation_collaboration_government_outcome = 0.5
+				own_operative_capture_chance_factor = -0.5
+				own_operative_detection_chance_factor = -0.5
+				intel_network_gain_factor = 0.35
+			}
+		}
+
 		GER_air_safety_regulations = {
 			allowed = {
 				original_tag = GER
@@ -1621,6 +1639,8 @@ ideas = {
 				production_speed_buildings_factor = 0.08
 			}
 		}
+
+
 
 		GER_western_trade_cooperation = {
 			allowed = {

@@ -23,7 +23,7 @@ characters={
 		}
 		field_marshal={
 			traits={ inflexible_strategist unyielding_defender ranger}
-			skill=4
+			skill=5
 			attack_skill=3
 			defense_skill=4
 			planning_skill=2
@@ -42,9 +42,28 @@ characters={
 		}
 		corps_commander={
 			traits={ panzer_leader ranger }
-			skill=3
-			attack_skill=2
+			skill=5
+			attack_skill=3
 			defense_skill=2
+			planning_skill=1
+			logistics_skill=4
+			legacy_id=10002
+		}
+	}
+
+	MON_andrei_kagal={
+		name="Andrei Kagal"
+		portraits={
+			army={
+				large=GFX_Portrait_Asia_Generic_land_5
+				small=GFX_Portrait_Asia_Generic_land_5_small
+			}
+		}
+		corps_commander={
+			traits={ infantry_leader commando hill_fighter trickster }
+			skill=5
+			attack_skill=3
+			defense_skill=3
 			planning_skill=1
 			logistics_skill=4
 			legacy_id=10002

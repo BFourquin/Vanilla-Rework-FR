@@ -721,7 +721,7 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_goal_fortify_the_westwall"
 		texturefile = "gfx/interface/goals/goal_generic_construct_military.dds"			
-	}	
+	}
 	
 	SpriteType = {
 		name = "GFX_goal_reichsautobahn"
@@ -835,6 +835,16 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_focus_ger_break_anglo_french_colonial_hegemony"
 		texturefile = "gfx/interface/goals/focus_ger_break_anglo_french_colonial_hegemony.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_Collab_france"
+		texturefile = "gfx/interface/goals/Collab_france.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_enigma_icon"
+		texturefile = "gfx/interface/goals/GER_enigma_icon.dds"
 	}
 
 #	TFV goal / focus icons

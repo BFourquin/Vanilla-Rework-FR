@@ -3282,14 +3282,14 @@ focus_tree = {
 
 	focus = {
 		id = GER_enigma
-		icon = GFX_focus_generic_university_1
+		icon = GFX_GER_enigma_icon
 		prerequisite = { focus = GER_Abwher }
 		
 		cancel_if_invalid = yes
 		x = -1
 		y = 1
 		relative_position_id = GER_Abwher
-		cost = 3
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -3297,6 +3297,8 @@ focus_tree = {
 		completion_reward = {
 			upgrade_intelligence_agency = upgrade_form_department
 			upgrade_intelligence_agency = upgrade_crypto_strength
+			set_technology = { mechanical_computing = 1
+			}
 		}
 	}
 
@@ -3335,6 +3337,25 @@ focus_tree = {
 		}
 		completion_reward = {
 			upgrade_intelligence_agency = upgrade_interrogation_techniques
+		}
+	}
+
+	focus = {
+		id = GER_collaboration_with_vichy
+		icon = GFX_Collab_france
+		prerequisite = { focus = GER_gegenpartisanen focus = GER_train_the_gestapo }
+		
+		cancel_if_invalid = yes
+		x = 1
+		y = 1
+		relative_position_id = GER_gegenpartisanen
+		cost = 3
+
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_timed_idea = { idea = GER_gouv_collab days = 200 }
 		}
 	}
 	
