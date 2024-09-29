@@ -1,0 +1,66 @@
+ideas = {
+    country = {
+        USA_performance = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = chi_incompetent_officers
+
+			targeted_modifier = {
+				tag = GER
+				attack_bonus_against = -0.1
+				defense_bonus_against = -0.1
+			}
+		}
+
+		USA_performance2 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = chi_wargaming_division
+
+			targeted_modifier = {
+				tag = GER
+				attack_bonus_against = -0.1
+				defense_bonus_against = -0.1
+			}
+		}
+
+		ENG_performance = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = chi_incompetent_officers
+
+			targeted_modifier = {
+				tag = GER
+				attack_bonus_against = -0.1
+				defense_bonus_against = -0.1
+			}
+		}
+    }
+}
