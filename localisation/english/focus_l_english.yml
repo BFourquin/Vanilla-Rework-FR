@@ -2596,4 +2596,5 @@
  HUN_a_new_flagship_desc:0 "The storied history of our naval tradition has been one of trial, tribulation, and betrayal. In an effort to restore the pride of our heritage, our admirals propose a new flagship to inspire the whole nation."
  HUN_dockyards:0 "Renew the Shipping Industry"
  HUN_dockyards_desc:0 "With our sights set firmly on the restoration of our borders, we must begin the task of developing a Mediterranean fleet to rival our past glories."
+ HUN_Strategiai_bombazas:0 "Stratégiai bombázás"
  if_no_depression_get_stuff_TT:0 "\nIf the §H$CAN_great_depression_1$§! has been removed, a different bonus will be applied.\n\n"

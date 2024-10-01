@@ -1449,68 +1449,6 @@ ITA_missiolinis = {
 		}
 	}
 
-	# Occupy Ticino
-	ITA_missiolini_occupy_ticino = {
-		icon = GFX_decision_infiltrate_state
-		allowed = {
-			tag = ITA
-		}
-
-		visible = {
-			ITA_missiolinis_system_available = yes
-		}
-
-		available = { #GOAL
-			846 = { #TICINO
-				OR = {
-					is_fully_controlled_by = ROOT
-					controller = {
-						is_subject_of = ROOT
-						hidden_trigger = { #To prevent unnecessary overcrowding
-							has_full_control_of_state = PREV
-						}
-					}
-				}
-			}
-		}
-
-		activation = {
-			always = no
-		}
-
-		cancel_if_not_visible = yes
-		is_good = no #Tooltip purposes
-		selectable_mission = no
-		days_mission_timeout = ITA_missiolinis_default_days
-
-		cosmetic_tag = SWI
-		cosmetic_ideology = democratic
-
-		timeout_effect = { #MISSION FAILS
-			effect_tooltip = {
-				ITA_missiolini_occupy_ticino_failure_effect = yes
-			}
-
-			hidden_effect = {
-				country_event = { id = BBA_italy_missiolinis.132 hours = 1 }
-			}
-		}
-
-		complete_effect = { #MISSION SUCCEEDS
-			effect_tooltip = {
-				ITA_missiolini_occupy_ticino_success_effect = yes
-			}
-
-			hidden_effect = {
-				country_event = { id = BBA_italy_missiolinis.133 hours = 1 }
-			}
-		}
-	}
-
-
-
-
-
 
 	# Bolster Political Cabinet
 	ITA_missiolini_bolster_political_cabinet = {

@@ -1766,12 +1766,11 @@ focus_tree = {
 
 	focus = {
 		id = MON_expand_the_graveyard
-		icon = GFX_focus_ETH_expand_the_levy
-		prerequisite = { focus = MON_tactical_innovations }
+		icon = GFX_focus_generic_workers
 		prerequisite = { focus = MON_soviet_demand focus = MON_time_for_war }
-		x = -2
+		x = 1
 		y = 1
-		relative_position_id = MON_tactical_innovations
+		relative_position_id = MON_time_for_war
 
 		cost = 8
 
@@ -1781,14 +1780,15 @@ focus_tree = {
 
 		available = {
 			GER = {
-				controls_state = 219
-				controls_state = 195
-				controls_state = 217
+				controls_state = 202
+				controls_state = 220
+				controls_state = 221
+				controls_state = 242
 			}
 		}
 
 		completion_reward = {
-			add_timed_idea = { idea = MON_graveyard days = 1095 }
+			add_ideas = MON_graveyard
 		}
 	}
 
