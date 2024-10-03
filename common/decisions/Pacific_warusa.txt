@@ -9,10 +9,18 @@ USA_pacific_war_category ={
         }
 
         available = {
+            OR = {
             controls_state = 623
             controls_state = 627
             controls_state = 327
             controls_state = 628
+                PHI = {
+                    controls_state = 623
+                    controls_state = 627
+                    controls_state = 327
+                    controls_state = 628
+                }
+            }
         }
 
         days_mission_timeout = 760
@@ -43,12 +51,24 @@ USA_pacific_war_category ={
         }
 
         available = {
+            OR = {
                 controls_state = 524
                 controls_state = 526
                 controls_state = 645
                 controls_state = 648
                 controls_state = 632
+                controls_state = 638
                 controls_state = 647
+                ENG = {
+                    controls_state = 524
+                    controls_state = 526
+                    controls_state = 645
+                    controls_state = 648
+                    controls_state = 632
+                    controls_state = 638
+                    controls_state = 647
+                }
+            }
         }
 
         days_mission_timeout = 1095
