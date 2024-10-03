@@ -14,5 +14,3 @@ HOI4 UFC community discord : [https://discord.gg/8kYakSMCW5](https://discord.gg/
 
 Full details of the reworks and patch notes > WIP
 
-
-Based on Gannox's  mod Vanilla+, thanks to him.
