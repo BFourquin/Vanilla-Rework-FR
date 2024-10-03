@@ -6,7 +6,7 @@ ideas = {
 			available = { has_military_academy = yes }
 			modifier = {
 				custom_modifier_tooltip = bold_attack_spirit_tt
-				army_leader_start_level = 1
+				army_leader_start_level = 2
 			}
 			ai_will_do = {
 				factor = 1
@@ -21,7 +21,7 @@ ideas = {
 			available = { has_military_academy = yes }
 			modifier = {
 				custom_modifier_tooltip = tenacious_defense_spirit_tt
-				army_leader_start_level = 1
+				army_leader_start_level = 2
 			}
 			ai_will_do = {
 				factor = 1
@@ -36,7 +36,7 @@ ideas = {
 			available = { has_military_academy = yes }
 			modifier = {
 				custom_modifier_tooltip = meticulous_preparation_spirit_tt
-				army_leader_start_level = 1
+				army_leader_start_level = 2
 			}
 			ai_will_do = {
 				factor = 1
@@ -146,7 +146,7 @@ ideas = {
 			ledger = army
 			available = { has_military_academy = yes }
 			modifier = {
-				army_leader_start_level = 1
+				army_leader_start_level = 2
 				custom_modifier_tooltip = inventive_leadership_spirit_tt
 				trait_naval_invader_xp_gain_factor = 0.25
 				trait_commando_xp_gain_factor = 0.25
@@ -165,7 +165,7 @@ ideas = {
 			available = { has_military_academy = yes }
 			# visible = { has_tech = mobile_warfare }
 			modifier = {
-				army_leader_start_level = 1
+				army_leader_start_level = 2
 				custom_modifier_tooltip = mobile_warfare_academy_spirit_tt
 				trait_panzer_leader_xp_gain_factor = 0.2
 			}
@@ -188,7 +188,7 @@ ideas = {
 			available = { has_military_academy = yes }
 			# visible = { has_tech = superior_firepower }
 			modifier = {
-				army_leader_start_level = 1
+				army_leader_start_level = 2
 				custom_modifier_tooltip = superior_firepower_academy_spirit_tt
 				trait_engineer_xp_gain_factor = 0.2
 				initiative_factor = 0.04
@@ -212,7 +212,7 @@ ideas = {
 			available = { has_military_academy = yes }
 			#visible = { has_tech = trench_warfare }
 			modifier = {
-				army_leader_start_level = 1
+				army_leader_start_level = 2
 				custom_modifier_tooltip = theatre_training_academy_spirit_tt
 				terrain_trait_xp_gain_factor = 0.2
 			}
@@ -235,7 +235,7 @@ ideas = {
 			available = { has_military_academy = yes }
 			# visible = { has_tech = mass_assault }
 			modifier = {
-				army_leader_start_level = 1
+				army_leader_start_level = 2
 				custom_modifier_tooltip = mass_assault_academy_spirit_tt
 				trait_infantry_leader_xp_gain_factor = 0.2
 			}
@@ -282,7 +282,7 @@ ideas = {
 		proper_heritage_spirit = {
 			ledger = army
 			modifier = {
-				army_leader_start_level = 1
+				army_leader_start_level = 2
 				unit_cavalry_design_cost_factor = -1
 				cavalry_attack_factor = 0.05
 				supply_combat_penalties_on_core_factor = -0.2

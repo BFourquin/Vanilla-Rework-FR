@@ -1175,14 +1175,51 @@ on_actions = {
 						}
 						root = {
 							random_list = {
-								20 = { add_unit_leader_trait = desert_fox }
-								20 = { add_unit_leader_trait = swamp_fox }
-								20 = { add_unit_leader_trait = trait_mountaineer }
-								20 = { add_unit_leader_trait = hill_fighter }
-								20 = { add_unit_leader_trait = jungle_rat }
-								20 = { add_unit_leader_trait = ranger }
-								20 = { add_unit_leader_trait = urban_assault_specialist }
-								20 = { add_unit_leader_trait = adaptable }
+								50 = { 
+									random_list = {
+										10 = { add_unit_leader_trait = swamp_fox }
+										10 = { add_unit_leader_trait = trait_mountaineer }
+										10 = { add_unit_leader_trait = hill_fighter }
+										10 = { add_unit_leader_trait = jungle_rat }
+										10 = { add_unit_leader_trait = ranger }
+										10 = { add_unit_leader_trait = urban_assault_specialist }
+										10 = { add_unit_leader_trait = adaptable }
+										10 = { add_unit_leader_trait = desert_fox }
+									}
+								}
+								15 = {
+									add_unit_leader_trait = adaptable
+									random_list = {
+										10 = { add_unit_leader_trait = swamp_fox }
+										10 = { add_unit_leader_trait = trait_mountaineer }
+										10 = { add_unit_leader_trait = hill_fighter }
+										10 = { add_unit_leader_trait = jungle_rat }
+										10 = { add_unit_leader_trait = ranger }
+										10 = { add_unit_leader_trait = urban_assault_specialist }
+										10 = { add_unit_leader_trait = desert_fox }
+									}
+								}
+								35 = { 
+									random_list = {
+										10 = { add_unit_leader_trait = swamp_fox }
+										10 = { add_unit_leader_trait = trait_mountaineer }
+										10 = { add_unit_leader_trait = hill_fighter }
+										10 = { add_unit_leader_trait = jungle_rat }
+										10 = { add_unit_leader_trait = ranger }
+										10 = { add_unit_leader_trait = urban_assault_specialist }
+										10 = { add_unit_leader_trait = adaptable }
+										10 = { add_unit_leader_trait = desert_fox }
+									}
+									random_list = {
+										10 = { add_unit_leader_trait = swamp_fox }
+										10 = { add_unit_leader_trait = trait_mountaineer }
+										10 = { add_unit_leader_trait = hill_fighter }
+										10 = { add_unit_leader_trait = jungle_rat }
+										10 = { add_unit_leader_trait = ranger }
+										10 = { add_unit_leader_trait = urban_assault_specialist }
+										10 = { add_unit_leader_trait = desert_fox }
+									}
+								}
 							}
 						}
 					}
@@ -1264,14 +1301,51 @@ on_actions = {
 						}
 						root = {
 							random_list = {
-								25 = { add_unit_leader_trait = ranger }
-								25 = { add_unit_leader_trait = urban_assault_specialist }
-								25 = { add_unit_leader_trait = adaptable }
-								25 = { add_unit_leader_trait = desert_fox }
-								25 = { add_unit_leader_trait = swamp_fox }
-								25 = { add_unit_leader_trait = trait_mountaineer }
-								25 = { add_unit_leader_trait = hill_fighter }
-								25 = { add_unit_leader_trait = jungle_rat }
+								50 = { 
+									random_list = {
+										10 = { add_unit_leader_trait = swamp_fox }
+										10 = { add_unit_leader_trait = trait_mountaineer }
+										10 = { add_unit_leader_trait = hill_fighter }
+										10 = { add_unit_leader_trait = jungle_rat }
+										10 = { add_unit_leader_trait = ranger }
+										10 = { add_unit_leader_trait = urban_assault_specialist }
+										10 = { add_unit_leader_trait = adaptable }
+										10 = { add_unit_leader_trait = desert_fox }
+									}
+								}
+								15 = {
+									add_unit_leader_trait = adaptable
+									random_list = {
+										10 = { add_unit_leader_trait = swamp_fox }
+										10 = { add_unit_leader_trait = trait_mountaineer }
+										10 = { add_unit_leader_trait = hill_fighter }
+										10 = { add_unit_leader_trait = jungle_rat }
+										10 = { add_unit_leader_trait = ranger }
+										10 = { add_unit_leader_trait = urban_assault_specialist }
+										10 = { add_unit_leader_trait = desert_fox }
+									}
+								}
+								35 = { 
+									random_list = {
+										10 = { add_unit_leader_trait = swamp_fox }
+										10 = { add_unit_leader_trait = trait_mountaineer }
+										10 = { add_unit_leader_trait = hill_fighter }
+										10 = { add_unit_leader_trait = jungle_rat }
+										10 = { add_unit_leader_trait = ranger }
+										10 = { add_unit_leader_trait = urban_assault_specialist }
+										10 = { add_unit_leader_trait = adaptable }
+										10 = { add_unit_leader_trait = desert_fox }
+									}
+									random_list = {
+										10 = { add_unit_leader_trait = swamp_fox }
+										10 = { add_unit_leader_trait = trait_mountaineer }
+										10 = { add_unit_leader_trait = hill_fighter }
+										10 = { add_unit_leader_trait = jungle_rat }
+										10 = { add_unit_leader_trait = ranger }
+										10 = { add_unit_leader_trait = urban_assault_specialist }
+										10 = { add_unit_leader_trait = desert_fox }
+									}
+								}
 							}
 						}
 					}
@@ -1281,14 +1355,51 @@ on_actions = {
 						}
 						root = {
 							random_list = {
-								10 = { add_unit_leader_trait = swamp_fox }
-								10 = { add_unit_leader_trait = trait_mountaineer }
-								10 = { add_unit_leader_trait = hill_fighter }
-								10 = { add_unit_leader_trait = jungle_rat }
-								10 = { add_unit_leader_trait = ranger }
-								10 = { add_unit_leader_trait = urban_assault_specialist }
-								10 = { add_unit_leader_trait = adaptable }
-								10 = { add_unit_leader_trait = desert_fox }
+								50 = { 
+									random_list = {
+										10 = { add_unit_leader_trait = swamp_fox }
+										10 = { add_unit_leader_trait = trait_mountaineer }
+										10 = { add_unit_leader_trait = hill_fighter }
+										10 = { add_unit_leader_trait = jungle_rat }
+										10 = { add_unit_leader_trait = ranger }
+										10 = { add_unit_leader_trait = urban_assault_specialist }
+										10 = { add_unit_leader_trait = adaptable }
+										10 = { add_unit_leader_trait = desert_fox }
+									}
+								}
+								15 = {
+									add_unit_leader_trait = adaptable
+									random_list = {
+										10 = { add_unit_leader_trait = swamp_fox }
+										10 = { add_unit_leader_trait = trait_mountaineer }
+										10 = { add_unit_leader_trait = hill_fighter }
+										10 = { add_unit_leader_trait = jungle_rat }
+										10 = { add_unit_leader_trait = ranger }
+										10 = { add_unit_leader_trait = urban_assault_specialist }
+										10 = { add_unit_leader_trait = desert_fox }
+									}
+								}
+								35 = { 
+									random_list = {
+										10 = { add_unit_leader_trait = swamp_fox }
+										10 = { add_unit_leader_trait = trait_mountaineer }
+										10 = { add_unit_leader_trait = hill_fighter }
+										10 = { add_unit_leader_trait = jungle_rat }
+										10 = { add_unit_leader_trait = ranger }
+										10 = { add_unit_leader_trait = urban_assault_specialist }
+										10 = { add_unit_leader_trait = adaptable }
+										10 = { add_unit_leader_trait = desert_fox }
+									}
+									random_list = {
+										10 = { add_unit_leader_trait = swamp_fox }
+										10 = { add_unit_leader_trait = trait_mountaineer }
+										10 = { add_unit_leader_trait = hill_fighter }
+										10 = { add_unit_leader_trait = jungle_rat }
+										10 = { add_unit_leader_trait = ranger }
+										10 = { add_unit_leader_trait = urban_assault_specialist }
+										10 = { add_unit_leader_trait = desert_fox }
+									}
+								}
 							}
 						}
 					}
@@ -1297,7 +1408,22 @@ on_actions = {
 							FROM = { has_idea = static_warfare_spirit }
 						}
 						root = {
-							add_unit_leader_trait = winter_specialist
+							random_list = {
+								50 = { add_unit_leader_trait = winter_specialist }
+								50 = { 
+									add_unit_leader_trait = winter_specialist
+									random_list = {
+										10 = { add_unit_leader_trait = swamp_fox }
+										10 = { add_unit_leader_trait = trait_mountaineer }
+										10 = { add_unit_leader_trait = hill_fighter }
+										10 = { add_unit_leader_trait = jungle_rat }
+										10 = { add_unit_leader_trait = ranger }
+										10 = { add_unit_leader_trait = urban_assault_specialist }
+										10 = { add_unit_leader_trait = adaptable }
+										10 = { add_unit_leader_trait = desert_fox }
+									}
+								}
+							}
 						}
 					}
 					if = {

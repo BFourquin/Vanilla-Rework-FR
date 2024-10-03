@@ -1189,6 +1189,7 @@ ideas = {
 			modifier = {
 				production_cost_max_ship_hull_cruiser = 5300
 				production_cost_max_ship_hull_heavy = 10000
+				production_cost_max_ship_hull_super_heavy = 12000
 				production_cost_max_ship_hull_carrier = 9500
 			}
 		}
@@ -1251,6 +1252,7 @@ ideas = {
 			modifier = {
 				production_cost_max_ship_hull_cruiser = 6500
 				production_cost_max_ship_hull_heavy = 14000
+				production_cost_max_ship_hull_super_heavy = 17500
 				production_cost_max_ship_hull_carrier = 10750
 			}
 		}
