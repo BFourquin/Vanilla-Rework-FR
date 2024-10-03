@@ -125,8 +125,8 @@ equipments = {
 		surface_visibility = 20
 		
 		resources = {
-			steel = 10
-			chromium = 10
+			steel = 1
+			chromium = 1
 		}
 
 		naval_supremacy_factor = 4
@@ -218,7 +218,7 @@ equipments = {
 			rear_1_custom_slot = empty
 		}
 		naval_range = 4500
-		naval_speed = 32
+		naval_speed = 25
 		max_strength = 700
 		fuel_consumption = 75
 		reliability = 0.80
