@@ -86,51 +86,5 @@ on_actions = {
             }
         }
     }
-
-    on_state_control_changed = {
-        effect = {
-            if = {
-                limit = {
-                    FROM.FROM = {
-                        OR = {
-                            state = 336
-                            state = 333
-                            
-                        }
-                    }
-                    tag = JAP
-                    controls_state = 336
-                    controls_state = 333
-                    
-                }
-                ENG= {
-                    add_ideas = ENG_performance
-                }
-            }
-        }
-    }
-
-    on_state_control_changed = {
-        effect = {
-            if = {
-                limit = {
-                    FROM.FROM = {
-                        OR = {
-                            state = 336
-                            state = 333
-                            
-                        }
-                    }
-                    tag = ENG
-                    controls_state = 336
-                    controls_state = 333
-                    
-                }
-                ENG = {
-                    remove_ideas = ENG_performance
-                }
-            }
-        }
-    }
 }
 	
