@@ -10882,7 +10882,6 @@ SOV_industry_relocation = {
 
 		target_root_trigger = {
 			original_tag = SOV
-			has_completed_focus = SOV_move_industry_to_the_urals
 			has_civil_war = no
 		}
 
@@ -10895,7 +10894,10 @@ SOV_industry_relocation = {
 				is_fully_controlled_by = ROOT
 				infrastructure > 2
 			}
-			has_equipment = { train_equipment > 79 } #20 trains per factory
+			has_equipment = { train_equipment > 49 } #20 trains per factory
+			any_enemy_country = {
+				SOV_is_major_not_original_sov = yes
+			}
 		}
 
 		visible = {
@@ -11070,10 +11072,12 @@ SOV_industry_relocation = {
 			has_full_control_of_state = 195
 			has_full_control_of_state = 569
 			has_equipment = { train_equipment > 19 } #20 trains per factory
+			any_enemy_country = {
+				SOV_is_major_not_original_sov = yes
+			}
 		}
 
 		visible = {
-			has_completed_focus = SOV_move_industry_to_the_urals
 			controls_state = 195
 			controls_state = 569
 			195 = { has_state_flag = leningrad_aluminium_developed }
