@@ -2483,7 +2483,7 @@ focus_tree = {
 						has_country_flag = USA_the_giant_wakes_added_civ_eco
 					}
 				}
-				add_ideas = civilian_economy
+				add_ideas = low_economic_mobilisation
 				set_country_flag = USA_the_giant_wakes_added_civ_eco
 			}
 		}
