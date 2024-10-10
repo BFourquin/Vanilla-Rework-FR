@@ -1,0 +1,45 @@
+﻿l_english:
+ # Other
+ 
+ ## Terraforming Tool
+ #Construction research tooltips
+ r56rp_terraformer_1_tt: "Allows Improving State Urbanization Level up to §GRural§!."
+ r56rp_terraformer_2_tt: "Allows Improving State Urbanization Level up to §GDeveloped Rural§!."
+ r56rp_terraformer_3_tt: "Allows Improving State Urbanization Level up to §GDense Urban§!."
+ r56rp_terraformer_4_tt: "Allows Improving State Urbanization Level up to §GMegalopolis§!."
+
+ # Scripted localisation is used to swap the decision text to the hide or show text.
+ r56rp_toggle_terraform_decisions: "[r56rp_toggle_terraform_scrip_loc]"
+ r56rp_hide_terraform_decisions: "(§RHidden§!) Toggle Urbanization Decisions Visibility"
+ r56rp_show_terraform_decisions: "(§GVisible§!) Toggle Urbanization Decisions Visibility"
+
+ r56rp_terraformer_pastoral_rural: "Increase Urbanization Level of §G[FROM.GetName]§! to §GRural§!"
+ r56rp_terraformer_rural_town: "Increase Urbanization Level of §G[FROM.GetName]§! to §GDeveloped Rural§!"
+ r56rp_terraformer_town_largetown: "Increase Urbanization Level of §G[FROM.GetName]§! to §GSparse Urban§!"
+ r56rp_terraformer_largetown_city: "Increase Urbanization Level of §G[FROM.GetName]§! to §GUrban§!"
+ r56rp_terraformer_city_largecity: "Increase Urbanization Level of §G[FROM.GetName]§! to §GDense Urban§!"
+ r56rp_terraformer_largecity_metropolis: "Increase Urbanization Level of §G[FROM.GetName]§! to §GMetropolis§!"
+ r56rp_terraformer_metropolis_megalopolis: "Increase Urbanization Level of §G[FROM.GetName]§! to §GMegalopolis§!"
+
+ r56rp_terraformer_pastoral_rural_effect_tt: "Increases base building slots to 3" 
+ r56rp_terraformer_rural_town_effect_tt: "Increases base building slots to 4" 
+ r56rp_terraformer_town_largetown_effect_tt: "Increases base building slots to 6" 
+ r56rp_terraformer_largetown_city_effect_tt: "Increases base building slots to 8" 
+ r56rp_terraformer_city_largecity_effect_tt: "Increases base building slots to 10" 
+ r56rp_terraformer_largecity_metropolis_effect_tt: "Increases base building slots to 12" 
+ r56rp_terraformer_metropolis_megalopolis_effect_tt: "Increases base building slots to 15" 
+
+ r56rp_terraformer_pastoral_rural_cost: "£civ_factory 1"
+ r56rp_terraformer_pastoral_rural_cost_blocked: "£civ_factory §R2§!"
+ r56rp_terraformer_rural_town_cost: "£civ_factory 2"
+ r56rp_terraformer_rural_town_cost_blocked: "£civ_factory §R2§!"
+ r56rp_terraformer_town_largetown_cost: "£civ_factory 4"
+ r56rp_terraformer_town_largetown_cost_blocked: "£civ_factory §R5§!"
+ r56rp_terraformer_largetown_city_cost: "£civ_factory 5"
+ r56rp_terraformer_largetown_city_cost_blocked: "£civ_factory §R5§!"
+ r56rp_terraformer_city_largecity_cost: "£civ_factory 5"
+ r56rp_terraformer_city_largecity_cost_blocked: "£civ_factory §R5§!"
+ r56rp_terraformer_largecity_metropolis_cost: "£civ_factory 8"
+ r56rp_terraformer_largecity_metropolis_cost_blocked: "£civ_factory §R10§!"
+ r56rp_terraformer_metropolis_megalopolis_cost: "£civ_factory 10"
+ r56rp_terraformer_metropolis_megalopolis_cost_blocked: "£civ_factory §R15§!"
