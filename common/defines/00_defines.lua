@@ -3259,7 +3259,7 @@ NAI = {
 	ARMY_LEADER_ASSIGN_DEFENSE_SKILL_FACTOR = 10,               -- This times general's defense skill is added to score
 	ARMY_LEADER_ASSIGN_LOGISTICS_SKILL_FACTOR = 7,              -- This times general's logistics skill is added to score
 	ARMY_LEADER_ASSIGN_PLANNING_SKILL_FACTOR = 7,               -- This times general's planning skill is added to score
-	ARMY_LEADER_ASSIGN_NR_TRAITS = 5,                           -- This times general's nr of active traits is added to score
+	ARMY_LEADER_ASSIGN_NR_TRAITS = 7,                           -- This times general's nr of active traits is added to score
 	ARMY_LEADER_ASSIGN_EXILED_LEADS_EXILED_TROOPS = 10,         -- If exiled leader, increase chance of leading army with exiled troops
 	ARMY_LEADER_ASSIGN_EXILED_LEADS_OWN_EXILED_TROOPS = 100,    -- If exiled leader, increase chance of leading army with exiled troops from same country as the leader
 
