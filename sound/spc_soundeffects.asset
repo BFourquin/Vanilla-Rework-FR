@@ -87,3 +87,21 @@ soundeffect = {
 	}
 	volume = 1.4
 }
+
+soundeffect = {
+	name = "Tension"
+	sounds = {
+		sound =
+			Tension
+	}
+	volume = 1.4
+}
+
+soundeffect = {
+	name = "the_call"
+	sounds = {
+		sound =
+			the_call
+	}
+	volume = 1.4
+}

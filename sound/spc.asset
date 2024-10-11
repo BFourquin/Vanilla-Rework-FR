@@ -67,3 +67,17 @@ sound =
 	file = "Barb.wav"
 
 }
+
+sound =
+{
+	name = "Tension"
+	file = "Tension.wav"
+
+}
+
+sound =
+{
+	name = "the_call"
+	file = "Tthe_call.wav"
+
+}
