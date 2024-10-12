@@ -152,7 +152,7 @@ ideas = {
 			
 			modifier = {
 				send_volunteer_divisions_required = -1
-				send_volunteer_size = 3  # +1 from base size
+				send_volunteer_size = 2  # +1 from base size
 				experience_gain_army = 0.2
 			}
 			
