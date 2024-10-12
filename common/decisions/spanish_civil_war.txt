@@ -193,7 +193,7 @@ spanish_war = {
 		available = {
 			OR = {
 				SPR = { surrender_progress > 0.5 }
-				SPA = { surrender_progress > 0.5 }
+				D01 = { surrender_progress > 0.5 }
 			}
 			
 		}
@@ -205,7 +205,7 @@ spanish_war = {
 
 		complete_effect = {
 			recall_volunteers_from = SPR
-			recall_volunteers_from = SPA
+			recall_volunteers_from = D01
 		}
 
 	}	
@@ -219,9 +219,9 @@ spanish_war = {
 			OR = {
 				original_tag = GER
 				original_tag = SOV
-				original_tag = SPA
+				original_tag = D01
 			}
-			SPR = { surrender_progress > 0.6 }
+			D01 = { surrender_progress > 0.6 }
 		}
 
 		visible = {
