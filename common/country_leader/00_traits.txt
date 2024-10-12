@@ -7048,6 +7048,7 @@ leader_traits = {
 	military_theorist = {
 		sprite = 14
 		land_doctrine_cost_factor = -0.1
+		experience_gain_army = 0.05
 
 		ai_will_do = {
 			factor = 1
@@ -7093,6 +7094,7 @@ leader_traits = {
 	air_warfare_theorist = {
 		sprite = 14
 		air_doctrine_cost_factor = -0.1
+		experience_gain_air = 0.05
 
 		ai_will_do = {
 			factor = 1
@@ -7144,7 +7146,7 @@ leader_traits = {
 	naval_theorist = {
 		sprite = 14
 		naval_doctrine_cost_factor = -0.1
-
+		experience_gain_navy = 0.05
 		ai_will_do = {
 			factor = 1
 		}
