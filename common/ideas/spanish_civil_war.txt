@@ -40,6 +40,7 @@ ideas = {
 				send_volunteer_divisions_required = -1
 				send_volunteer_size = 1  # +1 from base size
 				experience_gain_army = 0.25
+				air_volunteer_cap = 0
 			}
 
 			cancel = {
@@ -85,6 +86,7 @@ ideas = {
 				send_volunteer_divisions_required = -1
 				send_volunteer_size = 1  # +1 from base size
 				experience_gain_army = 0.2
+				air_volunteer_cap = 0
 			}
 			
 			cancel = {
@@ -108,6 +110,7 @@ ideas = {
 				send_volunteer_size = 1  # +1 from base size
 				send_volunteers_tension = -1
 				experience_gain_army = 0.2
+				air_volunteer_cap = 0
 			}
 			
 			cancel = {
@@ -177,6 +180,7 @@ ideas = {
 				send_volunteer_divisions_required = -1
 				send_volunteer_size = 2  # +1 from base size
 				experience_gain_army = 0.15
+				air_volunteer_cap = 0
 			}
 			
 			cancel = {
