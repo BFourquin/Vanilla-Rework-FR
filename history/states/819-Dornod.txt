@@ -1,22 +1,21 @@
 state={
-	id=818
-	name="STATE_818"
+	id=819
+	name="STATE_819"
 	provinces={
-		1774 4751 4777 7773 7808 7843 7870 10539 10563 10669 12520 12695 
+		1743 1868 4792 4873 7823 7885 10578 10647 10708 12533 12557 12629 12665 
 	}
 
 	history={
 		owner = MON
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
 		}
 		victory_points = {
-			7843 1 #Ulaangom
+			12557 1 #Choibalsan
 		}
 		add_core_of = MON
 	}
-	manpower=149000
+	manpower=88250
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000
