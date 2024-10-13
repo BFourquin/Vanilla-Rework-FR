@@ -118,6 +118,14 @@ equipments = {
 			count < 2
 		}
 		module_count_limit = {
+			module = secondary_turret_hmg
+			count < 2
+		}
+		module_count_limit = {
+			module = secondary_turret_small_cannon
+			count < 1
+		}
+		module_count_limit = {
 			category = tank_secondary_turret
 			count < 2
 		}
@@ -172,6 +180,7 @@ equipments = {
 		reliability = 0.8
 		hardness = 0.8
 		armor_value = 10
+		# soft_attack = 0.9
 		resources = {
 			steel = 1
 		}
@@ -210,6 +219,19 @@ equipments = {
 		build_cost_ic = 1.75
 		reliability = 0.95
 		armor_value = 15
+
+		module_count_limit = {
+			module = secondary_turret_hmg
+			count < 3
+		}
+		module_count_limit = {
+			module = secondary_turret_small_cannon
+			count < 0
+		}
+		module_count_limit = {
+			category = tank_secondary_turret
+			count < 3
+		}
 	}
 
 	light_tank_chassis_2 = {
@@ -228,6 +250,19 @@ equipments = {
 		resources = {
 			steel = 1
 		}
+
+		module_count_limit = {
+			module = secondary_turret_hmg
+			count < 4
+		}
+		module_count_limit = {
+			module = secondary_turret_small_cannon
+			count < 1
+		}
+		module_count_limit = {
+			category = tank_secondary_turret
+			count < 4
+		}
 	}
 
 	light_tank_chassis_3 = {
@@ -245,6 +280,19 @@ equipments = {
 		armor_value = 25
 		resources = {
 			steel = 2
+		}
+
+		module_count_limit = {
+			module = secondary_turret_hmg
+			count < 4
+		}
+		module_count_limit = {
+			module = secondary_turret_small_cannon
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_secondary_turret
+			count < 4
 		}
 	}
 
@@ -360,8 +408,16 @@ equipments = {
 			count < 2
 		}
 		module_count_limit = {
+			module = secondary_turret_hmg
+			count < 2
+		}
+		module_count_limit = {
+			module = secondary_turret_small_cannon
+			count < 1
+		}
+		module_count_limit = {
 			category = tank_secondary_turret
-			count < 3 #two secondary turrets only
+			count < 2
 		}
 		module_count_limit = {
 			module = amphibious_drive
@@ -454,8 +510,21 @@ equipments = {
 		module_slots = inherit
 		armor_value = 30
 		build_cost_ic = 4.75
-		reliability = 0.8
+		reliability = 0.9
 		maximum_speed = 5
+
+		module_count_limit = {
+			module = secondary_turret_hmg
+			count < 3
+		}
+		module_count_limit = {
+			module = secondary_turret_small_cannon
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_secondary_turret
+			count < 3
+		}
 	}
 	medium_tank_chassis_2 = {
 		abbreviation = "mt2"
@@ -468,10 +537,23 @@ equipments = {
 		module_slots = inherit
 		maximum_speed = 6
 		build_cost_ic = 6
-		reliability = 1
+		reliability = 1.1
 		armor_value = 40
 		resources = {
 			steel = 1
+		}
+
+		module_count_limit = {
+			module = secondary_turret_hmg
+			count < 3
+		}
+		module_count_limit = {
+			module = secondary_turret_small_cannon
+			count < 3
+		}
+		module_count_limit = {
+			category = tank_secondary_turret
+			count < 4
 		}
 	}
 	medium_tank_chassis_3 = {
@@ -485,10 +567,23 @@ equipments = {
 		module_slots = inherit
 		maximum_speed = 6
 		build_cost_ic = 7.25
-		reliability = 1.2
+		reliability = 1.3
 		armor_value = 50
 		resources = {
 			steel = 2
+		}
+
+		module_count_limit = {
+			module = secondary_turret_hmg
+			count < 4
+		}
+		module_count_limit = {
+			module = secondary_turret_small_cannon
+			count < 3
+		}
+		module_count_limit = {
+			category = tank_secondary_turret
+			count < 5
 		}
 	}
 
@@ -604,6 +699,19 @@ equipments = {
 		}
 
 		module_count_limit = {
+			module = secondary_turret_hmg
+			count < 2
+		}
+		module_count_limit = {
+			module = secondary_turret_small_cannon
+			count < 1
+		}
+		module_count_limit = {
+			category = tank_secondary_turret
+			count < 2
+		}
+
+		module_count_limit = {
 			module = amphibious_drive
 			count < 2
 		}
@@ -693,7 +801,20 @@ equipments = {
 		armor_value = 75
 		maximum_speed = 5
 		build_cost_ic = 9.5
-		reliability = 0.8
+		reliability = 0.9
+
+		module_count_limit = {
+			module = secondary_turret_hmg
+			count < 3
+		}
+		module_count_limit = {
+			module = secondary_turret_small_cannon
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_secondary_turret
+			count < 3
+		}
 	}
 
 	heavy_tank_chassis_2 = {
@@ -707,11 +828,24 @@ equipments = {
 		module_slots = inherit
 		build_cost_ic = 11
 		maximum_speed = 5
-		reliability = 1.1
+		reliability = 1.3
 		armor_value = 90
 		resources = {
 			steel = 1
 			chromium = 1
+		}
+
+		module_count_limit = {
+			module = secondary_turret_hmg
+			count < 4
+		}
+		module_count_limit = {
+			module = secondary_turret_small_cannon
+			count < 4
+		}
+		module_count_limit = {
+			category = tank_secondary_turret
+			count < 4
 		}
 	}
 
@@ -726,11 +860,24 @@ equipments = {
 		module_slots = inherit
 		build_cost_ic = 13
 		maximum_speed = 5
-		reliability = 1.2
+		reliability = 1.4
 		armor_value = 95
 		resources = {
 			steel = 1
 			chromium = 1
+		}
+
+		module_count_limit = {
+			module = secondary_turret_hmg
+			count < 5
+		}
+		module_count_limit = {
+			module = secondary_turret_small_cannon
+			count < 4
+		}
+		module_count_limit = {
+			category = tank_secondary_turret
+			count < 5
 		}
 	}
 
@@ -1070,10 +1217,10 @@ equipments = {
 		}
 
 		fuel_consumption = 0
-		maximum_speed = 4
+		maximum_speed = 5
 		build_cost_ic = 32
-		reliability = 1
-		armor_value = 90
+		reliability = 1.8
+		armor_value = 120
 		hardness = 1
 		
 		resources = {
@@ -1168,6 +1315,7 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_radio_module
+					tank_secondary_turret
 				}
 			}
 
@@ -1176,6 +1324,8 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_radio_module
+					tank_secondary_turret
+
 				}
 			}
 
@@ -1184,6 +1334,8 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_radio_module
+					tank_secondary_turret
+
 				}
 			}
 
@@ -1192,6 +1344,8 @@ equipments = {
 				allowed_module_categories = {
 					tank_special_module
 					tank_radio_module
+					tank_secondary_turret
+
 				}
 			}
 
@@ -1212,6 +1366,19 @@ equipments = {
 		module_count_limit = {
 			module = wet_ammo_storage
 			count < 2
+		}
+
+		module_count_limit = {
+			module = secondary_turret_hmg
+			count < 4
+		}
+		module_count_limit = {
+			module = secondary_turret_small_cannon
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_secondary_turret
+			count < 4
 		}
 
 		module_count_limit = {
