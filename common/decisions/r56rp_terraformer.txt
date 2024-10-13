@@ -69,7 +69,7 @@ economy_decisions = {
 			is_ai = no #incase ai spams.
 		}
 
-		days_remove = 90
+		days_remove = 50
 
 		modifier = {
 			civilian_factory_use = 1
@@ -134,7 +134,7 @@ economy_decisions = {
 			is_ai = no #incase ai spams.
 		}
 
-		days_remove = 90
+		days_remove = 50
 
 		modifier = {
 			civilian_factory_use = 2
@@ -156,7 +156,7 @@ economy_decisions = {
 		#cost = 50
 		custom_cost_text = r56rp_terraformer_town_largetown_cost
 		custom_cost_trigger = {
-            num_of_civilian_factories_available_for_projects > 4
+            num_of_civilian_factories_available_for_projects > 3
         }
 
 		on_map_mode = map_only
@@ -178,7 +178,7 @@ economy_decisions = {
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 4
+			num_of_civilian_factories_available_for_projects > 3
 			FROM = { # can take decision once inf is at level 5. Not in target to not make confusing.
 				infrastructure > 2
 			}
@@ -193,10 +193,10 @@ economy_decisions = {
 			is_ai = no #incase ai spams.
 		}
 
-		days_remove = 90
+		days_remove = 50
 
 		modifier = {
-			civilian_factory_use = 4
+			civilian_factory_use = 3
 		}
 
 		remove_effect = {
@@ -215,7 +215,7 @@ economy_decisions = {
 		#cost = 75
 		custom_cost_text = r56rp_terraformer_largetown_city_cost
 		custom_cost_trigger = {
-            num_of_civilian_factories_available_for_projects > 5
+            num_of_civilian_factories_available_for_projects > 3
         }
 
 		on_map_mode = map_only
@@ -237,7 +237,7 @@ economy_decisions = {
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 5
+			num_of_civilian_factories_available_for_projects > 3
 			FROM = { # can take decision once inf is at level 5. Not in target to not make confusing.
 				infrastructure > 2
 			}
@@ -252,10 +252,10 @@ economy_decisions = {
 			is_ai = no #incase ai spams.
 		}
 
-		days_remove = 90
+		days_remove = 50
 
 		modifier = {
-			civilian_factory_use = 5
+			civilian_factory_use = 3
 		}
 
 		remove_effect = {
@@ -274,7 +274,7 @@ economy_decisions = {
 		#cost = 75
 		custom_cost_text = r56rp_terraformer_city_largecity_cost
 		custom_cost_trigger = {
-            num_of_civilian_factories_available_for_projects > 5
+            num_of_civilian_factories_available_for_projects > 4
         }
 
 		on_map_mode = map_only
@@ -296,7 +296,7 @@ economy_decisions = {
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 5
+			num_of_civilian_factories_available_for_projects > 4
 			FROM = { # can take decision once inf is at level 5. Not in target to not make confusing.
 				infrastructure >3
 			}
@@ -311,10 +311,10 @@ economy_decisions = {
 			is_ai = no #incase ai spams.
 		}
 
-		days_remove = 90
+		days_remove = 50
 
 		modifier = {
-			civilian_factory_use = 5
+			civilian_factory_use = 4
 		}
 
 		remove_effect = {
@@ -333,7 +333,7 @@ economy_decisions = {
 		#cost = 100
 		custom_cost_text = r56rp_terraformer_largecity_metropolis_cost
 		custom_cost_trigger = {
-            num_of_civilian_factories_available_for_projects > 8
+            num_of_civilian_factories_available_for_projects > 7
         }
 
 		on_map_mode = map_only
@@ -355,7 +355,7 @@ economy_decisions = {
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 8
+			num_of_civilian_factories_available_for_projects > 7
 			FROM = { # can take decision once inf is at level 5. Not in target to not make confusing.
 				infrastructure > 4
 			}
@@ -370,10 +370,10 @@ economy_decisions = {
 			is_ai = no #incase ai spams.
 		}
 
-		days_remove = 90
+		days_remove = 50
 
 		modifier = {
-			civilian_factory_use = 8
+			civilian_factory_use = 7
 		}
 
 		remove_effect = {
@@ -392,7 +392,7 @@ economy_decisions = {
 		#cost = 150
 		custom_cost_text = r56rp_terraformer_metropolis_megalopolis_cost
 		custom_cost_trigger = {
-            num_of_civilian_factories_available_for_projects > 10
+            num_of_civilian_factories_available_for_projects > 8
         }
 
 		on_map_mode = map_only
@@ -414,7 +414,7 @@ economy_decisions = {
 		}
 
 		available = {
-			num_of_civilian_factories_available_for_projects > 10
+			num_of_civilian_factories_available_for_projects > 8
 			FROM = { # can take decision once inf is at level 5. Not in target to not make confusing.
 				infrastructure > 4
 			}
@@ -429,10 +429,10 @@ economy_decisions = {
 			is_ai = no #incase ai spams.
 		}
 
-		days_remove = 90
+		days_remove = 50
 
 		modifier = {
-			civilian_factory_use = 10
+			civilian_factory_use = 8
 		}
 
 		remove_effect = {

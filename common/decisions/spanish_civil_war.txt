@@ -66,6 +66,52 @@ spanish_war = {
 		fire_only_once = yes
 	}	
 
+	spain_volunteer_eng = {
+
+		icon = generic_prepare_civil_war
+		
+		available = {
+			SPR_scw_in_progress = yes
+		}
+		visible = {
+			original_tag = ENG
+			NOT = { has_global_flag = scw_over }
+		}
+
+		complete_effect = {
+			add_ideas = spain_volunteer_eng
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		fire_only_once = yes
+	}
+
+	spain_volunteer_usa = {
+
+		icon = generic_prepare_civil_war
+		
+		available = {
+			SPR_scw_in_progress = yes
+		}
+		visible = {
+			original_tag = USA
+			NOT = { has_global_flag = scw_over }
+		}
+
+		complete_effect = {
+			add_ideas = spain_volunteer_usa
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		fire_only_once = yes
+	}
+
 	spain_volunteer_ger = {
 
 		icon = generic_prepare_civil_war
@@ -147,7 +193,7 @@ spanish_war = {
 		available = {
 			OR = {
 				SPR = { surrender_progress > 0.5 }
-				SPA = { surrender_progress > 0.5 }
+				D01 = { surrender_progress > 0.5 }
 			}
 			
 		}
@@ -159,7 +205,7 @@ spanish_war = {
 
 		complete_effect = {
 			recall_volunteers_from = SPR
-			recall_volunteers_from = SPA
+			recall_volunteers_from = D01
 		}
 
 	}	
@@ -173,9 +219,9 @@ spanish_war = {
 			OR = {
 				original_tag = GER
 				original_tag = SOV
-				original_tag = SPA
+				original_tag = D01
 			}
-			SPR = { surrender_progress > 0.6 }
+			D01 = { surrender_progress > 0.6 }
 		}
 
 		visible = {

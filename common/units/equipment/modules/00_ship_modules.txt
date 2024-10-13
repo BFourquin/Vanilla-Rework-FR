@@ -2091,7 +2091,7 @@ equipment_modules = {
 		parent = ship_depth_charge_1
 		
 		add_stats = {
-			sub_attack = 12
+			sub_attack = 14
 			build_cost_ic = 120
 		}
 
@@ -2112,7 +2112,7 @@ equipment_modules = {
 		parent = ship_depth_charge_2
 		
 		add_stats = {
-			sub_attack = 16
+			sub_attack = 18
 			build_cost_ic = 150
 		}
 
@@ -2133,7 +2133,7 @@ equipment_modules = {
 		parent = ship_depth_charge_3
 		
 		add_stats = {
-			sub_attack = 20
+			sub_attack = 22
 			build_cost_ic = 180
 		}
 
@@ -2167,24 +2167,6 @@ equipment_modules = {
 		
 		add_stats = {
 			build_cost_ic = 50
-		}
-	}
-	ship_sub_snorkel_2 = {
-		abbreviation = "scx"
-		category = ship_sub_snorkel
-		gfx = ship_sub_snorkel_2
-		parent = ship_sub_snorkel_1
-		multiply_stats = {
-			sub_visibility = -0.2
-		}
-		
-		add_stats = {
-			build_cost_ic = 70
-		}
-
-		can_convert_from = {
-			module_category = ship_sub_snorkel
-			convert_cost_ic = 30
 		}
 	}
 
@@ -2312,7 +2294,7 @@ equipment_modules = {
 		parent = ship_sonar_2
 		
 		add_stats = {
-			sub_detection = 20
+			sub_detection = 18
 			build_cost_ic = 100
 		}
 		can_convert_from = {

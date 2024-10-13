@@ -15,8 +15,8 @@ ideas = {
 			picture = NOR_broken_gun_ns
 
 			modifier = {
-				resistance_activity = 0.1
-				war_support_factor = -0.1
+				resistance_activity = 0.15
+				war_support_factor = -0.15
 				stability_factor = -0.1
 				industrial_capacity_dockyard = -0.05
 			}
@@ -38,9 +38,9 @@ ideas = {
 
 			modifier = {
 				production_factory_efficiency_gain_factor = -0.05
-				production_oil_factor = -0.05
-				war_support_factor = -0.1
-				stability_factor = -0.05
+				production_oil_factor = -0.1
+				war_support_factor = -0.15
+				stability_factor = -0.1
 			}
 		}
 
