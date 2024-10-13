@@ -179,7 +179,7 @@ focus_tree = {
 		x = 2
 		y = 0
 		relative_position_id = SOV_infrastructure_effort_nsb
-		cost = 7.2
+		cost = 10
 
 		ai_will_do = {
 			factor = 1
@@ -396,7 +396,7 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = SOV_finish_the_five_year_plan
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -530,7 +530,7 @@ focus_tree = {
 		x = -2
 		y = 2
 		relative_position_id = SOV_third_five_year_plan
-		cost = 10
+		cost = 5
 
 		mutually_exclusive = { focus = SOV_shift_to_armaments_production }
 
@@ -728,7 +728,7 @@ focus_tree = {
 		x = 2
 		y = 2
 		relative_position_id = SOV_third_five_year_plan
-		cost = 10
+		cost = 5
 
 		mutually_exclusive = { focus = SOV_reorganize_the_pc_of_heavy_industry}
 
@@ -1370,7 +1370,7 @@ focus_tree = {
 		x = 2
 		y = 0
 		relative_position_id = SOV_national_specialists
-		cost = 5
+		cost = 70
 
 		mutually_exclusive = { focus = SOV_national_specialists }
 
@@ -1946,7 +1946,7 @@ focus_tree = {
 		x = 10
 		y = 0
 		relative_position_id = SOV_infrastructure_effort_nsb
-		cost = 7.2
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -1971,7 +1971,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SOV_transpolar_flights
-		cost = 7.2
+		cost = 5
 
 		available = {
 			any_owned_state = {
@@ -2040,7 +2040,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SOV_expand_the_aircraft_industry
-		cost = 7.2
+		cost = 10
 
 		available = {
 
@@ -2064,7 +2064,7 @@ focus_tree = {
 		x = -1
 		y = 2
 		relative_position_id = SOV_modernize_aircraft_facilities
-		cost = 10
+		cost = 5
 
 		available = {
 			NOT = { has_country_flag = SOV_paranoia_system_active_flag }
@@ -2104,7 +2104,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = SOV_merge_aircraft_plants
-		cost = 7.2
+		cost = 5
 
 		available = {
 
@@ -2130,7 +2130,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = SOV_expand_the_aircraft_industry
-		cost = 7.2
+		cost = 10
 
 		mutually_exclusive = { focus = SOV_intensify_pilot_training_program }
 
@@ -2209,7 +2209,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_foster_flying_clubs
-		cost = 7.2
+		cost = 10
 
 		available = {
 			OR = {
@@ -2242,7 +2242,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_women_in_aviation
-		cost = 7.2
+		cost = 5
 
 		available = {
 			any_enemy_country = {
@@ -2419,7 +2419,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SOV_intensify_pilot_training_program
-		cost = 10
+		cost = 5
 
 		mutually_exclusive = { focus = SOV_ground_support }
 
@@ -2454,7 +2454,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_ground_support
-		cost = 10
+		cost = 5
 
 		available = {
 
@@ -4191,7 +4191,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SOV_pc_of_mechanical_engineering
-		cost = 10
+		cost = 5
 
 		available = {
 			if = {
@@ -4329,7 +4329,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_pc_of_mechanical_engineering
-		cost = 10
+		cost = 5
 
 		available = {
 
@@ -4358,7 +4358,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SOV_superior_war_machines
-		cost = 10
+		cost = 5
 
 		available = {
 		}
@@ -4604,7 +4604,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = SOV_pc_of_mechanical_engineering
-		cost = 10
+		cost = 5
 
 		available = {
 			has_full_control_of_state = 219 #MOSCOW
@@ -4665,7 +4665,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_the_means_to_wage_war
-		cost = 10
+		cost = 5
 
 		available = {
 			custom_trigger_tooltip = {
@@ -4745,7 +4745,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SOV_pc_of_mortar_armament
-		cost = 5
+		cost = 10
 
 		available = {
 			NOT = { has_country_flag = SOV_paranoia_system_active_flag }
@@ -5428,7 +5428,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_military_engineering_university
-		cost = 7.2
+		cost = 10
 
 		mutually_exclusive = { focus = SOV_the_molotov_line }
 
@@ -5705,7 +5705,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SOV_improve_the_stalin_line
-		cost = 10
+		cost = 5
 
 		available = {
 			OR = {
@@ -6180,7 +6180,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = SOV_strengthen_the_mobilization_plan
-		cost = 10
+		cost = 5
 
 		available = {
 			NOT = { has_country_flag = SOV_paranoia_system_active_flag }
@@ -6384,7 +6384,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SOV_lessons_of_war
-		cost = 10
+		cost = 5
 
 		available = {
 			any_owned_state = {
@@ -6499,7 +6499,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SOV_smersh
-		cost = 5
+		cost = 10
 
 		available = {
 
@@ -6959,7 +6959,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_the_centre
-		cost = 7.2
+		cost = 5
 
 		available = {
 
@@ -6986,7 +6986,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SOV_the_stalin_constitution
-		cost = 5
+		cost = 10
 
 		available = {
 
@@ -7087,7 +7087,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = SOV_the_zinovyevite_terrorist_center
-		cost = 7.2
+		cost = 5
 
 		available = {
 
@@ -7250,7 +7250,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = SOV_the_zinovyevite_terrorist_center
-		cost = 5
+		cost = 10
 
 		available = {
 			has_country_flag = {
@@ -7375,7 +7375,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SOV_the_anti_soviet_trotskyist_center
-		cost = 10
+		cost = 5
 
 		available = {
 
@@ -7428,7 +7428,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SOV_organization_centralization_discipline
-		cost = 10
+		cost = 5
 
 		available = {
 
@@ -7730,7 +7730,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SOV_the_bloc_of_rights_and_trotskyites
-		cost = 5
+		cost = 10
 
 		available = {
 			has_country_flag = {
@@ -11512,7 +11512,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = SOV_addressing_internal_affairs
-		cost = 10
+		cost = 5
 
 		available = {
 
@@ -13329,7 +13329,7 @@ ai_will_do = {
 		x = 1
 		y = 1
 		relative_position_id = SOV_baltic_security
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1

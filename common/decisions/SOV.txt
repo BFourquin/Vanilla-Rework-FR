@@ -10915,7 +10915,7 @@ SOV_industry_relocation = {
 
 		cancel_if_not_visible = no
 
-		cost = 25
+		cost = 20
 
 		days_remove = SOV_industrial_relocation_days
 
@@ -10936,7 +10936,7 @@ SOV_industry_relocation = {
 
 					#Attempt to relocate 50%-50% of mils-civs
 					set_temp_variable = { SOV_half_the_factories_to_relocate = SOV.SOV_industrial_relocation_max_factories }
-					divide_temp_variable = { SOV_half_the_factories_to_relocate = 2 }
+					divide_temp_variable = { SOV_half_the_factories_to_relocate = 4 }
 					while_loop_effect = {
 						limit = {
 							check_variable = { SOV_factories_counter = SOV.SOV_industrial_relocation_max_factories compare = less_than }
