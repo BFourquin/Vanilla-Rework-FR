@@ -82,10 +82,10 @@ characters={
 		}
 		corps_commander={
 			traits={ desert_fox naval_invader trait_mountaineer infantry_leader commando }
-			skill=5
-			attack_skill=3
+			skill=7
+			attack_skill=4
 			defense_skill=4
-			planning_skill=3
+			planning_skill=4
 			logistics_skill=5
 			legacy_id=-1
 		}
@@ -100,10 +100,10 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={ desert_fox trait_mountaineer panzer_leader }
-			skill=5
+			traits={ desert_fox trait_mountaineer panzer_leader aggressive_assaulter }
+			skill=7
 			attack_skill=4
-			defense_skill=3
+			defense_skill=4
 			planning_skill=4
 			logistics_skill=3
 			legacy_id=-1
@@ -138,11 +138,11 @@ characters={
 		}
 		corps_commander={
 			traits={ hill_fighter desert_fox fortress_buster panzer_leader trickster }
-			skill=5
+			skill=7
 			attack_skill=5
 			defense_skill=4
 			planning_skill=4
-			logistics_skill=3
+			logistics_skill=2
 			legacy_id=-1
 		}
 	}
@@ -156,11 +156,11 @@ characters={
 			}
 		}
 		navy_leader={
-			skill=5
+			skill=7
 			attack_skill=4
-			defense_skill=3
+			defense_skill=4
 			maneuvering_skill=3
-			coordination_skill=3
+			coordination_skill=4
 			legacy_id=-1
 		}
 	}

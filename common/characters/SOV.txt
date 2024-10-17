@@ -127,7 +127,7 @@ characters = {
 
 		corps_commander = {
 			traits = { media_personality armor_officer war_hero winter_specialist ranger commando panzer_leader  }
-			skill = 7
+			skill = 8
 			attack_skill = 6
 			defense_skill = 4
 			planning_skill = 4
@@ -170,8 +170,8 @@ characters = {
 		}
 
 		corps_commander = {
-			traits = { brilliant_strategist trait_cautious armor_officer }
-			skill = 4
+			traits = { brilliant_strategist trait_cautious armor_officer infantry_officer}
+			skill = 7
 			attack_skill = 3
 			defense_skill = 4
 			planning_skill = 2
@@ -225,10 +225,10 @@ characters = {
 		}
 		corps_commander = {
 			traits = { armor_officer politically_connected }
-			skill = 4
+			skill = 6
 			attack_skill = 4
 			defense_skill = 4
-			planning_skill = 3
+			planning_skill = 4
 			logistics_skill = 2
 			legacy_id = 407
 			visible = { NOT = { has_character_flag = SOV_exiled_flag } }
@@ -364,12 +364,12 @@ characters = {
 		}
 
 		corps_commander = {
-			traits = { harsh_leader armor_officer politically_connected trickster panzer_leader hill_fighter urban_assault_specialist }
-			skill = 6
-			attack_skill = 5
-			defense_skill = 5
-			planning_skill = 3
-			logistics_skill = 5
+			traits = { harsh_leader armor_officer politically_connected trickster panzer_leader hill_fighter urban_assault_specialist war_hero career_officer }
+			skill = 8
+			attack_skill = 6
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 6
 			legacy_id = 408
 			visible = { NOT = { has_character_flag = SOV_exiled_flag } }
 		}
@@ -469,10 +469,10 @@ characters = {
 		}
 
 		field_marshal = {
-			traits = { old_guard inflexible_strategist politically_connected infantry_leader commando}
-			skill = 4
-			attack_skill = 3
-			defense_skill = 3
+			traits = { trait_cautious inflexible_strategist politically_connected infantry_leader commando defensive_doctrine}
+			skill = 6
+			attack_skill = 4
+			defense_skill = 5
 			planning_skill = 2
 			logistics_skill = 2
 			legacy_id = 405
@@ -511,10 +511,10 @@ characters = {
 
 		field_marshal = {
 			traits = { brilliant_strategist career_officer trait_reckless infantry_officer offensive_doctrine }
-			skill = 4
-			attack_skill = 3
+			skill = 6
+			attack_skill = 4
 			defense_skill = 4
-			planning_skill = 4
+			planning_skill = 5
 			logistics_skill = 2
 			legacy_id = 401
 			visible = { NOT = { has_character_flag = SOV_exiled_flag } }
@@ -531,11 +531,11 @@ characters = {
 		}
 		field_marshal = {
 			traits = { old_guard inflexible_strategist politically_connected panzer_leader trickster }
-			skill = 4
-			attack_skill = 4
-			defense_skill = 2
+			skill = 6
+			attack_skill = 3
+			defense_skill = 4
 			planning_skill = 3
-			logistics_skill = 2
+			logistics_skill = 4
 			legacy_id = 0
 			visible = { NOT = { has_character_flag = SOV_exiled_flag } }
 		}

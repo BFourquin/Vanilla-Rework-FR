@@ -23,9 +23,9 @@ characters={
 		}
 		field_marshal={
 			traits={ inflexible_strategist unyielding_defender ranger}
-			skill=5
+			skill=6
 			attack_skill=3
-			defense_skill=4
+			defense_skill=6
 			planning_skill=2
 			logistics_skill=2
 			legacy_id=10003
@@ -41,9 +41,9 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ panzer_leader ranger }
-			skill=5
-			attack_skill=3
+			traits={ panzer_leader ranger harsh_leader armor_officer war_hero}
+			skill=6
+			attack_skill=5
 			defense_skill=2
 			planning_skill=1
 			logistics_skill=4

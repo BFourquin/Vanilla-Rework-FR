@@ -649,10 +649,10 @@ characters={
 		}
 		corps_commander={
 			traits={ career_officer harsh_leader commando panzer_leader trait_SPA_nationalist_sympathies desert_fox hill_fighter }
-			skill=4
+			skill=7
 			attack_skill=5
 			defense_skill=2
-			planning_skill=3
+			planning_skill=4
 			logistics_skill=3
 			legacy_id=1109
 		}
@@ -668,8 +668,8 @@ characters={
 		}
 		corps_commander={
 			traits={ infantry_officer trait_SPA_nationalist_sympathies }
-			skill=3
-			attack_skill=3
+			skill=6
+			attack_skill=5
 			defense_skill=3
 			planning_skill=2
 			logistics_skill=2
@@ -723,10 +723,10 @@ characters={
 			
 			field_marshal={
 				traits={ trait_cautious trait_SPA_nationalist_sympathies thorough_planner organisational_leader panzer_leader }
-				skill=3
-				attack_skill=3
-				defense_skill=2
-				planning_skill=4
+				skill=5
+				attack_skill=4
+				defense_skill=4
+				planning_skill=5
 				logistics_skill=2
 				legacy_id=1111
 				visible = {
@@ -823,10 +823,10 @@ characters={
 
 			corps_commander={
 				traits={ brilliant_strategist trait_reckless commando desert_fox trait_SPA_nationalist_sympathies }
-				skill=3
-				attack_skill=4
-				defense_skill=2
-				planning_skill=2
+				skill=5
+				attack_skill=5
+				defense_skill=3
+				planning_skill=3
 				logistics_skill=2
 				legacy_id=1112
 				visible = {

@@ -64,9 +64,9 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ brilliant_strategist trait_mountaineer infantry_leader engineer }
-			skill=5
-			attack_skill=3
+			traits={ brilliant_strategist trait_mountaineer infantry_leader engineer harsh_leader}
+			skill=7
+			attack_skill=5
 			defense_skill=3
 			planning_skill=2
 			logistics_skill=3
@@ -84,9 +84,9 @@ characters={
 		}
 		corps_commander={
 			traits={ hill_fighter panzer_leader }
-			skill=5
-			attack_skill=3
-			defense_skill=3
+			skill=6
+			attack_skill=4
+			defense_skill=4
 			planning_skill=3
 			logistics_skill=3
 			legacy_id=-1
@@ -102,8 +102,8 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ desert_fox infantry_leader commando organizer }
-			skill=5
+			traits={ desert_fox infantry_leader commando organizer cavalry_officer}
+			skill=6
 			attack_skill=3
 			defense_skill=4
 			planning_skill=3

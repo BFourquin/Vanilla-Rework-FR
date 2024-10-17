@@ -130,9 +130,9 @@ characters={
 		}
 		corps_commander={
 			traits={ trait_engineer infantry_leader ranger }
-			skill=5
+			skill=7
 			attack_skill=4
-			defense_skill=3
+			defense_skill=4
 			planning_skill=3
 			logistics_skill=2
 			legacy_id=-1
@@ -148,9 +148,9 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ trickster panzer_leader urban_assault_specialist }
-			skill=5
-			attack_skill=4
+			traits={ trickster panzer_leader urban_assault_specialist trait_engineer }
+			skill=6
+			attack_skill=5
 			defense_skill=4
 			planning_skill=2
 			logistics_skill=4
@@ -205,9 +205,9 @@ characters={
 		}
 		field_marshal={
 			traits={ organizer winter_specialist commando }
-			skill=5
+			skill=7
 			attack_skill=4
-			defense_skill=2
+			defense_skill=4
 			planning_skill=3
 			logistics_skill=2
 			legacy_id=-1

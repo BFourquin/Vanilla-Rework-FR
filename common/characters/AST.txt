@@ -78,11 +78,11 @@ characters={
 			}
 		}
 		field_marshal={
-			traits={ hill_fighter organizer naval_invader }
-			skill=5
-			attack_skill=4
-			defense_skill=2
-			planning_skill=4
+			traits={ hill_fighter organizer naval_invader organizer logistics_wizard }
+			skill=7
+			attack_skill=5
+			defense_skill=3
+			planning_skill=5
 			logistics_skill=2
 			legacy_id=-1
 		}
@@ -97,9 +97,10 @@ characters={
 			}
 		}
 		corps_commander={
-			skill=5
+			traits={ ranger commando naval_invader trickster }
+			skill=7
 			attack_skill=4
-			defense_skill=3
+			defense_skill=4
 			planning_skill=3
 			logistics_skill=3
 			legacy_id=-1
@@ -133,8 +134,8 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ hill_fighter panzer_leader naval_invader }
-			skill=5
+			traits={ hill_fighter panzer_leader skilled_staffer }
+			skill=7
 			attack_skill=3
 			defense_skill=4
 			planning_skill=3

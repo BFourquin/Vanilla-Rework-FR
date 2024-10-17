@@ -95,10 +95,10 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ desert_fox panzer_leader trickster }
-			skill=5
-			attack_skill=4
-			defense_skill=4
+			traits={ desert_fox panzer_leader trickster harsh_leader trait_reckless}
+			skill=6
+			attack_skill=5
+			defense_skill=5
 			planning_skill=4
 			logistics_skill=1
 			legacy_id=-1
@@ -115,8 +115,8 @@ characters={
 		}
 		field_marshal={
 			traits={ unyielding_defender panzer_leader desert_fox cavalry_leader }
-			skill=5
-			attack_skill=3
+			skill=6
+			attack_skill=4
 			defense_skill=4
 			planning_skill=3
 			logistics_skill=3
