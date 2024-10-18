@@ -860,6 +860,19 @@ equipments = {
 		# 	category = tank_secondary_turret
 		# 	count < 4
 		# }
+
+		module_count_limit = {
+			module = secondary_turret_hmg
+			count < 5
+		}
+		module_count_limit = {
+			module = secondary_turret_small_cannon
+			count < 5
+		}
+		module_count_limit = {
+			category = tank_secondary_turret
+			count < 5
+		}
 	}
 
 	heavy_tank_chassis_3 = {
@@ -892,6 +905,18 @@ equipments = {
 		# 	category = tank_secondary_turret
 		# 	count < 5
 		# }
+		module_count_limit = {
+			module = secondary_turret_hmg
+			count < 5
+		}
+		module_count_limit = {
+			module = secondary_turret_small_cannon
+			count < 5
+		}
+		module_count_limit = {
+			category = tank_secondary_turret
+			count < 5
+		}
 	}
 
 	modern_tank_chassis = {
