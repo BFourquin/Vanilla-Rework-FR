@@ -1435,7 +1435,7 @@ focus_tree = {
 			46 = {
 				add_resource = {
 					type = oil
-					amount = 48
+					amount = 24
 				}
 			}
 		}
