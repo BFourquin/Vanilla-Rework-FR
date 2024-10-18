@@ -7558,3 +7558,156 @@ operations = {
 		}
 	}
 }
+
+greater_italy_category = {
+	ITA_demand_var = {
+		priority = 38
+
+		icon = GFX_decision_eng_trade_unions_support
+
+		ai_will_do = {
+			base = 2 #Previously 10
+		}
+
+		allowed = {
+			original_tag = ITA
+		}
+
+		available = {
+			has_completed_focus = ITA_request_control_of_french_territories
+			NOT = { has_country_flag = ITA_extend_territory_over_france }
+		}
+
+		cost = 25
+
+		days_remove = 180
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 851
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+
+		complete_effect = {
+			transfer_state = 851
+			set_country_flag = { flag = ITA_extend_territory_over_france value = 1 days = 180 }
+		}
+	}
+
+	ITA_demand_bouches_du_rhone = {
+		priority = 38
+
+		icon = GFX_decision_eng_trade_unions_support
+
+		ai_will_do = {
+			base = 2 #Previously 10
+		}
+
+		allowed = {
+			original_tag = ITA
+		}
+
+		available = {
+			has_completed_focus = ITA_request_control_of_french_territories
+			NOT = { has_country_flag = ITA_extend_territory_over_france }
+		}
+
+		cost = 25
+
+		days_remove = 180
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 21
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+
+		complete_effect = {
+			transfer_state = 21
+			set_country_flag = { flag = ITA_extend_territory_over_france value = 1 days = 180 }
+		}
+
+	}
+
+	ITA_demand_alpes = {
+		priority = 38
+
+		icon = GFX_decision_eng_trade_unions_support
+
+		ai_will_do = {
+			base = 2 #Previously 10
+		}
+
+		allowed = {
+			original_tag = ITA
+		}
+
+		available = {
+			has_completed_focus = ITA_request_control_of_french_territories
+			NOT = { has_country_flag = ITA_extend_territory_over_france }
+		}
+
+		cost = 25
+
+		days_remove = 180
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 32
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+
+		complete_effect = {
+			transfer_state = 32
+			set_country_flag = { flag = ITA_extend_territory_over_france value = 1 days = 180 }
+		}
+
+	}
+
+	ITA_demand_tunisia = {
+		priority = 38
+
+		icon = GFX_decision_eng_trade_unions_support
+
+		ai_will_do = {
+			base = 2 #Previously 10
+		}
+
+		allowed = {
+			original_tag = ITA
+		}
+
+		available = {
+			has_completed_focus = ITA_request_control_of_french_territories
+			NOT = { has_country_flag = ITA_extend_territory_over_france }
+		}
+
+		cost = 25
+
+		days_remove = 180
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 458
+				state = 665
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+
+		complete_effect = {
+			transfer_state = 458
+			transfer_state = 665
+			set_country_flag = { flag = ITA_extend_territory_over_france value = 1 days = 180 }
+		}
+
+	}
+
+
+}

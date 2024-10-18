@@ -475,6 +475,13 @@
 
  ITA_human_torpedo_raid:0 "Human Torpedo Raid"
  ITA_human_torpedo_raid_trigger_tt:0 "Has at least one §YCapital Ship§! or §YScreen Ship§! docked in a $naval_base$"
+
+ ITA_demand_var:0 "Italia demand §8Var§! as payback"
+ ITA_demand_bouches_du_rhone:0 "Italia demand §8Bouches du rhone§! as payback"
+ ITA_demand_alpes:0 "Italia demand §8Alpes§! as payback"
+ ITA_demand_tunisia:0 "Italia demand §8Tunisia§! as payback"
+
+ ITA_extend_territory_over_france:0 " Already integrating a french region"
  
  develop_tripoli_oil_fields:0 "Develop Tripoli Oil Fields"
  develop_tripoli_steel_deposits:0 "Develop Tripoli Steel Deposits"
