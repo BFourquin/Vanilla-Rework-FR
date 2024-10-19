@@ -527,7 +527,7 @@ equipments = {
 		}
 		module_count_limit = {
 			module = secondary_turret_small_cannon
-			count < 2
+			count < 3
 			# count < 2
 		}
 		module_count_limit = {
