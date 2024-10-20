@@ -167,5 +167,22 @@ ideas = {
 				send_volunteers_tension = -1
 			} 
 		}
+
+		SIA_the_plan = {
+			picture = generic_japanese_conflict
+
+			allowed = {
+				original_tag = SIA
+			}
+		
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				air_nav_efficiency = 0.1
+			} 
+		}
     }
 }
