@@ -339,19 +339,6 @@ GER_messerschmitt_organization = {
 			air_agility = 0.05
 		} 
 	}
-
-	add_trait = { 
-		token = ENG_mio_trait_supercharger
-		name = ENG_mio_trait_supercharger
-		icon = GFX_generic_mio_trait_icon_defense
-		special_trait_background = yes
-
-		position = { x=9 y=0 }
-
-		equipment_bonus = {
-			air_defence = 0.1	
-		}
-	}
 }
 
 GER_junkers_organization = {
