@@ -20,7 +20,7 @@ focus_tree = {
 		x = 3
 		y = 0
 
-		cost = 7.2
+		cost = 10
 
 		ai_will_do = {
 			factor = 10
@@ -456,10 +456,10 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
-					level = 3
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -928,10 +928,10 @@ focus_tree = {
     }
 
     focus = {
-        id = SIA_own_expert
-        icon = GFX_goal_generic_axis_build_infantry
+        id = SIA_focus_on_the_north
+        icon = GFX_focus_attack_india
         prerequisite = { focus = SIA_new_small_arms focus = SIA_artillery_modernization }
-        mutually_exclusive = { focus = SIA_japanese_expert }
+        mutually_exclusive = { focus = SIA_focus_on_the_south }
         x = 0
         y = 2
         relative_position_id = SIA_new_small_arms
@@ -957,10 +957,10 @@ focus_tree = {
     focus = {
         id = SIA_jungle_training
         icon = GFX_goal_generic_military_sphere
-        prerequisite = { focus = SIA_own_expert focus = SIA_japanese_expert }
+        prerequisite = { focus = SIA_focus_on_the_north focus = SIA_focus_on_the_south }
         x = 2
         y = 2
-        relative_position_id = SIA_own_expert
+        relative_position_id = SIA_focus_on_the_north
 
 		ai_will_do = {
 			factor = 20
@@ -977,10 +977,10 @@ focus_tree = {
     focus = {
         id = SIA_mountain_training
         icon = GFX_goal_generic_special_forces
-        prerequisite = { focus = SIA_own_expert }
+        prerequisite = { focus = SIA_focus_on_the_north }
         x = 0
         y = 1
-        relative_position_id = SIA_own_expert
+        relative_position_id = SIA_focus_on_the_north
 
         cost = 7.2
 
@@ -1000,10 +1000,10 @@ focus_tree = {
 	focus = {
 		id = SIA_jaeger_SF
 		icon = GFX_focus_SWE_beneath_sticks_and_stone
-		prerequisite = { focus = SIA_own_expert }
+		prerequisite = { focus = SIA_focus_on_the_north }
 		x = -2
 		y = 1
-		relative_position_id = SIA_own_expert
+		relative_position_id = SIA_focus_on_the_north
 
 		cost = 7.2
 
@@ -1035,10 +1035,10 @@ focus_tree = {
 	focus = {
 		id = SIA_specialized_SF
 		icon = GFX_goal_generic_major_war
-		prerequisite = { focus = SIA_jaeger_SF focus = SIA_mountain_training }
-		x = -1
+		prerequisite = { focus = SIA_jungle_training }
+		x = 0
 		y = 1
-		relative_position_id = SIA_mountain_training
+		relative_position_id = SIA_jungle_training
 
 		cost = 7.2
 
@@ -1063,10 +1063,10 @@ focus_tree = {
 	}
 
     focus = {
-        id = SIA_japanese_expert
+        id = SIA_focus_on_the_south
         icon = GFX_focus_chi_collaboration_with_the_japanese
         prerequisite = { focus = SIA_new_small_arms focus = SIA_artillery_modernization }
-        mutually_exclusive = { focus = SIA_own_expert }
+        mutually_exclusive = { focus = SIA_focus_on_the_north }
         x = 0
         y = 2
         relative_position_id = SIA_artillery_modernization
@@ -1089,11 +1089,11 @@ focus_tree = {
     focus = {
         id = SIA_embrace_bushido
         icon = GFX_focus_generic_japanese_imperial_glory
-        prerequisite = { focus = SIA_japanese_expert }
+        prerequisite = { focus = SIA_focus_on_the_south }
 
         x = 0
         y = 1
-        relative_position_id = SIA_japanese_expert
+        relative_position_id = SIA_focus_on_the_south
 
         cost = 7.2
 
@@ -1187,7 +1187,7 @@ focus_tree = {
 		y = 1
         relative_position_id = SIA_form_the_tn
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -1217,7 +1217,7 @@ focus_tree = {
 		y = 1
         relative_position_id = SIA_expand_bangkok_naval_base
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -1272,7 +1272,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SIA_expand_bangkok_naval_base
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 2
@@ -1302,7 +1302,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SIA_expand_bangkok_naval_base
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 2
@@ -1331,7 +1331,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SIA_destroyer_effort
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -1360,7 +1360,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = SIA_submarine_effort
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -1432,6 +1432,7 @@ focus_tree = {
 					bonus = 0.75
 					uses = 1
 					category = naval_bomber
+					category = tactical_bomber
 				}
 		}
 	}
@@ -1492,7 +1493,7 @@ focus_tree = {
 
 	focus = {
 		id = SIA_extend_the_budget
-		icon = GFX_focus_CHL_silverworking
+		icon = GFX_focus_SMB_purchase_aircraft
 		prerequisite = { focus = SIA_recruit_an_expert }
 		relative_position_id = SIA_recruit_an_expert
 		x = 1
@@ -1511,6 +1512,20 @@ focus_tree = {
 
 		completion_reward = {
 			724 = {
+			add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes		
+					}
+			}
+			868 = {
+			add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes		
+					}
+			}
+			869 = {
 			add_building_construction = {
 						type = air_base
 						level = 2
@@ -1562,6 +1577,12 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+			add_tech_bonus = {
+					bonus = 0.5
+					uses = 1
+					category = naval_bomber
+					category = tactical_bomber
+				}
 		}
 	}
 
@@ -1587,6 +1608,33 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = SIA_the_plan
+		}
+	}
+
+	focus = {
+		id = SIA_now_or_never
+		icon = GFX_focus_SMB_blue_water_fleet
+		prerequisite = { focus = SIA_launch_the_plan }
+		prerequisite = { focus = SIA_capital_ship_effort focus = SIA_light_cruiser_effort }
+		prerequisite = { focus = SIA_embrace_bushido }
+		relative_position_id = SIA_light_cruiser_effort
+		x = 1
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_timed_idea = { idea = SIA_now_or_never days = 365 }
+			add_ideas = tot_economic_mobilisation
 		}
 	}
 

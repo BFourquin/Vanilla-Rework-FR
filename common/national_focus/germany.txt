@@ -3277,6 +3277,7 @@ focus_tree = {
 			create_intelligence_agency = {
 				name = Abwehr
 			}
+			add_ideas = GER_counter_spy_system
 		}
 	}
 
