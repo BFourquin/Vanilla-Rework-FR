@@ -5945,7 +5945,6 @@ generic_high_agility_fighter_aircraft_organization = {
 
 		equipment_bonus = {
 			reliability = 0.05
-			air_agility = 0.05
 		}
 	}
 
