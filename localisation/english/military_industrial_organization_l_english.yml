@@ -1102,6 +1102,12 @@ SWE_mio_trait_booming_domestic_production: "Booming domestic production"
 SIA_kawazaki_organization: "Kawazaki"
 
 ###############
+### SAF ###
+###############
+
+SAF_english_colonial_workshop: "English Colonial Workshop"
+
+###############
 ### FINLAND ###
 ###############
 
@@ -1358,6 +1364,20 @@ generic_mio_trait_commander_cupola: "Commander Cupola"
 generic_mio_trait_simplified_layout: "Simplified Layout"
 generic_mio_trait_high_explosive_shells: "High-Explosive Shells"
 generic_mio_trait_apcr_hvap_shells: "APCR/HVAP Shells"
+generic_mio_trait_two_hatches: "Two hatches"
+generic_mio_trait_research_on_reload_system: "Reload System"
+generic_mio_trait_heat_ammo: "HEAT Ammunition"
+generic_mio_trait_welding_reinforcement: "Weldind reinforcement"
+generic_mio_trait_high_range_shell: "High range shell"
+generic_mio_trait_double_front_armor: "Double front armor"
+generic_mio_trait_sideskirt_enhanced: "Sideskirt enhanced"
+generic_mio_trait_sideskirt_enhanced2: "Sideskirt enhanced 2"
+generic_mio_trait_apcr_ammo: "APCR Ammunition"
+generic_mio_trait_apcr_ammo2: "APCR Ammunition 2"
+generic_mio_trait_stabilization_system_enhanced: "Stabilization system enhanced"
+generic_mio_trait_standardization: "Standardization"
+generic_mio_trait_standardization2: "Standardization 2"
+
 
 
 #####################################

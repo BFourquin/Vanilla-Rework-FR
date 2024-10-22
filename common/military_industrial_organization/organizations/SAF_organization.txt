@@ -31,6 +31,300 @@ SAF_vauxhall_organization = {
 	}
 }
 
+SAF_english_colonial_workshop = {
+    name = SAF_english_colonial_workshop
+    icon = GFX_idea_generic_industrial_concern_1
+    allowed = {
+        original_TAG = SAF
+        has_dlc = "Together for Victory"
+    }
+
+    available = {
+		FROM = { has_completed_focus = SAF_colonial_arsenal_workshop }
+	}
+
+    equipment_type = { mio_cat_eq_all_heavy_tank }
+	research_categories = { mio_cat_tech_heavy_armor_and_modules }
+
+
+	tree_header_text = {
+		text =  mio_header_heavy_tank_department
+		x = 4
+	}
+
+
+
+
+
+
+    trait = {
+		token = generic_mio_trait_simplified_suspension
+		name = generic_mio_trait_simplified_suspension
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+
+
+		position = { x=1 y=0 }
+
+        limit_to_equipment_type = { mio_cat_eq_all_heavy_tank }
+
+		equipment_bonus = {
+			maximum_speed = 0.05
+		}
+	}
+
+    trait = {
+		token = generic_mio_trait_fire_extinguishers
+		name = generic_mio_trait_fire_extinguishers
+		icon = GFX_generic_mio_department_icon_tank_heavy_tank_production
+
+		position = { x=4 y=0 }
+
+        limit_to_equipment_type = { mio_cat_eq_all_heavy_tank }
+
+
+		all_parents = { generic_mio_trait_wide_tracks }
+		
+		equipment_bonus = {
+			reliability = 0.1
+		}
+	}
+
+    trait = {
+		token = generic_mio_trait_two_hatches
+		name = generic_mio_trait_two_hatches
+		icon = GFX_generic_mio_trait_icon_defense
+
+		position = { x=7 y=0 }
+
+        limit_to_equipment_type = { mio_cat_eq_all_heavy_tank }
+
+		
+		equipment_bonus = {
+			defense = 0.05
+		}
+	}
+
+    trait = {
+		token = generic_mio_trait_research_on_reload_system
+		name = generic_mio_trait_research_on_reload_system
+		icon = GFX_generic_mio_trait_icon_hard_attack
+
+		position = { x=4 y=1 }
+
+        limit_to_equipment_type = { mio_cat_eq_all_heavy_tank }
+
+        all_parents = { generic_mio_trait_two_hatches  generic_mio_trait_fire_extinguishers generic_mio_trait_simplified_suspension}
+
+		equipment_bonus = {
+			hard_attack = 0.05
+		}
+	}
+
+    trait = {
+		token = generic_mio_trait_heat_ammo
+		name = generic_mio_trait_heat_ammo
+		icon = GFX_generic_mio_department_icon_tank_heavy_tank_at
+
+		position = { x=2 y=2 }
+
+        limit_to_equipment_type = { mio_cat_eq_all_heavy_tank }
+
+        any_parent = { generic_mio_trait_research_on_reload_system}
+
+		equipment_bonus = {
+			ap_attack = 0.05
+		}
+	}
+
+    trait = {
+		token = generic_mio_trait_welding_reinforcement
+		name = generic_mio_trait_welding_reinforcement
+		icon = GFX_generic_mio_department_icon_tank_heavy_tank_armor
+
+		position = { x=6 y=2 }
+
+        limit_to_equipment_type = { mio_cat_eq_all_heavy_tank }
+
+        any_parent = { generic_mio_trait_research_on_reload_system}
+
+		equipment_bonus = {
+			armor_value = 0.05
+		}
+	}
+
+    trait = {
+		token = generic_mio_trait_high_range_shell
+		name = generic_mio_trait_high_range_shell
+		icon = GFX_generic_mio_department_icon_tank_heavy_tank_spg
+        special_trait_background = yes
+
+		position = { x=4 y=2 }
+
+        available = {
+            SAF = {
+                has_idea = tot_economic_mobilisation
+            }
+        }
+
+        limit_to_equipment_type = { mio_cat_eq_all_heavy_tank }
+
+        any_parent = { generic_mio_trait_research_on_reload_system}
+
+		equipment_bonus = {
+			soft_attack = 0.1
+		}
+	}
+
+    trait = {
+		token = generic_mio_trait_double_front_armor
+		name = generic_mio_trait_double_front_armor
+		icon = GFX_generic_mio_department_icon_tank_general_quality
+
+		position = { x=4 y=3 }
+
+        limit_to_equipment_type = { mio_cat_eq_all_heavy_tank }
+
+        any_parent = { generic_mio_trait_heat_ammo generic_mio_trait_welding_reinforcement }
+
+		equipment_bonus = {
+			breakthrough = 0.05
+		}
+	}
+
+    trait = {
+		token = generic_mio_trait_sideskirt_enhanced
+		name = generic_mio_trait_sideskirt_enhanced
+		icon = GFX_generic_mio_trait_icon_defense
+
+		position = { x=6 y=4 }
+
+        limit_to_equipment_type = { mio_cat_eq_all_heavy_tank }
+
+        mutually_exclusive = { generic_mio_trait_sideskirt_enhanced2 }
+
+        any_parent = { generic_mio_trait_welding_reinforcement}
+
+		equipment_bonus = {
+			defense = 0.05
+		}
+	}
+
+    trait = {
+		token = generic_mio_trait_sideskirt_enhanced2
+		name = generic_mio_trait_sideskirt_enhanced2
+		icon = GFX_generic_mio_department_icon_tank_general_armor
+
+		position = { x=8 y=4 }
+
+        limit_to_equipment_type = { mio_cat_eq_all_heavy_tank }
+
+        any_parent = { generic_mio_trait_welding_reinforcement}
+        mutually_exclusive = { generic_mio_trait_sideskirt_enhanced }
+
+		equipment_bonus = {
+			defense = 0.1
+            maximum_speed = -0.05
+		}
+	}
+
+    trait = {
+		token = generic_mio_trait_apcr_ammo
+		name = generic_mio_trait_apcr_ammo
+		icon = GFX_generic_mio_department_icon_tank_general_at
+
+		position = { x=2 y=4 }
+
+        limit_to_equipment_type = { mio_cat_eq_all_heavy_tank }
+        mutually_exclusive = { generic_mio_trait_apcr_ammo2 }
+
+        any_parent = { generic_mio_trait_heat_ammo}
+
+		equipment_bonus = {
+			ap_attack = 0.05
+		}
+	}
+
+    trait = {
+		token = generic_mio_trait_apcr_ammo2
+		name = generic_mio_trait_apcr_ammo2
+		icon = GFX_generic_mio_trait_icon_ap_attack
+
+		position = { x=0 y=4 }
+
+        limit_to_equipment_type = { mio_cat_eq_all_heavy_tank }
+
+        mutually_exclusive = { generic_mio_trait_apcr_ammo }
+
+        any_parent = { generic_mio_trait_heat_ammo}
+
+		equipment_bonus = {
+			ap_attack = 0.1
+            soft_attack = -0.05
+		}
+	}
+
+    trait = {
+		token = generic_mio_trait_stabilization_system_enhanced
+		name = generic_mio_trait_stabilization_system_enhanced
+		icon = GFX_generic_mio_department_icon_tank_general_at
+        special_trait_background = yes
+
+		position = { x=4 y=4 }
+
+        limit_to_equipment_type = { mio_cat_eq_all_heavy_tank }
+
+        available = {
+            SAF = {
+                has_idea = tot_economic_mobilisation
+            }
+        }
+
+        any_parent = { generic_mio_trait_double_front_armor}
+
+		equipment_bonus = {
+			hard_attack = 0.1
+		}
+	}
+
+    trait = {
+		token = generic_mio_trait_standardization
+		name = generic_mio_trait_standardization
+		icon = GFX_generic_mio_department_icon_tank_heavy_tank_technology
+        special_trait_background = yes
+
+		position = { x=9 y=0 }
+
+        limit_to_equipment_type = { mio_cat_eq_all_heavy_tank }
+
+        available = {
+            SAF = {
+                has_idea = tot_economic_mobilisation
+            }
+        }
+
+		production_bonus = {
+			production_efficiency_cap_factor = 0.05
+		}
+	}
+
+    trait = {
+		token = generic_mio_trait_standardization2
+		name = generic_mio_trait_standardization2
+		icon = GFX_generic_mio_trait_icon_build_cost_ic
+        special_trait_background = yes
+
+		position = { x=9 y=1 }
+
+        limit_to_equipment_type = { mio_cat_eq_all_heavy_tank }
+
+        any_parent = { generic_mio_trait_standardization}
+
+		equipment_bonus = {
+			build_cost_ic = -0.03
+        }
+	}
+}
+
 
 #####################
 

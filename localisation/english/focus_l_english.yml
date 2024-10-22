@@ -1902,6 +1902,7 @@
  SAF_emergency_workers_desc:0 "It is time to mobilize more of the South African population for the war effort. Women can be brought into the factories at lower cost, as well."
  SAF_csir:0 "CSIR"
  SAF_csir_desc:0 "South Africa lags behind other Dominions in science and technology, so establishing the Council for Scientific and Industrial Research in Pretoria has become a pressing matter for the government."
+ SAF_colonial_arsenal_workshop:0 "Colonial Arsenal Workshop"
  SAF_cape_garrison_artillery:0 "Cape Garrison Artillery"
  SAF_cape_garrison_artillery_desc:0 "The Cape remains an important sea route for many nations, and is the gateway to the South African heartland. Expansion of the garrison's coastal defenses and artillery should be at the top of our to-do list."
  SAF_reconstitute_the_cape_corps:0 "Reconstitute the Cape Corps"
