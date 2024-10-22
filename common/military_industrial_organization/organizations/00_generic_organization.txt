@@ -6034,7 +6034,7 @@ generic_high_agility_fighter_aircraft_organization = {
 		position = { x=9 y=0 }
 
 		equipment_bonus = {
-			air_defence = 0.1	
+			air_defence = 0.05	
 		}
 	}
 }
