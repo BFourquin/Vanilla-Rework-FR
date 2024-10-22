@@ -20,6 +20,25 @@ ideas = {
 				can_create_factions = yes
 			}
 		}
+
+		GER_counter_spy_system = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+            picture = generic_spy_political
+
+			removal_cost = -1
+
+			modifier = {
+				enemy_operative_capture_chance_factor = 0.2
+			}
+		}
 		
 		general_staff = {
 			

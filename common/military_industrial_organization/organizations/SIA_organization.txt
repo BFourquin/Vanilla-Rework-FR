@@ -1,0 +1,304 @@
+#####################
+
+###  ##  #  # # #  ## 
+ #  #  # ## # # # #   
+ #  #### # ## ##   #  
+ #  #  # #  # # #   # 
+ #  #  # #  # # # ## 
+
+ #################### 
+
+
+#####################
+
+ ## #  # ### ###   ## 
+#   #  #  #  #  # #   
+ #  ####  #  ###   #  
+  # #  #  #  #      # 
+##  #  # ### #    ##  
+ 
+#####################
+
+
+
+###########################
+
+###  #    ##  #  # ###  ## 
+#  # #   #  # ## # #   #   
+###  #   #### # ## ##   #  
+#    #   #  # #  # #     # 
+#    ### #  # #  # ### ##  
+
+###########################
+
+SIA_kawazaki_organization = {
+    icon = GFX_idea_yokosuka
+    allowed = {
+        tag = SIA
+        has_dlc = "Arms Against Tyranny"
+    }
+    equipment_type = {
+		mio_cat_eq_all_small_plane
+		maritime_patrol_plane
+	}	
+    research_categories = {	
+		mio_cat_all_light_fighter_and_modules 
+#		mio_cat_all_naval_bomber_and_modules 
+			#Could be used to allow Supermarine to research naval bombs, but this could overpower English fighter MIO trait gain early on.
+	}
+
+    research_categories = { air_equipment }
+
+    tree_header_text = {
+		text = mio_header_naval_aircraft
+		x = 4
+	}
+
+    initial_trait = {
+		name = generic_mio_initial_trait_general_aircraft_designer
+
+		organization_modifier = {
+			military_industrial_organization_research_bonus = 0.05
+		}
+		production_bonus = {
+			production_capacity_factor = 0.03
+		}
+	}
+
+    trait = {
+		token = generic_mio_trait_conservative_designs
+		name = generic_mio_trait_conservative_designs
+		icon = GFX_generic_mio_trait_icon_reliability
+
+		position = { x=4 y=0 }
+
+        limit_to_equipment_type = { small_plane_naval_bomber_airframe mio_cat_eq_all_cv_aircraft large_plane_maritime_patrol_plane_airframe }
+
+		equipment_bonus = {
+			reliability = 0.05
+		}
+	}
+
+    trait = {
+		token = generic_mio_trait_naval_aircraft_specialists
+		name = generic_mio_trait_naval_aircraft_specialists
+		icon = GFX_generic_mio_department_icon_plane_cv_naval_bomber_engine
+
+		position = { x=0 y=1 }
+		relative_position_id = generic_mio_trait_conservative_designs
+
+		all_parents = { generic_mio_trait_conservative_designs }
+
+		limit_to_equipment_type = { small_plane_naval_bomber_airframe mio_cat_eq_all_cv_aircraft large_plane_maritime_patrol_plane_airframe }
+
+		equipment_bonus = {
+			air_range = 0.05
+		}
+	}
+
+    trait = {
+		token = generic_mio_trait_naval_aircraft_naval_detection
+		name = generic_mio_trait_naval_aircraft_naval_detection
+		icon = GFX_generic_mio_trait_icon_surface_detection
+
+		position = { x=-1 y=1 }
+		relative_position_id = generic_mio_trait_naval_aircraft_specialists
+
+		all_parents = { generic_mio_trait_naval_aircraft_specialists }
+
+        mutually_exclusive = { generic_mio_trait_naval_aircraft_multiple_strike }
+
+		limit_to_equipment_type = { small_plane_naval_bomber_airframe mio_cat_eq_all_cv_aircraft large_plane_maritime_patrol_plane_airframe }
+
+		equipment_bonus = {
+			surface_detection = 0.1
+		}
+	}
+
+    trait = {
+		token = generic_mio_trait_naval_aircraft_multiple_strike
+		name = generic_mio_trait_naval_aircraft_multiple_strike
+		icon = GFX_generic_mio_trait_icon_naval_torpedo_damage_reduction_factor
+
+		position = { x=1 y=1 }
+		relative_position_id = generic_mio_trait_naval_aircraft_specialists
+
+		all_parents = { generic_mio_trait_naval_aircraft_specialists }
+
+        mutually_exclusive = { generic_mio_trait_naval_aircraft_naval_detection }
+
+		limit_to_equipment_type = { small_plane_naval_bomber_airframe mio_cat_eq_all_cv_aircraft large_plane_maritime_patrol_plane_airframe }
+
+		equipment_bonus = {
+			naval_strike_attack = 0.1
+		}
+	}
+
+    trait = {
+		token = generic_mio_trait_naval_aircraft_naval_targeting
+		name = generic_mio_trait_naval_aircraft_naval_targeting
+		icon = GFX_generic_mio_department_icon_plane_cv_naval_bomber_offense
+
+		position = { x=0 y=2 }
+		relative_position_id = generic_mio_trait_naval_aircraft_specialists
+
+		all_parents = { generic_mio_trait_naval_aircraft_naval_detection generic_mio_trait_naval_aircraft_multiple_strike }
+
+
+		limit_to_equipment_type = { small_plane_naval_bomber_airframe mio_cat_eq_all_cv_aircraft large_plane_maritime_patrol_plane_airframe }
+
+		equipment_bonus = {
+			naval_strike_targetting = 0.05
+		}
+	}
+
+    trait = {
+		token = generic_mio_trait_naval_aircraft_air_range
+		name = generic_mio_trait_naval_aircraft_air_range
+		icon = GFX_generic_mio_trait_icon_naval_range
+
+		position = { x=-2 y=1 }
+		relative_position_id = generic_mio_trait_naval_aircraft_naval_targeting
+
+		all_parents = { generic_mio_trait_naval_aircraft_naval_targeting }
+
+
+		limit_to_equipment_type = { small_plane_naval_bomber_airframe mio_cat_eq_all_cv_aircraft large_plane_maritime_patrol_plane_airframe }
+
+		equipment_bonus = {
+			air_range = 0.05
+		}
+	}
+
+    trait = {
+		token = generic_mio_trait_naval_aircraft_sub_detection
+		name = generic_mio_trait_naval_aircraft_sub_detection
+		icon = GFX_generic_mio_trait_icon_sub_detection
+
+		position = { x=-4 y=1 }
+		relative_position_id = generic_mio_trait_naval_aircraft_naval_targeting
+
+		all_parents = { generic_mio_trait_naval_aircraft_naval_targeting }
+
+
+		limit_to_equipment_type = { small_plane_naval_bomber_airframe mio_cat_eq_all_cv_aircraft large_plane_maritime_patrol_plane_airframe }
+
+		equipment_bonus = {
+			sub_detection = 0.05
+		}
+	}
+
+    trait = {
+		token = generic_mio_trait_naval_aircraft_speed
+		name = generic_mio_trait_naval_aircraft_speed
+		icon = GFX_generic_mio_trait_icon_maximum_speed
+
+		position = { x=4 y=1 }
+		relative_position_id = generic_mio_trait_naval_aircraft_naval_targeting
+
+		all_parents = { generic_mio_trait_naval_aircraft_naval_targeting }
+
+
+		limit_to_equipment_type = { small_plane_naval_bomber_airframe mio_cat_eq_all_cv_aircraft large_plane_maritime_patrol_plane_airframe }
+
+		equipment_bonus = {
+			maximum_speed = 0.05
+		}
+	}
+
+    trait = {
+		token = generic_mio_trait_naval_aircraft_consumption
+		name = generic_mio_trait_naval_aircraft_consumption
+		icon = GFX_generic_mio_trait_icon_fuel_consumption
+
+		position = { x=2 y=1 }
+		relative_position_id = generic_mio_trait_naval_aircraft_naval_targeting
+
+		all_parents = { generic_mio_trait_naval_aircraft_naval_targeting }
+
+
+		limit_to_equipment_type = { small_plane_naval_bomber_airframe mio_cat_eq_all_cv_aircraft large_plane_maritime_patrol_plane_airframe }
+
+		equipment_bonus = {
+			fuel_consumption = -0.05
+		}
+	}
+
+    trait = {
+		token = generic_mio_trait_naval_aircraft_agility
+		name = generic_mio_trait_naval_aircraft_agility
+		icon = GFX_generic_mio_trait_icon_air_agility
+
+		position = { x=0 y=1 }
+		relative_position_id = generic_mio_trait_naval_aircraft_naval_targeting
+
+		all_parents = { generic_mio_trait_naval_aircraft_naval_targeting }
+
+
+		limit_to_equipment_type = { small_plane_naval_bomber_airframe mio_cat_eq_all_cv_aircraft large_plane_maritime_patrol_plane_airframe }
+
+		equipment_bonus = {
+			air_agility = 0.05
+		}
+	}
+
+    trait = {
+		token = generic_mio_trait_naval_aircraft_japanese_supervision
+		name = generic_mio_trait_naval_aircraft_japanese_supervision
+		icon = GFX_generic_mio_trait_icon_build_cost_ic
+        special_trait_background = yes
+
+		position = { x=8 y=0 }
+
+        available = {
+			
+			FROM = {
+				has_completed_focus = SIA_invite_japanese_investors
+			}
+		}
+
+
+		limit_to_equipment_type = { small_plane_naval_bomber_airframe mio_cat_eq_all_cv_aircraft large_plane_maritime_patrol_plane_airframe }
+
+		equipment_bonus = {
+			build_cost_ic = -0.03
+		}
+	}
+
+    trait = {
+		token = generic_mio_trait_naval_aircraft_line_production
+		name = generic_mio_trait_naval_aircraft_line_production
+		icon = GFX_generic_mio_trait_icon_production_capacity
+        special_trait_background = yes
+
+		position = { x=9 y=0 }
+
+        available = {
+			
+			FROM = {
+				has_completed_focus = SIA_extend_the_budget
+			}
+		}
+
+
+		limit_to_equipment_type = { small_plane_naval_bomber_airframe mio_cat_eq_all_cv_aircraft large_plane_maritime_patrol_plane_airframe }
+
+		production_bonus = {
+			production_capacity_factor = 0.05
+			production_efficiency_cap_factor = 0.05
+		}
+	}
+
+
+}
+
+################################### 
+
+#   #  ##  ### ### ###  ### ### #   
+## ## #  #  #  #   #  #  #  #   #   
+# # # ####  #  ##  ###   #  ##  #   
+#   # #  #  #  #   #  #  #  #   #   
+#   # #  #  #  ### #  # ### ### ### 
+
+
+###################################

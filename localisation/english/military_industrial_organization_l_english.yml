@@ -1096,6 +1096,12 @@ SWE_mio_trait_booming_domestic_production: "Booming domestic production"
 
 
 ###############
+### SIAM ###
+###############
+
+SIA_kawazaki_organization: "Kawazaki"
+
+###############
 ### FINLAND ###
 ###############
 
@@ -1648,6 +1654,16 @@ generic_mio_air_cooled_engines: "Air-Cooled Engines"
 generic_mio_multi_stage_super_charger: "Multi-Stage Super Charger"
 generic_mio_water_injection: "Water Injection"
 generic_mio_advanced_materials: "Advanced Materials"
+generic_mio_trait_naval_aircraft_naval_detection: "Advanced naval detection"
+generic_mio_trait_naval_aircraft_multiple_strike: "Multiple strike"
+generic_mio_trait_naval_aircraft_naval_targeting: "Optical system developed"
+generic_mio_trait_naval_aircraft_air_range: "enhanced aerodynamics"
+generic_mio_trait_naval_aircraft_sub_detection: "Submarine detection enhanced"
+generic_mio_trait_naval_aircraft_speed: "Add a compressor"
+generic_mio_trait_naval_aircraft_consumption: "Upgrade the engine"
+generic_mio_trait_naval_aircraft_agility: "Upgrade the tail"
+generic_mio_trait_naval_aircraft_japanese_supervision: "Japanese supervision"
+generic_mio_trait_naval_aircraft_line_production: "Line production investments"
 
 
 ##########################################

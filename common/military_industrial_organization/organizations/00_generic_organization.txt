@@ -301,7 +301,7 @@ generic_infantry_tank_organization = {
 	icon = GFX_idea_generic_tank_manufacturer_3
 
 	allowed = {
-		NOT = { OR = { tag = GER tag = ENG tag = SOV tag = FRA tag = SAF tag = ITA tag = JAP tag = USA tag = BEL tag = YUG tag = ROM tag = CZE tag = CHI tag = HOL tag = BUL tag = GRE tag = TUR tag = LAT tag = LIT } }
+		NOT = { OR = { tag = GER tag = MON tag = ENG tag = SOV tag = FRA tag = SAF tag = ITA tag = JAP tag = USA tag = BEL tag = YUG tag = ROM tag = CZE tag = CHI tag = HOL tag = BUL tag = GRE tag = TUR tag = LAT tag = LIT } }
 		# always = no # Archetype only - countries using it have their own verisons
 	}
 
@@ -6023,6 +6023,19 @@ generic_high_agility_fighter_aircraft_organization = {
 		equipment_bonus = {
 			air_range = 0.10
 			air_attack = 0.05
+		}
+	}
+
+	add_trait = { 
+		token = ENG_mio_trait_supercharger
+		name = ENG_mio_trait_supercharger
+		icon = GFX_generic_mio_trait_icon_defense
+		special_trait_background = yes
+
+		position = { x=9 y=0 }
+
+		equipment_bonus = {
+			air_defence = 0.1	
 		}
 	}
 }
