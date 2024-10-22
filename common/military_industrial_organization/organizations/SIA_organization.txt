@@ -142,7 +142,7 @@ SIA_kawazaki_organization = {
 		position = { x=0 y=2 }
 		relative_position_id = generic_mio_trait_naval_aircraft_specialists
 
-		all_parents = { generic_mio_trait_naval_aircraft_naval_detection generic_mio_trait_naval_aircraft_multiple_strike }
+		any_parent = { generic_mio_trait_naval_aircraft_naval_detection generic_mio_trait_naval_aircraft_multiple_strike }
 
 
 		limit_to_equipment_type = { small_plane_naval_bomber_airframe mio_cat_eq_all_cv_aircraft large_plane_maritime_patrol_plane_airframe }
