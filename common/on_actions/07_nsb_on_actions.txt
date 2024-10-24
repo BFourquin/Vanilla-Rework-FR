@@ -1,6 +1,55 @@
 on_actions = {
 	#ROOT is new controller #FROM is old controller #FROM.FROM is state ID
 	on_state_control_changed = {
+
+		effect = {
+			if = {
+				limit = {
+					EST = { has_war_with = SOV }
+					EST = { surrender_progress > 0.5 }
+				}
+				SOV = {
+					annex_country = {
+				    	target = EST
+				    	transfer_troops = no
+					}
+				}
+			}
+		}
+
+		effect = {
+			if = {
+				limit = {
+					LIT = { has_war_with = SOV }
+					LIT = { surrender_progress > 0.5 }
+				}
+				SOV = {
+					annex_country = {
+				    	target = LIT
+				    	transfer_troops = no
+					}
+				}
+			}
+		}
+
+		effect = {
+			if = {
+				limit = {
+					LAT = { has_war_with = SOV }
+					LAT = { surrender_progress > 0.5 }
+				}
+				SOV = {
+					annex_country = {
+				    	target = LAT
+				    	transfer_troops = no
+					}
+				}
+			}
+		}
+
+
+
+
 		effect = {
 			if = {
 				limit = {
