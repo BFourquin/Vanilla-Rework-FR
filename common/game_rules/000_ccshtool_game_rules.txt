@@ -1,6 +1,18 @@
 ccshtool_gr_generic = {
 	name = ccshtool_gr_generic
 	group = ccshtool_gamerules_group
-	default = { name = ccshtool_gr_genericnohost   text = ccshtool_gr_genericnohost   desc = ccshtool_gr_genericnohost_desc }
-	option = { name = ccshtool_gr_randomhost   text = ccshtool_gr_randomhost   desc = ccshtool_gr_randomhost_desc }
+	# default = { name = ccshtool_gr_genericnohost   text = ccshtool_gr_genericnohost   desc = ccshtool_gr_genericnohost_desc }
+	default = { name = ccshtool_gr_ger   text = ccshtool_gr_ger   desc = ccshtool_gr_ger_desc }
+	option = { name = ccshtool_gr_sov  text = ccshtool_gr_sov   desc = ccshtool_gr_sov_desc }
+	option = { name = ccshtool_gr_eng   text = ccshtool_gr_eng   desc = ccshtool_gr_eng_desc }
+	option = { name = ccshtool_gr_jap   text = ccshtool_gr_jap   desc = ccshtool_gr_jap_desc }
+	option = { name = ccshtool_gr_usa   text = ccshtool_gr_usa   desc = ccshtool_gr_usa_desc }
+	option = { name = ccshtool_gr_ita  text = ccshtool_gr_ita   desc = ccshtool_gr_ita_desc }
+	option = { name = ccshtool_gr_raj   text = ccshtool_gr_raj   desc = ccshtool_gr_raj_desc }
+	option = { name = ccshtool_gr_can   text = ccshtool_gr_can   desc = ccshtool_gr_can_desc }
+	option = { name = ccshtool_gr_ast   text = ccshtool_gr_ast   desc = ccshtool_gr_ast_desc }
+	option = { name = ccshtool_gr_hun  text = ccshtool_gr_hun   desc = ccshtool_gr_hun_desc }
+	option = { name = ccshtool_gr_bul   text = ccshtool_gr_bul   desc = ccshtool_gr_bul_desc }
+	option = { name = ccshtool_gr_rom   text = ccshtool_gr_rom   desc = ccshtool_gr_rom_desc }
+	option = { name = ccshtool_gr_spa   text = ccshtool_gr_spa   desc = ccshtool_gr_spa_desc }
 }

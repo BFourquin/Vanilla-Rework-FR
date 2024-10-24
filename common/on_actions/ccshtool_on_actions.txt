@@ -1,7 +1,19 @@
 on_actions = {
 	on_startup = {
 		effect = {
-			if = { limit = { has_game_rule = { rule = ccshtool_gr_generic   option = ccshtool_gr_randomhost } }  random_country = { limit = { is_ai = no } set_country_flag = ccshtool_enabled_cflag } }
+			if = { limit = { has_game_rule = { rule = ccshtool_gr_generic option = ccshtool_gr_ger } }  GER = { set_country_flag = ccshtool_enabled_cflag } }
+			if = { limit = { has_game_rule = { rule = ccshtool_gr_generic option = ccshtool_gr_sov } }  SOV = { set_country_flag = ccshtool_enabled_cflag } }
+			if = { limit = { has_game_rule = { rule = ccshtool_gr_generic option = ccshtool_gr_eng } }  ENG = { set_country_flag = ccshtool_enabled_cflag } }
+			if = { limit = { has_game_rule = { rule = ccshtool_gr_generic option = ccshtool_gr_jap } }  JAP = { set_country_flag = ccshtool_enabled_cflag } }
+			if = { limit = { has_game_rule = { rule = ccshtool_gr_generic option = ccshtool_gr_usa } }  USA = { set_country_flag = ccshtool_enabled_cflag } }
+			if = { limit = { has_game_rule = { rule = ccshtool_gr_generic option = ccshtool_gr_ita } }  ITA = { set_country_flag = ccshtool_enabled_cflag } }
+			if = { limit = { has_game_rule = { rule = ccshtool_gr_generic option = ccshtool_gr_raj } }  RAJ = { set_country_flag = ccshtool_enabled_cflag } }
+			if = { limit = { has_game_rule = { rule = ccshtool_gr_generic option = ccshtool_gr_can } }  CAN = { set_country_flag = ccshtool_enabled_cflag } }
+			if = { limit = { has_game_rule = { rule = ccshtool_gr_generic option = ccshtool_gr_ast } }  AST = { set_country_flag = ccshtool_enabled_cflag } }
+			if = { limit = { has_game_rule = { rule = ccshtool_gr_generic option = ccshtool_gr_hun } }  HUN = { set_country_flag = ccshtool_enabled_cflag } }
+			if = { limit = { has_game_rule = { rule = ccshtool_gr_generic option = ccshtool_gr_bul } }  BUL = { set_country_flag = ccshtool_enabled_cflag } }
+			if = { limit = { has_game_rule = { rule = ccshtool_gr_generic option = ccshtool_gr_rom } }  ROM = { set_country_flag = ccshtool_enabled_cflag } }
+			if = { limit = { has_game_rule = { rule = ccshtool_gr_generic option = ccshtool_gr_spa } }  SPA = { set_country_flag = ccshtool_enabled_cflag } }
 		}
 	}
 }
