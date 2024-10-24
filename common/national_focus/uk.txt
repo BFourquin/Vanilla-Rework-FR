@@ -1300,38 +1300,14 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
-			if = {
-				limit = {
-					NOT = { has_dlc = "By Blood Alone" }
-				}
-				air_experience = 25
-				add_tech_bonus = {
-					name = coastal_command_focus
-					bonus = 1.0
-					uses = 2
-					category = naval_bomber
-					category = cas_bomber
-				}
-			}
-			else_if = {
-				limit = {
-					has_dlc = "By Blood Alone"
-				}
-				air_experience = 25
+				air_experience = 50
 				add_tech_bonus = {
 					name = coastal_command_focus
 					bonus = 1.0
 					uses = 1
-					category = naval_bomber
-					category = cas_bomber
+					technology = air_torpedoe_2
+					technology = air_torpedoe_3
 				}
-				add_doctrine_cost_reduction = {
-					name = ENG_coastal_command_focus #land_doc_bonus
-					cost_reduction = 0.5
-					uses = 1
-					category = air_doctrine
-				}
-			}
 		}
 	}
 	focus = {
