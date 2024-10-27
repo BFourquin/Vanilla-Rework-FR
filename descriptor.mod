@@ -3,5 +3,5 @@ tags={
 	"Balance"
 }
 name="Vanilla Rework FR"
-supported_version="1.14.10"
+supported_version="1.14.9"
 remote_file_id="3293287715"
