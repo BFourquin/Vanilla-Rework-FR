@@ -350,6 +350,27 @@ if = {
 	}
 }
 
+add_equipment_to_stockpile = {
+	type = anti_air_equipment
+	amount = 70 # 2 divs
+	producer = ROOT
+}
+add_equipment_to_stockpile = {
+	type = artillery_equipment
+	amount = 200 # 2 divs
+	producer = ROOT
+}
+add_equipment_to_stockpile = {
+	type = infantry_equipment
+	amount = 3000 # 2 divs
+	producer = ROOT
+}
+add_equipment_to_stockpile = {
+	type = support_equipment
+	amount = 200 # 2 divs
+	producer = ROOT
+}
+
 
 ##############
 #### 1939 ####
