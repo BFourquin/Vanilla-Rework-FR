@@ -38,8 +38,7 @@ ideas = {
 			
 			modifier = {
 				send_volunteer_divisions_required = -1
-				send_volunteer_size = 1  # +1 from base size
-				experience_gain_army = 0.25
+				experience_gain_army = 0.2
 				air_volunteer_cap = 0
 			}
 
@@ -62,7 +61,7 @@ ideas = {
 			
 			modifier = {
 				send_volunteer_divisions_required = -1
-				send_volunteer_size = 6  # +1 from base size
+				send_volunteer_size = 7  # +1 from base size
 				experience_gain_army = 0.15
 			}
 			
@@ -84,8 +83,7 @@ ideas = {
 			
 			modifier = {
 				send_volunteer_divisions_required = -1
-				send_volunteer_size = 1  # +1 from base size
-				experience_gain_army = 0.2
+				experience_gain_army = 0.15
 				air_volunteer_cap = 0
 			}
 			
@@ -106,11 +104,7 @@ ideas = {
 			rule = { can_send_volunteers = yes }
 			
 			modifier = {
-				send_volunteer_divisions_required = -1
-				send_volunteer_size = 1  # +1 from base size
-				send_volunteers_tension = -1
-				experience_gain_army = 0.2
-				air_volunteer_cap = 0
+				experience_gain_army = 0.15
 			}
 			
 			cancel = {
@@ -132,7 +126,7 @@ ideas = {
 			
 			modifier = {
 				send_volunteer_divisions_required = -1
-				send_volunteer_size = 5  # +1 from base size
+				send_volunteer_size = 6  # +1 from base size
 				experience_gain_army = 0.1
 			}
 			
@@ -155,8 +149,8 @@ ideas = {
 			
 			modifier = {
 				send_volunteer_divisions_required = -1
-				send_volunteer_size = 2  # +1 from base size
-				experience_gain_army = 0.2
+				send_volunteer_size = 3  # +1 from base size
+				experience_gain_army = 0.15
 			}
 			
 			cancel = {
