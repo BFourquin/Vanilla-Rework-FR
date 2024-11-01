@@ -72,6 +72,24 @@ SAF_english_colonial_workshop = {
 		}
 	}
 
+	trait = {
+		token = generic_mio_trait_heating_process_enhanced
+		name = generic_mio_trait_heating_process_enhanced
+		icon = GFX_generic_mio_department_icon_tank_heavy_tank_quality
+
+		position = { x=2 y=1 }
+
+        limit_to_equipment_type = { mio_cat_eq_all_heavy_tank }
+
+
+		all_parents = { generic_mio_trait_simplified_suspension}
+
+		
+		production_bonus = {
+			production_efficiency_gain_factor = 0.1
+		}
+	}
+
     trait = {
 		token = generic_mio_trait_fire_extinguishers
 		name = generic_mio_trait_fire_extinguishers
@@ -101,6 +119,25 @@ SAF_english_colonial_workshop = {
 		
 		equipment_bonus = {
 			defense = 0.05
+		}
+	}
+
+
+	trait = {
+		token = generic_mio_trait_english_bearing_rolls
+		name = generic_mio_trait_english_bearing_rolls
+		icon = GFX_generic_mio_department_icon_tank_heavy_tank_quality
+
+		position = { x=6 y=1 }
+
+        limit_to_equipment_type = { mio_cat_eq_all_heavy_tank }
+
+
+		all_parents = { generic_mio_trait_two_hatches}
+
+		
+		production_bonus = {
+			production_efficiency_cap_factor = 0.1
 		}
 	}
 
@@ -303,7 +340,7 @@ SAF_english_colonial_workshop = {
         }
 
 		production_bonus = {
-			production_efficiency_cap_factor = 0.05
+			production_efficiency_cap_factor = 0.1
 		}
 	}
 
@@ -320,7 +357,7 @@ SAF_english_colonial_workshop = {
         any_parent = { generic_mio_trait_standardization}
 
 		equipment_bonus = {
-			build_cost_ic = -0.03
+			build_cost_ic = -0.05
         }
 	}
 }
