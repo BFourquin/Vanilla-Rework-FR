@@ -208,42 +208,7 @@ spanish_war = {
 			recall_volunteers_from = D01
 		}
 
-	}	
-
-	spain_republican_capitulation = {
-
-		icon = GFX_decision_generic_form_nation
-
-		available = {
-			SPR_scw_in_progress = yes
-			OR = {
-				original_tag = GER
-				original_tag = SOV
-				original_tag = D01
-			}
-			D01 = { surrender_progress > 0.6 }
-		}
-
-		visible = {
-			OR = {
-				original_tag = GER
-				original_tag = SOV
-				original_tag = SPA
-			}
-			NOT = { has_global_flag = scw_over }
-		}
-
-		complete_effect = {
-			SPR = {remove_ideas = SPR_death_before_surrender
-				   set_war_support = 0}
-		}
-
-		ai_will_do = {
-			factor = 0
-		}
-
-		fire_only_once = yes
-	}	
+	}		
 
 
 	spain_nationalist_survival = {
@@ -251,7 +216,7 @@ spanish_war = {
 		icon = GFX_decision_generic_form_nation
 
 		available = {
-			SPA = { surrender_progress > 0.5 }
+			SPA = { surrender_progress > 0.8 }
 		}
 
 		visible = {
@@ -262,15 +227,23 @@ spanish_war = {
 		}
 
 		complete_effect = {
-			SOV = { recall_volunteers_from = D01 }
-			CAN = { recall_volunteers_from = D01 }
-			RAJ = { recall_volunteers_from = D01 }
-			SAF = { recall_volunteers_from = D01 }
-			AST = { recall_volunteers_from = D01 }
-			NZL = { recall_volunteers_from = D01 }
-			MEX = { recall_volunteers_from = D01 }
-			BRA = { recall_volunteers_from = D01 }
-			MON = { recall_volunteers_from = D01 }
+
+			SPA = {
+					annex_country = { target = D01 transfer_troops = no }
+				}
+
+			set_global_flag = scw_over
+
+			every_other_country = {
+				limit = { original_tag = SPA }
+				add_timed_idea = {
+					idea = SPA_at_death_door
+					days = 365
+				}
+			}
+			SOV = {
+				army_experience = 50
+			}
 		}
 
 		ai_will_do = {

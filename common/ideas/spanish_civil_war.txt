@@ -199,6 +199,21 @@ ideas = {
 			
 		}
 
+		SPA_at_death_door = {
+
+			picture = POL_disjointed_industry
+
+			removal_cost = -1
+
+			allowed_civil_war = {
+			}
+			
+			modifier = {
+				production_speed_buildings_factor = -0.1
+				industrial_capacity_factory = -0.1
+			}
+		}
+
 
     }
 
