@@ -99,8 +99,6 @@ SAF_english_colonial_workshop = {
 
         limit_to_equipment_type = { mio_cat_eq_all_heavy_tank }
 
-
-		all_parents = { generic_mio_trait_wide_tracks }
 		
 		equipment_bonus = {
 			reliability = 0.1
