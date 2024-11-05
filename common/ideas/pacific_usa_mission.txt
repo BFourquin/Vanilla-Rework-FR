@@ -39,12 +39,9 @@ ideas = {
 			picture = SWE_coastal_support
 
 			modifier = {
-				naval_invasion_capacity = 35
-				naval_detection = 0.05
-				naval_speed_factor = 0.05
+				naval_invasion_capacity = 10
 				industrial_capacity_dockyard = 0.05
 				production_factory_efficiency_gain_factor = 0.05
-				air_nav_efficiency = 0.05
 			}
 		}
 
@@ -63,7 +60,7 @@ ideas = {
 			picture = generic_navy_carrier_bonus
 
 			modifier = {
-				naval_invasion_planning_bonus_speed = 0.1
+				naval_invasion_planning_bonus_speed = 0.15
 				amphibious_invasion_defence = 0.05
 				amphibious_invasion = 0.1
 				naval_invasion_planning_bonus_speed = 0.1
