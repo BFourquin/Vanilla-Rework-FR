@@ -668,6 +668,7 @@ technologies = {
 		
 		acclimatization_cold_climate_gain_factor = 0.1
 		acclimatization_hot_climate_gain_factor = 0.1
+		naval_invasion_planning_bonus_speed = 0.2
 			
 		doctrine = yes	
 		research_cost = 2.25
@@ -1564,6 +1565,8 @@ path = {
 		}
 
 		special_forces_training_time_factor = -0.20
+
+		army_bonus_air_superiority_factor = 0.10
 		
 
 		folder = {
