@@ -217,11 +217,11 @@ spanish_war = {
 
 		available = {
 			SPA = { surrender_progress > 0.8 }
+			date > 1938.6.1
 		}
 
 		visible = {
 			OR = {
-				original_tag = SPA
 				original_tag = GER
 			}
 		}
@@ -230,12 +230,14 @@ spanish_war = {
 
 			SPA = {
 					annex_country = { target = D01 transfer_troops = no }
+					annex_country = { target = D02 transfer_troops = no }
+					annex_country = { target = D03 transfer_troops = no }
 				}
 
 			set_global_flag = scw_over
 
 			every_other_country = {
-				limit = { original_tag = SPA }
+				limit = { original_tag = SPR }
 				add_timed_idea = {
 					idea = SPA_at_death_door
 					days = 365

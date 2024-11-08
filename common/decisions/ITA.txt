@@ -5732,6 +5732,10 @@ ITA_diplomacy_balkan_decision_category = {
 
 		icon = eng_trade_unions_demand
 
+		available = {
+			date > 1939.1.1
+		}
+
 		ai_will_do = {
 			base = 20
 			modifier = {
