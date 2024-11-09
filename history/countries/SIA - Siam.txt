@@ -42,7 +42,6 @@ recruit_character = SIA_phraya_chalermarkiart
 recruit_character = SIA_kuang_abhayavongsa
 recruit_character = SIA_thawee_punyaketu
 recruit_character = SIA_phot_bhahalyodin
-recruit_character = SIA_takuo_godo
 
 set_research_slots = 3
 set_stability = 0.7
@@ -55,8 +54,6 @@ set_technology = {
 	interwar_antiair = 1
 	basic_train = 1
 	tech_support = 1
-	tech_engineers = 1
-	
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
