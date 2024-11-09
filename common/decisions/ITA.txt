@@ -5805,10 +5805,11 @@ ITA_diplomacy_balkan_decision_category = {
 		remove_effect = {
 			FROM = {
 				set_country_flag = ITA_ultimatum_sent_flag
-				country_event = { id = NSB_soviet_foreign_politics_events.200 hours = 16 random_hours = 8 }
 			}
-			custom_effect_tooltip = SOV_ultimatum_generic_effects_tt
-			custom_effect_tooltip = SOV_decision_will_be_locked_tt
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = YUG
+			}
 		}
 	}
 
@@ -6392,6 +6393,10 @@ ITA_diplomacy_balkan_decision_category = {
 			original_tag = ITA
 		}
 
+		available = {
+			date > 1938.1.1
+		}
+
 		target_trigger = {
 			FROM = {
 				is_subject = no
@@ -6457,6 +6462,10 @@ ITA_diplomacy_balkan_decision_category = {
 
 		allowed = {
 			original_tag = ITA
+		}
+
+		available = {
+			date > 1938.1.1
 		}
 
 		available = {
