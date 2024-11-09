@@ -1719,19 +1719,6 @@ SOV_mig_design_bureau_organization = {
 			sub_detection = @aircraft_sub_detection
 		}
 	}
-
-	add_trait = { 
-		token = ENG_mio_trait_supercharger
-		name = ENG_mio_trait_supercharger
-		icon = GFX_generic_mio_trait_icon_defense
-		special_trait_background = yes
-
-		position = { x=9 y=0 }
-
-		equipment_bonus = {
-			air_defence = 0.1	
-		}
-	}
 }
 
 SOV_ilyushin_design_bureau_organization = {
