@@ -44,6 +44,53 @@ decisions_category = {
 		}
 	}	
 
+	bug_convois = {
+
+		icon = generic_naval
+		
+		cost = 0
+		
+		available = {
+			is_ai = no 
+		}
+	
+		visible = {
+			FROM = {
+				country_exists = FROM
+			}
+		}
+		days = 10
+		
+		fire_only_once = no
+		days_remove = 10
+		
+		complete_effect = {
+            add_manpower = 1
+            add_equipment_to_stockpile = {
+                type = convoy_1
+                amount = 1
+			}
+			add_equipment_to_stockpile = {
+                type = motorized_equipment_1
+                amount = 1
+			
+            }
+        }
+		
+ 		remove_effect = {
+            add_manpower = -1
+            add_equipment_to_stockpile = {
+                type = convoy_1
+                amount = -1
+            }
+			add_equipment_to_stockpile = {
+                type = motorized_equipment_1
+                amount = -1
+			
+            }
+		}
+	}
+
 }
 
 vassal_decisions_category = {
