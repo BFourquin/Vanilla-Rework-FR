@@ -501,4 +501,26 @@ characters={
 			}
 		}
 	}
+
+	SIA_takuo_godo={
+		name=SIA_takuo_godo
+		portraits={
+			army={
+				small="GFX_idea_takuo_godo"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = takuo_godo
+			allowed = {
+				original_tag = SIA
+			}
+			traits = {
+				war_industrialist 
+			}
+			ai_will_do = {
+				factor = 3.000
+			}
+		}
+	}
 }
