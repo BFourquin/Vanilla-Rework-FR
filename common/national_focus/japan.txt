@@ -1329,6 +1329,26 @@
 	}
 
 	focus = {
+		id = JAP_extra_tech_slot
+		icon = GFX_focus_research
+		text = extra_tech_slot
+		prerequisite = { focus = JAP_develop_chinese_resources }
+		x = 0
+		y = 1
+		relative_position_id = JAP_develop_chinese_resources
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+
+	focus = {
 		id = JAP_strike_south_doctrine
 		icon = GFX_JAP_tsunami2
 		prerequisite = { focus = JAP_greater_east_asian_co_prosperity_sphere }
@@ -2414,7 +2434,7 @@
 
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-			add_research_slot = 2
+			add_research_slot = 1
 			random_owned_controlled_state = {
 				limit = {
 					ROOT = { has_full_control_of_state = PREV }
