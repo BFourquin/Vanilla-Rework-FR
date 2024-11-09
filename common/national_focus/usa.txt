@@ -2510,7 +2510,7 @@ focus_tree = {
 			add_timed_idea = { idea = wartime_industry_focus days = 500 }
 			custom_effect_tooltip = available_designer
 			show_ideas_tooltip = USA_general_motors
-			add_ideas = partial_economic_mobilisation
+			add_ideas = war_economy
 		}
 	}
 	
